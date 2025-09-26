@@ -1,11 +1,13 @@
 {
     "tag": "種類",
-    "question": "この図の名称はなんですか？",
+    "question": "この図の名称は何ですか？",
     "answer": "ユースケース図",
     "choice": [
         "ユースケース図",
         "クラス図",
         "シーケンス図",
         "アクティビティ図"
-    ]
+    ],
+    "authored_by": "human",
+    "is_translated": false
 }

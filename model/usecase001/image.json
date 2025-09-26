@@ -1,7 +1,7 @@
 {
     "title": "Use Case: User Login",
     "tag": ["UML", "usecase"],
-    "complexity": {
+    "elements": {
         "textbox": 4,
         "actor": 1,
         "usecase": 2,

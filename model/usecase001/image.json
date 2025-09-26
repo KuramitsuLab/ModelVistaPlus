@@ -1,11 +1,13 @@
 {
+    "title": "Use Case: User Login",
+    "tag": ["UML", "usecase", "login", "authentication"],
     "usecase001_en.png": {
-        "lang": "en",
-        "drawio": "https://drive.google.com/file/d/1A2B3C4D5E6F7G8H9I0J/view?usp=sharing",
-        "text": "Use Case 001: User Login"
+        "drawing_method": "powerpoint",
+        "lang": "en"
     },
     "usecase001_ja.png": {
+        "drawing_method": "powerpoint",
         "lang": "ja",
-        "text": "ユースケース001：ユーザーログイン"
     }
+
 }

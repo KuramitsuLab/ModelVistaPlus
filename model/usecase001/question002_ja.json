@@ -1,0 +1,13 @@
+{
+    "tag": "エンティティの数",
+    "question": "画像に含まれるユースケースの数はどれですか？",
+    "answer": "2",
+    "choice": [
+        "2",
+        "3",
+        "4",
+        "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+}

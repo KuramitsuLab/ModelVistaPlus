@@ -1,6 +1,13 @@
 {
     "title": "Use Case: User Login",
-    "tag": ["UML", "usecase", "login", "authentication"],
+    "tag": ["UML", "usecase"],
+    "complexity": {
+        "textbox": 4,
+        "actor": 1,
+        "usecase": 2,
+        "association": 2,
+        "system": 1
+    },
     "usecase001_en.png": {
         "drawing_method": "powerpoint",
         "lang": "en",
@@ -21,5 +28,4 @@
             "ゲートを通過" 
         ]
     }
-
 }

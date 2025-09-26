@@ -3,11 +3,23 @@
     "tag": ["UML", "usecase", "login", "authentication"],
     "usecase001_en.png": {
         "drawing_method": "powerpoint",
-        "lang": "en"
+        "lang": "en",
+        "text": [
+            "Railway Ticket Gate System", 
+            "User", 
+            "Insert Ticket", 
+            "Pass Through Gate" 
+        ]
     },
     "usecase001_ja.png": {
         "drawing_method": "powerpoint",
         "lang": "ja",
+        "text": [
+            "鉄道改札システム", 
+            "ユーザー", 
+            "切符を挿入", 
+            "ゲートを通過" 
+        ]
     }
 
 }

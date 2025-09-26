@@ -8,7 +8,7 @@
         "association": 2,
         "system": 1
     },
-    "usecase001_en.png": {
+    "powerpoint_en.png": {
         "drawing_method": "powerpoint",
         "lang": "en",
         "text": [
@@ -18,8 +18,28 @@
             "Pass Through Gate" 
         ]
     },
-    "usecase001_ja.png": {
+    "powerpoint_ja.png": {
         "drawing_method": "powerpoint",
+        "lang": "ja",
+        "text": [
+            "鉄道改札システム", 
+            "ユーザー", 
+            "切符を挿入", 
+            "ゲートを通過" 
+        ]
+    },
+    "handwritten_ja.png": {
+        "drawing_method": "handwritten",
+        "lang": "ja",
+        "text": [
+            "鉄道改札システム", 
+            "ユーザー", 
+            "切符を挿入", 
+            "ゲートを通過" 
+        ]
+    },
+    "whiteboard_ja.png": {
+        "drawing_method": "whiteboard",
         "lang": "ja",
         "text": [
             "鉄道改札システム", 

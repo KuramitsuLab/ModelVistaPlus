@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認1",
+  "question": "画像に含まれるパーティションの数はどれですか？",
+  "answer": "2",
+  "choice": [
+    "4",
+    "3",
+    "2",
+    "1"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関1",
+  "question": "DBアクセスコンポーネントの提供インタフェースはどれですか？",
+  "answer": "処理結果",
+  "choice": [
+    "接続要求",
+    "データ処理",
+    "処理結果",
+    "処理要求"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認7",
+  "question": "この図に含まれる正しいユースケースはどれですか？",
+  "answer": "通帳を記入する",
+  "choice": [
+    "ATM",
+    "通帳を記入する",
+    "振込依頼者",
+    "カードを挿入する"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

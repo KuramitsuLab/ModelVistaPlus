@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認4",
+  "question": "画像に含まれる包含の数はどれですか？",
+  "answer": "2",
+  "choice": [
+    "7",
+    "5",
+    "6",
+    "2"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関",
+  "question": "構成テストの終了日はどれですか？",
+  "answer": "98/2/17",
+  "choice": [
+    "98/1/23",
+    "98/2/17",
+    "98/2/2",
+    "98/2/1"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

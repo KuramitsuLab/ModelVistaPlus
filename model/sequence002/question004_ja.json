@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2-3",
+  "question": "画像に含まれるリプライメッセージの数はどれですか？",
+  "answer": "7",
+  "choice": [
+    "3",
+    "1",
+    "5",
+    "7"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

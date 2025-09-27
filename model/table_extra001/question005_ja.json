@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "その他",
+  "question": "ログインする業務の定常の業務量は1時間あたりは何件ですか？",
+  "answer": "10件",
+  "choice": [
+    "20件",
+    "10件",
+    "40件",
+    "120件"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

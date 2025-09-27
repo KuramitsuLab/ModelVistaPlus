@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参2",
+  "question": "画像中で単価が100円の商品を使っている納品先はどれですか？",
+  "answer": "ABCレストラン",
+  "choice": [
+    "XXカフェ",
+    "ABCレストラン",
+    "ゆで卵",
+    "カレーセット"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

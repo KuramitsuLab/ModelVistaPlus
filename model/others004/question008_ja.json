@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関",
+  "question": "作成中の状態で使用者が編集を行った場合、どの状態に遷移しますか？",
+  "answer": "作成中",
+  "choice": [
+    "作成中",
+    "編集中",
+    "物理削除",
+    "承認待ち"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

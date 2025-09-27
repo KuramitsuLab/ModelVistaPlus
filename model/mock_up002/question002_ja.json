@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "「カートに入れる」ボタンは画面のどこに表示されていますか？",
+  "answer": "右下",
+  "choice": [
+    "右下",
+    "左下",
+    "中央",
+    "右上"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

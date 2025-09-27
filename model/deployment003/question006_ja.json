@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認4",
+  "question": "この図に含まれる正しいコンポーネント名は何ですか？",
+  "answer": "UI",
+  "choice": [
+    "センサ・モータ制御プログラム",
+    "NXT Hardware",
+    "走行プログラム",
+    "UI"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

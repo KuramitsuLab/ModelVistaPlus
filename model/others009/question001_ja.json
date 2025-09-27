@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像中の表で値が入っている行数として正しいものはどれですか？",
+  "answer": "4",
+  "choice": [
+    "8",
+    "2",
+    "4",
+    "6"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

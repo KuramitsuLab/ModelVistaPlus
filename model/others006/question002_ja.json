@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像に含まれる作業内容の数はどれですか？",
+  "answer": "11",
+  "choice": [
+    "8",
+    "11",
+    "15",
+    "5"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

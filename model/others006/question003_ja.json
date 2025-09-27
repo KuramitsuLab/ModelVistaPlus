@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像に含まれる正しい作業内容はどれですか？",
+  "answer": "結合テスト",
+  "choice": [
+    "受け入れテスト",
+    "設計レビュー",
+    "結合テスト",
+    "単体テスト"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

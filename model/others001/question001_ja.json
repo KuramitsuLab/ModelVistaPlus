@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像に含まれるエンティティの数はどれですか？",
+  "answer": "3",
+  "choice": [
+    "3",
+    "4",
+    "6",
+    "2"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

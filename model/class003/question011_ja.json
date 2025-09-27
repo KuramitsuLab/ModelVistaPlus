@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関6",
+  "question": "画像中の「登録利用者」が集約されるクラスはどれですか？",
+  "answer": "図書館",
+  "choice": [
+    "利用者",
+    "利用者登録番号",
+    "図書館",
+    "人物"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

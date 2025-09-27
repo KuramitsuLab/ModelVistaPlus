@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "画像に含まれる矢印の数はいくつですか？",
+  "answer": "4",
+  "choice": [
+    "6",
+    "2",
+    "4",
+    "1"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

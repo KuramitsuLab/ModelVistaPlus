@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像に含まれる正しいデータストア名はどれですか？",
+  "answer": "受注情報",
+  "choice": [
+    "商品",
+    "出荷処理",
+    "受注情報",
+    "商品注文"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

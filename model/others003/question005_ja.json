@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像に含まれるプロセス名として正しいものはどれですか？",
+  "answer": "注文受付",
+  "choice": [
+    "顧客",
+    "在庫確認",
+    "注文受付",
+    "受注情報"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

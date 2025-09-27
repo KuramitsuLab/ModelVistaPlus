@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像に含まれる正しいエンティティ名はどれですか？",
+  "answer": "user（ユーザー）",
+  "choice": [
+    "title（書名）",
+    "商品",
+    "books（貸出状況）",
+    "user（ユーザー）"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

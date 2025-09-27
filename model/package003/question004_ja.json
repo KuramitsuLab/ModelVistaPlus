@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認4",
+  "question": "serviceパッケージの内部要素として正しいものはどれですか？",
+  "answer": "OrderControl",
+  "choice": [
+    "OrderFrame",
+    "ui",
+    "OrderControl",
+    "OrderBean"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

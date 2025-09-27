@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認4",
+  "question": "画像中に含まれるイベント名として正しいものはどれですか？",
+  "answer": "認証完了",
+  "choice": [
+    "エラー発生",
+    "ATM",
+    "カードを挿入する",
+    "認証完了"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

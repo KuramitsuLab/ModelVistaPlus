@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "この図に含まれる正しいコンポーネント名は何ですか？",
+  "answer": "給与管理",
+  "choice": [
+    "ユーザー管理システム",
+    "給与管理",
+    "給与サービス",
+    "サーバー"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

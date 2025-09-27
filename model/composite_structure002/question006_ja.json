@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関1",
+  "question": "タッチパネルとコネクトされているのはどれですか？",
+  "answer": "モデム",
+  "choice": [
+    "ATM",
+    "カードリーダ",
+    "モデム",
+    "セキュリティセンサ"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

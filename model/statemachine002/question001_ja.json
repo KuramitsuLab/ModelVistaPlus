@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認1",
+  "question": "画像に含まれる単純状態の数はどれですか？",
+  "answer": "5",
+  "choice": [
+    "8",
+    "5",
+    "6",
+    "7"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

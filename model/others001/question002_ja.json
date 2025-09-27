@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像に含まれるリレーションシップの数はどれですか？",
+  "answer": "2",
+  "choice": [
+    "4",
+    "6",
+    "2",
+    "3"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

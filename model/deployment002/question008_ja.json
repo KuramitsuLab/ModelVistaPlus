@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関2",
+  "question": "サーバマシンの実行環境として正しいものはどれですか？",
+  "answer": "Linux",
+  "choice": [
+    "クライアントマシン",
+    "JRE",
+    "Mailer.exe",
+    "Linux"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

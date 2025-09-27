@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "画像に含まれるコネクタの数はどれですか？",
+  "answer": "7",
+  "choice": [
+    "7",
+    "6",
+    "9",
+    "8"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

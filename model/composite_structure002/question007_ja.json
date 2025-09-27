@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関2",
+  "question": "画像中に含まれる提供インターフェースとして正しいものはどれですか？",
+  "answer": "送信",
+  "choice": [
+    "外部通信受付",
+    "受信",
+    "ATM",
+    "送信"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

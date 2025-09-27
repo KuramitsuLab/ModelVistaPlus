@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認8",
+  "question": "この図に含まれるアクターはどれですか？",
+  "answer": "利用者",
+  "choice": [
+    "社員",
+    "鉄道改札システム",
+    "利用者",
+    "駅員"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

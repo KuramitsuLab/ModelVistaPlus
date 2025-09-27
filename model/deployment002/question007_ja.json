@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関1",
+  "question": "サーバマシンが通信経路でつながっているのはどれですか？",
+  "answer": "クライアントマシン",
+  "choice": [
+    "クライアントマシン",
+    "JRE",
+    "Mailer.exe",
+    "Linux"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

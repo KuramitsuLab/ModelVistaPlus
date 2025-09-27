@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認7",
+  "question": "画像に含まれるライフライン名として正しいのはどれですか？",
+  "answer": "他店券明細",
+  "choice": [
+    "ユーザー",
+    "普通預金登録",
+    "他店券明細",
+    "入金履歴"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

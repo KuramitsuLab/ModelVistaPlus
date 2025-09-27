@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像に含まれるサービスの種類の数はどれですか？",
+  "answer": "7",
+  "choice": [
+    "9",
+    "7",
+    "4",
+    "3"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

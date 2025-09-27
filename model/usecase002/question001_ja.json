@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認1",
+  "question": "画像に含まれるユースケースの数はどれですか？",
+  "answer": "5",
+  "choice": [
+    "4",
+    "3",
+    "5",
+    "6"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

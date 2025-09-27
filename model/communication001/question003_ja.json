@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "画像に含まれるメッセージの数はどれですか？",
+  "answer": "4",
+  "choice": [
+    "2",
+    "4",
+    "3",
+    "5"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

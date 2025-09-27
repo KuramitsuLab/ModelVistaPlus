@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "表に含まれている正しい列名はどれですか？",
+  "answer": "業務量",
+  "choice": [
+    "定常",
+    "60件/時間",
+    "業務量",
+    "処理種別"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

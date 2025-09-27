@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "画像に含まれるアクションの数はどれですか？",
+  "answer": "7",
+  "choice": [
+    "9",
+    "8",
+    "7",
+    "10"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

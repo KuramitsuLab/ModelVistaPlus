@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認1",
+  "question": "画像中のデータベースのテーブルの列数の総数はどれですか？",
+  "answer": "15",
+  "choice": [
+    "3",
+    "15",
+    "8",
+    "7"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

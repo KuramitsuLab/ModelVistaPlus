@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認4",
+  "question": "このシステムの名称はどれですか？",
+  "answer": "T-FUTURE",
+  "choice": [
+    "V-PAST",
+    "O-NEXT",
+    "V-NOW",
+    "T-FUTURE"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

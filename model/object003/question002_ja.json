@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "画像に含まれるリンクの数はどれですか？",
+  "answer": "14",
+  "choice": [
+    "8",
+    "14",
+    "11",
+    "10"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

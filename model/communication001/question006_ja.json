@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参1",
+  "question": "画像の最後のシーケンス番号はいくつですか？",
+  "answer": "4",
+  "choice": [
+    "3",
+    "2",
+    "1",
+    "4"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

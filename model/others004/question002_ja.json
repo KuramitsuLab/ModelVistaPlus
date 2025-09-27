@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像中の表で値が入っている列数として正しいものはどれですか？",
+  "answer": "6",
+  "choice": [
+    "2",
+    "6",
+    "10",
+    "5"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

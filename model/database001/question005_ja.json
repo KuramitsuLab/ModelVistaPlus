@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "画像中のヘッダーテーブルに含まれる列名として正しいものはどれですか？",
+  "answer": "納品先",
+  "choice": [
+    "発注ID",
+    "合計値",
+    "数量",
+    "納品先"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

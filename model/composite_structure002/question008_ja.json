@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関2",
+  "question": "画像中に含まれる要求インターフェースとして正しいものはどれですか？",
+  "answer": "受信",
+  "choice": [
+    "外部通信受付",
+    "送信",
+    "ATM",
+    "受信"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "この図に含まれる正しいインターフェース名は何ですか？",
+  "answer": "接続要求",
+  "choice": [
+    "データ処理",
+    "受信",
+    "DBアクセスコンポーネント",
+    "接続要求"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

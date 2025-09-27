@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関4",
+  "question": "JREの成果物として正しいものはどれですか？",
+  "answer": "MailChecker.jar",
+  "choice": [
+    "クライアントマシン",
+    "MailChecker.jar",
+    "Mailer.exe",
+    "sendmail"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

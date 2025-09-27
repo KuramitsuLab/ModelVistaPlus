@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像に含まれるタスク内容として正しいものはどれですか？",
+  "answer": "CMレビュー",
+  "choice": [
+    "ベンダーバックアップ計画期限",
+    "CMレビュー",
+    "CM作成",
+    "CM撮影"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "画像に含まれる制御フローの数はどれですか？",
+  "answer": "8",
+  "choice": [
+    "7",
+    "6",
+    "8",
+    "9"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

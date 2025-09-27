@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "表に含まれている正しい列名はどれですか？",
+  "answer": "スクラッチ",
+  "choice": [
+    "ID",
+    "パッケージ(スクラッチ)",
+    "スクラッチ",
+    "適用性"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認8",
+  "question": "画像に含まれるメッセージ名として正しいのはどれですか？",
+  "answer": "入金",
+  "choice": [
+    "残高照会",
+    "入金",
+    "普通預金入金コントロール",
+    "口座作成"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

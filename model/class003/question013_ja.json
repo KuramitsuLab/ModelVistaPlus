@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参1",
+  "question": "画像中の「図書貸出」クラスの属性名はどれですか？",
+  "answer": "貸出し日",
+  "choice": [
+    "図書登録番号",
+    "貸出し実行",
+    "貸出し日",
+    "返却日"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

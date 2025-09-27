@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "画像に含まれるアセンブリコネクタの数はどれですか？",
+  "answer": "1",
+  "choice": [
+    "3",
+    "2",
+    "0",
+    "1"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

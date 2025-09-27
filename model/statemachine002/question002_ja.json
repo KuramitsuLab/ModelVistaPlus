@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "画像に含まれる外部遷移の数はどれですか？",
+  "answer": "13",
+  "choice": [
+    "15",
+    "16",
+    "13",
+    "14"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関1",
+  "question": "「走行中」から停車すると、どの状態になりますか？",
+  "answer": "初期状態",
+  "choice": [
+    "停車中",
+    "下車",
+    "初期状態",
+    "駐車中"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像に含まれる正しい外的要素名はどれですか？",
+  "answer": "物流倉庫",
+  "choice": [
+    "商品注文",
+    "在庫情報",
+    "配送",
+    "物流倉庫"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

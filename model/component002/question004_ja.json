@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "画像に含まれるポートの数はどれですか？",
+  "answer": "2",
+  "choice": [
+    "2",
+    "1",
+    "0",
+    "3"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

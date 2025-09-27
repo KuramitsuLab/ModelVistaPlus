@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参1",
+  "question": "湯沸しの状態で行われるdoアクティビティはどれですか？",
+  "answer": "湯を沸かす",
+  "choice": [
+    "湯を沸かす",
+    "湯沸しランプを点灯する",
+    "保温する",
+    "湯沸し完了"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

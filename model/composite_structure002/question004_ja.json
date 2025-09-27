@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認5",
+  "question": "要求インターフェースの数として正しいものはどれですか？",
+  "answer": "1",
+  "choice": [
+    "2",
+    "3",
+    "1",
+    "0"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

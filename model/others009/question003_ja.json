@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "値が書かれているセルの数として正しいものはどれですか？",
+  "answer": "10",
+  "choice": [
+    "5",
+    "10",
+    "13",
+    "4"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認1",
+  "question": "ジャケットのサイズを選択するボタンの数はいくつですか？",
+  "answer": "4",
+  "choice": [
+    "3",
+    "6",
+    "2",
+    "4"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "画像に含まれるコンポーネント間の関係性を示す線の数はいくつですか？",
+  "answer": "10",
+  "choice": [
+    "15",
+    "3",
+    "5",
+    "10"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

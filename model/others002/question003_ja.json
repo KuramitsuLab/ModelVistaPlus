@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認",
+  "question": "画像に含まれる正しいエンティティ名はどれですか？",
+  "answer": "梱包",
+  "choice": [
+    "仕入れ先",
+    "本店",
+    "支店コード",
+    "梱包"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参",
+  "question": "「books（蔵書）」エンティティに含まれる情報として適切でないものはどれですか？",
+  "answer": "メールアドレス",
+  "choice": [
+    "書名",
+    "メールアドレス",
+    "著者",
+    "価格"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

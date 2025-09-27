@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認5",
+  "question": "画像に含まれるオブジェクトノードの数はどれですか？",
+  "answer": "2",
+  "choice": [
+    "3",
+    "2",
+    "4",
+    "5"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

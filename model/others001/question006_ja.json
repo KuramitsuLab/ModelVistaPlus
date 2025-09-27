@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関",
+  "question": "ユーザーと貸出状況の関係として正しいものはどれですか？",
+  "answer": "1対多の関係",
+  "choice": [
+    "1対多の関係",
+    "多対多の関係",
+    "無関係",
+    "1対1の関係"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

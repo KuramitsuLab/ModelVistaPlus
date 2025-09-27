@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関1-6",
+  "question": "サブクラスはどれですか？",
+  "answer": "州内学生",
+  "choice": [
+    "州内学生",
+    "単位時間",
+    "社員",
+    "学生"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

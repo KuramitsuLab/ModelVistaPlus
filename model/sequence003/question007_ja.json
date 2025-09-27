@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認8",
+  "question": "画像に含まれるメッセージ名はどれですか？",
+  "answer": "ログイン情報を入力する",
+  "choice": [
+    "会員番号",
+    "認証結果=OK",
+    "ログイン情報を入力する",
+    "ログイン処理"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

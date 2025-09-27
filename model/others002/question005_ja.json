@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参",
+  "question": "「顧客コード」アトリビュートを保持するエンティティはどれですか？",
+  "answer": "顧客",
+  "choice": [
+    "顧客名",
+    "顧客",
+    "支店",
+    "商品"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

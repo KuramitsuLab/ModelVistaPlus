@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認8",
+  "question": "この図に含まれる正しいアクターはどれですか？",
+  "answer": "配達員",
+  "choice": [
+    "開発者",
+    "配達員",
+    "注文を配達する",
+    "システム管理者"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

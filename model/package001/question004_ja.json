@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関1",
+  "question": "serviceの依存先のパッケージはどれですか？",
+  "answer": "domain",
+  "choice": [
+    "domain",
+    "application",
+    "data",
+    "ui"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

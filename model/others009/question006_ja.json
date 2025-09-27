@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参",
+  "question": "表に含まれている正しい行名はどれですか？",
+  "answer": "PC在庫",
+  "choice": [
+    "PC在庫",
+    "C",
+    "販売情報",
+    "在庫確認"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参1",
+  "question": "画像中のusersテーブルの2列目3行目の値はどれですか？",
+  "answer": "佐藤 次郎",
+  "choice": [
+    "システム設計の思考法",
+    "hanako@example.com",
+    "山田 太郎",
+    "佐藤 次郎"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

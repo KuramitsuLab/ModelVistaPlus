@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関1",
+  "question": "メモリとコネクトされているのはどれですか？",
+  "answer": "マザーボード",
+  "choice": [
+    "CPU",
+    "モニター",
+    "パソコン",
+    "マザーボード"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "画像に含まれる集約の数はどれですか？",
+  "answer": "6",
+  "choice": [
+    "8",
+    "2",
+    "4",
+    "6"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

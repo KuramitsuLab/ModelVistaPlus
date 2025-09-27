@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2-1",
+  "question": "画像に含まれる同期メッセージの数はどれですか？",
+  "answer": "6",
+  "choice": [
+    "10",
+    "9",
+    "6",
+    "5"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

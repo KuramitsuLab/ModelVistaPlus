@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "画像に含まれる実行指定の数はどれですか？",
+  "answer": "7",
+  "choice": [
+    "4",
+    "6",
+    "7",
+    "5"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

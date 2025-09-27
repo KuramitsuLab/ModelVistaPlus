@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "「ログイン」ボタンは画面のどこに表示されていますか？",
+  "answer": "右上",
+  "choice": [
+    "右上",
+    "右下",
+    "左下",
+    "左上"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

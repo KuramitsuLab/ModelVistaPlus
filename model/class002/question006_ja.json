@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認5",
+  "question": "画像に含まれるクラスの属性名として正しいものはどれですか？",
+  "answer": "氏名",
+  "choice": [
+    "社員",
+    "経費を登録する",
+    "所属する",
+    "氏名"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

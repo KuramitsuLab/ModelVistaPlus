@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関",
+  "question": "配送指示は「出荷処理」プロセスからどのプロセスに流れるでしょうか？",
+  "answer": "配送",
+  "choice": [
+    "商品配送",
+    "注文受付",
+    "受注情報",
+    "配送"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

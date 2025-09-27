@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認4",
+  "question": "この図に含まれるノード名として正しいものはどれですか？",
+  "answer": "サーバマシン",
+  "choice": [
+    "クライアントソフトウェア",
+    "サーバマシン",
+    "pop",
+    "ゲートウェイ"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "この図に含まれる正しいサブシステム名は何ですか？",
+  "answer": "経費全体",
+  "choice": [
+    "経費データベース",
+    "経費全体",
+    "社員",
+    "経費"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

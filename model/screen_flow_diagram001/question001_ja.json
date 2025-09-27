@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認1",
+  "question": "画像に含まれる画面の数はいくつですか？",
+  "answer": "3",
+  "choice": [
+    "4",
+    "5",
+    "3",
+    "2"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

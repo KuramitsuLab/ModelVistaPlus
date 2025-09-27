@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "画像に含まれる要求インターフェースの数はどれですか？",
+  "answer": "1",
+  "choice": [
+    "2",
+    "3",
+    "1",
+    "0"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

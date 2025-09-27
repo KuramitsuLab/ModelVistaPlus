@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認8",
+  "question": "画像に含まれるメッセージ名はどれですか？",
+  "answer": "返却申請",
+  "choice": [
+    "ユーザー",
+    "棚",
+    "ログイン",
+    "返却申請"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

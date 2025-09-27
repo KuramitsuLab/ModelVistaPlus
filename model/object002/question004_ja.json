@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参1",
+  "question": "「テスト」オブジェクトのクラス名はどれですか？",
+  "answer": "作業",
+  "choice": [
+    "作業",
+    "要件確認",
+    "作業成果物",
+    "説明"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

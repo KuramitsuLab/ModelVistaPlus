@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "画像中のlendingsテーブルに含まれる列名として正しいものはどれですか？",
+  "answer": "returned_at",
+  "choice": [
+    "user_name",
+    "title",
+    "returned_at",
+    "lend_at"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

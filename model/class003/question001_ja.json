@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認1",
+  "question": "画像に含まれるクラスの数はどれですか？",
+  "answer": "10",
+  "choice": [
+    "9",
+    "3",
+    "10",
+    "6"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

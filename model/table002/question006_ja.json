@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参1",
+  "question": "表に含まれている正しい行名はどれですか？",
+  "answer": "ジャガイモ",
+  "choice": [
+    "ジャガイモ",
+    "オレンジ",
+    "ダイコン",
+    "小計"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

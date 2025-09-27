@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認1",
+  "question": "画像に含まれるオブジェクトの数はどれですか？",
+  "answer": "4",
+  "choice": [
+    "5",
+    "4",
+    "7",
+    "6"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

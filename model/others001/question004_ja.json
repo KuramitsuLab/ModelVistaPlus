@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参",
+  "question": "「books（蔵書）」エンティティのアトリビュートとして、正しいのはどれですか？",
+  "answer": "isbn（ISBN）",
+  "choice": [
+    "isbn（ISBN）",
+    "returned_at（返却日時）",
+    "name（名前）",
+    "lendings（貸出状況）"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

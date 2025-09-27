@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "画像中のデータベースに含まれる列名として正しいものはどれですか？",
+  "answer": "単価",
+  "choice": [
+    "3",
+    "単価",
+    "個数",
+    "商品ID"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

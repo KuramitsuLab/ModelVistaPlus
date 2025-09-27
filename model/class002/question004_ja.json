@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "画像に含まれる関連名として正しいものはどれですか？",
+  "answer": "所属する",
+  "choice": [
+    "氏名",
+    "社員",
+    "所属する",
+    "経費を登録する"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

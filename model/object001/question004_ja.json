@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参1",
+  "question": "「鈴木さん」オブジェクトのクラス名は何ですか？",
+  "answer": "社員",
+  "choice": [
+    "管理者",
+    "部署",
+    "山田さん",
+    "社員"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

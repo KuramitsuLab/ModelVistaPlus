@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "このサービスで使用するサーバの数はいくつですか？",
+  "answer": "3",
+  "choice": [
+    "2",
+    "5",
+    "7",
+    "3"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

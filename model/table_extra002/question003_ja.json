@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "表に含まれている正しい列名はどれですか？",
+  "answer": "レスポンスタイム",
+  "choice": [
+    "完了時間",
+    "ログアウトする",
+    "処理待ち時間",
+    "レスポンスタイム"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

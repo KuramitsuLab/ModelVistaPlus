@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "画像に含まれるボタン名として正しいのはどれですか？",
+  "answer": "会員登録",
+  "choice": [
+    "キャンセル",
+    "会員登録",
+    "予約",
+    "パスワード再設定"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

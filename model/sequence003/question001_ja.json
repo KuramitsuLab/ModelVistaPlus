@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認1",
+  "question": "画像に含まれるライフラインの数はどれですか？",
+  "answer": "4",
+  "choice": [
+    "8",
+    "3",
+    "6",
+    "4"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

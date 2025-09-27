@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参2",
+  "question": "貸出申請が送信されたとき、アクティブなライフラインはどれですか？",
+  "answer": "ユーザー",
+  "choice": [
+    "ユーザー",
+    "検索",
+    "貸出結果",
+    "棚"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

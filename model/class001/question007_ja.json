@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関1-6",
+  "question": "スーパークラスはどれですか？",
+  "answer": "学生",
+  "choice": [
+    "会社",
+    "学生数",
+    "州内学生",
+    "学生"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

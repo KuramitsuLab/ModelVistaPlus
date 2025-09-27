@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認1",
+  "question": "画像に含まれるコンポーネントの種類はいくつですか？",
+  "answer": "5",
+  "choice": [
+    "5",
+    "8",
+    "1",
+    "15"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

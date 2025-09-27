@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認7",
+  "question": "画像内にあるパーティション名として正しいのはどれですか？",
+  "answer": "システム",
+  "choice": [
+    "システム",
+    "会計員",
+    "利用者",
+    "チケット挿入口"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

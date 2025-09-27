@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "参1",
+  "question": "画像中のデータベースのうち「現代技術社」が格納されている列名はどれですか？",
+  "answer": "publisher",
+  "choice": [
+    "publisher",
+    "社名",
+    "2",
+    "price"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

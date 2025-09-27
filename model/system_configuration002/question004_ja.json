@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認4",
+  "question": "この図に含まれるコンポーネントとして正しいのはどれですか？",
+  "answer": "Webサーバ1",
+  "choice": [
+    "Webサーバ1",
+    "プリンタ",
+    "ファイアウォール",
+    "メールサーバ"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

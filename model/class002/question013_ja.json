@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関6",
+  "question": "「社員」クラスのサブクラスはどれですか？",
+  "answer": "マネージャ",
+  "choice": [
+    "部長",
+    "マネージャ",
+    "所属社員",
+    "部署"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

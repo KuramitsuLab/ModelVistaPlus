@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認4",
+  "question": "この図に含まれる正しいノード名は何ですか？",
+  "answer": "中央サーバ",
+  "choice": [
+    "クラウドストレージ",
+    "中央サーバ",
+    "データベース",
+    "ローカルサーバ"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

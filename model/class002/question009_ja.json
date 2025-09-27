@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "関1",
+  "question": "「社員」クラスと関連のあるクラスはどれですか？",
+  "answer": "部署",
+  "choice": [
+    "マネージャ",
+    "部署",
+    "所属社員",
+    "会社"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

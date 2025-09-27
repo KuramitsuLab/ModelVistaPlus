@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認4",
+  "question": "画像中に含まれるライフライン名として正しいものはどれですか？",
+  "answer": "ATM",
+  "choice": [
+    "ログイン画面",
+    "認証完了",
+    "操作中",
+    "ATM"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

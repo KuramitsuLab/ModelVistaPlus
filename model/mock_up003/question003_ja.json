@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認3",
+  "question": "画像に含まれるボタン名として正しいのはどれですか？",
+  "answer": "Contact",
+  "choice": [
+    "Help",
+    "Cancel",
+    "About",
+    "Contact"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

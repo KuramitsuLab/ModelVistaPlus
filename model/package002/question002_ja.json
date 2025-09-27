@@ -1,0 +1,14 @@
+{
+  "tag": "",
+  "type": "認2",
+  "question": "画像に含まれる依存関係の数はいくつですか？",
+  "answer": "4",
+  "choice": [
+    "2",
+    "4",
+    "3",
+    "5"
+  ],
+  "authored_by": "human",
+  "is_translated": false
+}

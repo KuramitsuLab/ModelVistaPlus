@@ -1,0 +1,35 @@
+{
+    "title": "Use Case:",
+    "tag": ["UML", "usecase"],
+    "elements": {
+        "textbox": 0,
+        "actor": 0,
+        "usecase": 0,
+        "association": 0,
+        "system": 0
+    },
+    "powerpoint_en.png": {
+        "drawing_method": "powerpoint",
+        "lang": "en",
+        "text": [
+        ]
+    },
+    "powerpoint_ja.png": {
+        "drawing_method": "powerpoint",
+        "lang": "ja",
+        "text": [
+        ]
+    },
+    "handwritten_ja.png": {
+        "drawing_method": "handwritten",
+        "lang": "ja",
+        "text": [
+        ]
+    },
+    "whiteboard_ja.png": {
+        "drawing_method": "whiteboard",
+        "lang": "ja",
+        "text": [
+        ]
+    }
+}

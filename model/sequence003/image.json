@@ -1,35 +1,37 @@
 {
-    "title": ":",
-    "tag": ["", ""],
-    "features": "",
-    "elements": {
-    },
-    "overview_counts": {
-        "entities": 0,
-        "relationships": 0 
-    },
-    "powerpoint_en.png": {
-        "drawing_method": "powerpoint",
-        "lang": "en",
-        "text": [
-        ]
-    },
-    "powerpoint_ja.png": {
-        "drawing_method": "powerpoint",
-        "lang": "ja",
-        "text": [
-        ]
-    },
-    "handwritten_ja.png": {
-        "drawing_method": "handwritten",
-        "lang": "ja",
-        "text": [
-        ]
-    },
-    "whiteboard_ja.png": {
-        "drawing_method": "whiteboard",
-        "lang": "ja",
-        "text": [
-        ]
-    }
+  "title": ":",
+  "tag": [
+    "",
+    "sequence"
+  ],
+  "features": "破棄イベント・結合フラグメントあり",
+  "elements": {},
+  "overview_counts": {
+    "entities": "5",
+    "relationships": "6"
+  },
+  "powerpoint_en.png": {
+    "drawing_method": "powerpoint",
+    "lang": "en",
+    "text": [],
+    "text_count": 0
+  },
+  "powerpoint_ja.png": {
+    "drawing_method": "powerpoint",
+    "lang": "ja",
+    "text": [],
+    "text_count": 172
+  },
+  "handwritten_ja.png": {
+    "drawing_method": "handwritten",
+    "lang": "ja",
+    "text": [],
+    "text_count": 172
+  },
+  "whiteboard_ja.png": {
+    "drawing_method": "whiteboard",
+    "lang": "ja",
+    "text": [],
+    "text_count": 172
+  }
 }

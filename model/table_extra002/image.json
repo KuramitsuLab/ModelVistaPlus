@@ -1,35 +1,37 @@
 {
-    "title": ":",
-    "tag": ["", ""],
-    "features": "",
-    "elements": {
-    },
-    "overview_counts": {
-        "entities": 0,
-        "relationships": 0 
-    },
-    "powerpoint_en.png": {
-        "drawing_method": "powerpoint",
-        "lang": "en",
-        "text": [
-        ]
-    },
-    "powerpoint_ja.png": {
-        "drawing_method": "powerpoint",
-        "lang": "ja",
-        "text": [
-        ]
-    },
-    "handwritten_ja.png": {
-        "drawing_method": "handwritten",
-        "lang": "ja",
-        "text": [
-        ]
-    },
-    "whiteboard_ja.png": {
-        "drawing_method": "whiteboard",
-        "lang": "ja",
-        "text": [
-        ]
-    }
+  "title": ":",
+  "tag": [
+    "",
+    "table"
+  ],
+  "features": "表5.2-1 目標性能条件(定常業務処理状態)",
+  "elements": {},
+  "overview_counts": {
+    "entities": "1",
+    "relationships": "0"
+  },
+  "powerpoint_en.png": {
+    "drawing_method": "powerpoint",
+    "lang": "en",
+    "text": [],
+    "text_count": 0
+  },
+  "powerpoint_ja.png": {
+    "drawing_method": "powerpoint",
+    "lang": "ja",
+    "text": [],
+    "text_count": 250
+  },
+  "handwritten_ja.png": {
+    "drawing_method": "handwritten",
+    "lang": "ja",
+    "text": [],
+    "text_count": 250
+  },
+  "whiteboard_ja.png": {
+    "drawing_method": "whiteboard",
+    "lang": "ja",
+    "text": [],
+    "text_count": 250
+  }
 }

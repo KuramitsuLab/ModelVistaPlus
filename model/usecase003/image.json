@@ -1,35 +1,37 @@
 {
-    "title": ":",
-    "tag": ["", ""],
-    "features": "",
-    "elements": {
-    },
-    "overview_counts": {
-        "entities": 0,
-        "relationships": 0 
-    },
-    "powerpoint_en.png": {
-        "drawing_method": "powerpoint",
-        "lang": "en",
-        "text": [
-        ]
-    },
-    "powerpoint_ja.png": {
-        "drawing_method": "powerpoint",
-        "lang": "ja",
-        "text": [
-        ]
-    },
-    "handwritten_ja.png": {
-        "drawing_method": "handwritten",
-        "lang": "ja",
-        "text": [
-        ]
-    },
-    "whiteboard_ja.png": {
-        "drawing_method": "whiteboard",
-        "lang": "ja",
-        "text": [
-        ]
-    }
+  "title": ":",
+  "tag": [
+    "",
+    "usecase"
+  ],
+  "features": "ユースケースを丸の外に書く記法、アクターやユースケースの数が比較的多い",
+  "elements": {},
+  "overview_counts": {
+    "entities": "12",
+    "relationships": "8"
+  },
+  "powerpoint_en.png": {
+    "drawing_method": "powerpoint",
+    "lang": "en",
+    "text": [],
+    "text_count": 0
+  },
+  "powerpoint_ja.png": {
+    "drawing_method": "powerpoint",
+    "lang": "ja",
+    "text": [],
+    "text_count": 78
+  },
+  "handwritten_ja.png": {
+    "drawing_method": "handwritten",
+    "lang": "ja",
+    "text": [],
+    "text_count": 78
+  },
+  "whiteboard_ja.png": {
+    "drawing_method": "whiteboard",
+    "lang": "ja",
+    "text": [],
+    "text_count": 78
+  }
 }

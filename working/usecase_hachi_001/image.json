@@ -1,5 +1,27 @@
 {
     "title": "Use Case: Online Shopping Management System",
     "url":"https://edrawmax.wondershare.com/templates/use-case-diagram-for-customer-support-system.html",
-    "tag": ["UML", "usecase"]
+    "tag": ["UML", "usecase"],
+    "elements": {
+        "textbox": 10,
+        "actor": 2,
+        "usecase": 7,
+        "association": 8,
+        "system": 1
+    },
+    "download_en.png":{
+        "drawing_method": "powerpoint",
+        "lang": "en",
+        "text": [
+            "Online Shopping Management System",
+            "Registered User",
+            "Support Person",
+            "Contact Support",
+            "Submit Details",
+            "View Submitted Details",
+            "Resolve Inquiry",
+            "Submit Feedback",
+            "View Feedback"
+        ]
+    }
 }

@@ -1,12 +1,17 @@
 {
     "title": "Use Case: User Login",
     "tag": ["UML", "usecase"],
+    "features": "基礎的な図、アクターがアイコン",
     "elements": {
         "textbox": 4,
         "actor": 1,
         "usecase": 2,
         "association": 2,
         "system": 1
+    },
+    "overview_counts": {
+        "entities": 3,
+        "relationships": 2
     },
     "powerpoint_en.png": {
         "drawing_method": "powerpoint",
@@ -23,9 +28,9 @@
         "lang": "ja",
         "text": [
             "鉄道改札システム", 
-            "ユーザー", 
-            "切符を挿入", 
-            "ゲートを通過" 
+            "利用者", 
+            "チケットを挿入する", 
+            "改札を通過する" 
         ]
     },
     "handwritten_ja.png": {
@@ -33,9 +38,9 @@
         "lang": "ja",
         "text": [
             "鉄道改札システム", 
-            "ユーザー", 
-            "切符を挿入", 
-            "ゲートを通過" 
+            "利用者", 
+            "チケットを挿入する", 
+            "改札を通過する"
         ]
     },
     "whiteboard_ja.png": {
@@ -43,9 +48,9 @@
         "lang": "ja",
         "text": [
             "鉄道改札システム", 
-            "ユーザー", 
-            "切符を挿入", 
-            "ゲートを通過" 
+            "利用者", 
+            "チケットを挿入する", 
+            "改札を通過する"
         ]
     }
 }

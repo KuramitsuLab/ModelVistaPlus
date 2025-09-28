@@ -1,11 +1,19 @@
 {
-  "title": ":",
+  "title": "Activity: Order Process",
   "tag": [
-    "",
+    "UML",
     "activity"
   ],
   "features": "分岐なし",
-  "elements": {},
+  "elements": {
+    "textbox": 12,
+    "actor": 1,
+    "activity": 8,
+    "initial": 1,
+    "final": 1,
+    "flow": 8,
+    "system": 1
+  },
   "overview_counts": {
     "entities": "12",
     "relationships": "8"
@@ -13,25 +21,65 @@
   "powerpoint_en.png": {
     "drawing_method": "powerpoint",
     "lang": "en",
-    "text": [],
+    "text": [
+    ],
     "text_count": 0
   },
   "powerpoint_ja.png": {
     "drawing_method": "powerpoint",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "ect チケットを作成する：基本シナリオ",
+      "サービスデスク(アクター)",
+      "システム",
+      "チケットを作成の開始",
+      "1. 問い合わせ種別メニューの表示",
+      "2. 問い合わせ種別に「PC利用登録」を指定",
+      "3. PC利用登録チケット作成フォームの表示",
+      "4. PC利用登録内容を入力",
+      "5. 入力内容の確認表示",
+      "6. 依頼先情報を入力してチケットを確定",
+      "7. チケットを保存し受け付けメールを送信",
+      "チケット作成完了"
+    ],
     "text_count": 173
   },
   "handwritten_ja.png": {
     "drawing_method": "handwritten",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "ect チケットを作成する：基本シナリオ",
+      "サービスデスク(アクター)",
+      "システム",
+      "チケットを作成の開始",
+      "1. 問い合わせ種別メニューの表示",
+      "2. 問い合わせ種別に「PC利用登録」を指定",
+      "3. PC利用登録チケット作成フォームの表示",
+      "4. PC利用登録内容を入力",
+      "5. 入力内容の確認表示",
+      "6. 依頼先情報を入力してチケットを確定",
+      "7. チケットを保存し受け付けメールを送信",
+      "チケット作成完了"
+    ],
     "text_count": 173
   },
   "whiteboard_ja.png": {
     "drawing_method": "whiteboard",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "ect チケットを作成する：基本シナリオ",
+      "サービスデスク(アクター)",
+      "システム",
+      "チケットを作成の開始",
+      "1. 問い合わせ種別メニューの表示",
+      "2. 問い合わせ種別に「PC利用登録」を指定",
+      "3. PC利用登録チケット作成フォームの表示",
+      "4. PC利用登録内容を入力",
+      "5. 入力内容の確認表示",
+      "6. 依頼先情報を入力してチケットを確定",
+      "7. チケットを保存し受け付けメールを送信",
+      "チケット作成完了"
+    ],
     "text_count": 173
   }
 }

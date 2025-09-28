@@ -2,7 +2,7 @@
     "title": "Class: Library Management",
     "url":"https://boardmix.com/articles/class-diagram/",
     "tag": ["UML", "class"],
-    "features": "複雑な図",
+    "features": "関連やクラスが比較的多く複雑な図",
     "elements": {
         "class": 9,
         "attribute": 19,

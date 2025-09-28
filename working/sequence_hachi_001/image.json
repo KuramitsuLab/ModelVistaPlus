@@ -2,7 +2,7 @@
     "title": "Sequence: ATM card verification process",
     "url":"https://stackoverflow.com/questions/52231702/uml-sequence-diagram-auto-numbering-in-visual-paradigm",
     "tag": ["UML", "sequence"],
-    "features": "複雑な図",
+    "features": "基礎的な図",
     "elements": {
         "textbox": 13,
         "actor": 1,

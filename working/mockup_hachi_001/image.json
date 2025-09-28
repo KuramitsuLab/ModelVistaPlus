@@ -2,14 +2,15 @@
     "title": "Mockup: E-learning Course App",
     "url":"https://www.freepik.com/free-vector/course-app-collection-template_9908360.htm#fromView=keyword&page=1&position=10&uuid=6f388154-fcaa-428d-9358-14e907284a4d&query=App+mockup",
     "tag": ["mockup"],
-    "features": "複数の画面",
+    "features": "スマホ画面",
     "elements": {
         "screen": 3,
         "textbox": 24,
         "button": 18
     },
     "overview_counts": {
-        "entities": 24
+        "entities": 3,
+        "relationships": 0
     },
     "download_en.png":{
         "drawing_method": "download",

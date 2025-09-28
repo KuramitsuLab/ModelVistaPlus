@@ -1,11 +1,18 @@
 {
-  "title": ":",
+  "title": "Class Diagram: Employee Management System",
   "tag": [
-    "",
+    "UML",
     "class"
   ],
   "features": "汎化・関連名・関連端名・限定子あり",
-  "elements": {},
+  "elements": {
+    "textbox": 16,
+    "class": 4,
+    "attribute": 5,
+    "association": 2,
+    "generalization": 1,
+    "composition": 0
+  },
   "overview_counts": {
     "entities": "4",
     "relationships": "3"
@@ -19,19 +26,70 @@
   "powerpoint_ja.png": {
     "drawing_method": "powerpoint",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "社員",
+      "氏名：文字列",
+      "社員ID：文字列",
+      "パスワード：文字列",
+      "+ログインする(社員ID, パスワード)",
+      "経費を登録する",
+      "経費を申請する",
+      "マネージャ",
+      "経費を承認する/却下する",
+      "所属する",
+      "所属社員",
+      "所属部署",
+      "部署",
+      "部署名",
+      "会社",
+      "会社名"
+    ],
     "text_count": 103
   },
   "handwritten_ja.png": {
     "drawing_method": "handwritten",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "社員",
+      "氏名：文字列",
+      "社員ID：文字列",
+      "パスワード：文字列",
+      "+ログインする(社員ID, パスワード)",
+      "経費を登録する",
+      "経費を申請する",
+      "マネージャ",
+      "経費を承認する/却下する",
+      "所属する",
+      "所属社員",
+      "所属部署",
+      "部署",
+      "部署名",
+      "会社",
+      "会社名"
+    ],
     "text_count": 103
   },
   "whiteboard_ja.png": {
     "drawing_method": "whiteboard",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "社員",
+      "氏名：文字列",
+      "社員ID：文字列",
+      "パスワード：文字列",
+      "+ログインする(社員ID, パスワード)",
+      "経費を登録する",
+      "経費を申請する",
+      "マネージャ",
+      "経費を承認する/却下する",
+      "所属する",
+      "所属社員",
+      "所属部署",
+      "部署",
+      "部署名",
+      "会社",
+      "会社名"
+    ],
     "text_count": 103
   }
 }

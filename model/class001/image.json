@@ -1,11 +1,18 @@
 {
-  "title": ":",
+  "title": "Class Diagram: Tuition Calculation by Student Type",
   "tag": [
-    "",
+    "UML",
     "class"
   ],
   "features": "基礎的な図",
-  "elements": {},
+  "elements": {
+      "textbox": 12,
+      "class": 3,
+      "attribute": 6,
+      "association": 0,
+      "generalization": 2,
+      "composition": 0
+  },
   "overview_counts": {
     "entities": "3",
     "relationships": "2"
@@ -19,19 +26,58 @@
   "powerpoint_ja.png": {
     "drawing_method": "powerpoint",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "学生",
+      "学生数",
+      "単位時間",
+      "授業料を計算する",
+      "州内学生",
+      "学生数",
+      "州内学生の割合",
+      "授業料を計算する",
+      "州外学生",
+      "学生数",
+      "州外学生の割合",
+      "授業料を計算する"
+    ],
     "text_count": 61
   },
   "handwritten_ja.png": {
     "drawing_method": "handwritten",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "学生",
+      "学生数",
+      "単位時間",
+      "授業料を計算する",
+      "州内学生",
+      "学生数",
+      "州内学生の割合",
+      "授業料を計算する",
+      "州外学生",
+      "学生数",
+      "州外学生の割合",
+      "授業料を計算する"
+    ],
     "text_count": 61
   },
   "whiteboard_ja.png": {
     "drawing_method": "whiteboard",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "学生",
+      "学生数",
+      "単位時間",
+      "授業料を計算する",
+      "州内学生",
+      "学生数",
+      "州内学生の割合",
+      "授業料を計算する",
+      "州外学生",
+      "学生数",
+      "州外学生の割合",
+      "授業料を計算する"
+    ],
     "text_count": 61
   }
 }

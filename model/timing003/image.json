@@ -1,11 +1,14 @@
 {
-  "title": ":",
+  "title": "Timing: ATM User Authentication State Transitions",
   "tag": [
     "",
     "timing"
   ],
   "features": "時間制約あり",
-  "elements": {},
+  "elements": {
+    "lifeline":1,
+    "state":4
+  },
   "overview_counts": {
     "entities": "3",
     "relationships": "1"
@@ -19,19 +22,67 @@
   "powerpoint_ja.png": {
     "drawing_method": "powerpoint",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "sd 認証中に一定時間経過する",
+      ":ATM",
+      "待機中",
+      "認証中",
+      "使用中",
+      "待機移行中",
+      "一定時間操作なし",
+      "{t+60}",
+      "ユーザが操作を行う",
+      "{t2..t2+10}",
+      "0",
+      "1",
+      "2",
+      "t",
+      "t2"
+    ],
     "text_count": 71
   },
   "handwritten_ja.png": {
     "drawing_method": "handwritten",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "sd 認証中に一定時間経過する",
+      ":ATM",
+      "待機中",
+      "認証中",
+      "使用中",
+      "待機移行中",
+      "一定時間操作なし",
+      "{t+60}",
+      "ユーザが操作を行う",
+      "{t2..t2+10}",
+      "0",
+      "1",
+      "2",
+      "t",
+      "t2"
+    ],
     "text_count": 71
   },
   "whiteboard_ja.png": {
     "drawing_method": "whiteboard",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "sd 認証中に一定時間経過する",
+      ":ATM",
+      "待機中",
+      "認証中",
+      "使用中",
+      "待機移行中",
+      "一定時間操作なし",
+      "{t+60}",
+      "ユーザが操作を行う",
+      "{t2..t2+10}",
+      "0",
+      "1",
+      "2",
+      "t",
+      "t2"
+    ],
     "text_count": 71
   }
 }

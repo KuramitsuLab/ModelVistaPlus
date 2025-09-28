@@ -1,5 +1,33 @@
 {
     "title": "Sequence: ATM card verification process",
     "url":"https://stackoverflow.com/questions/52231702/uml-sequence-diagram-auto-numbering-in-visual-paradigm",
-    "tag": ["UML", "sequence"]
+    "tag": ["UML", "sequence"],
+    "features": "複雑な図",
+    "elements": {
+        "textbox": 13,
+        "actor": 1,
+        "lifeline": 2,
+        "message": 7
+    },
+    "overview_counts": {},
+    "download_en.png":{
+        "drawing_method": "download",
+        "lang": "en",
+        "text": [   
+            "ATM Customer",
+            "ATM",
+            "Bank Server",
+            "1: Insert Card",
+            "1.1: Verify Card",
+            "alt",
+            "1.2: Card OK",
+            "[if card is valid]",
+            "1.3: Request PIN",
+            "[else]",
+            "2: Card Invalid",
+            "2.1: Eject Card",
+            "2.2: PIN Entered"
+        ],
+        "text_count": 0
+    }
 }

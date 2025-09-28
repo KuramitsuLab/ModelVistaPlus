@@ -1,13 +1,18 @@
 {
-  "title": ":",
+  "title": "Timing: ATM Transaction",
   "tag": [
     "",
     "timing"
   ],
   "features": "ライフライン複数、メッセージあり",
-  "elements": {},
+  "elements": {
+    "textbox":13,
+    "actor":2,
+    "lifeline":2,
+    "state":5
+  },
   "overview_counts": {
-    "entities": "4",
+    "entities": "12",
     "relationships": "4"
   },
   "powerpoint_en.png": {
@@ -19,19 +24,61 @@
   "powerpoint_ja.png": {
     "drawing_method": "powerpoint",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "sd 取引開始から正常終了",
+      ":ATM",
+      "待機中",
+      "認証中",
+      "使用中",
+      "取引開始",
+      "カードを挿入する",
+      "暗証番号を入力する",
+      "認証完了",
+      "取引終了",
+      ":利用者",
+      "操作中",
+      "待機中"
+    ],
     "text_count": 64
   },
   "handwritten_ja.png": {
     "drawing_method": "handwritten",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "sd 取引開始から正常終了",
+      ":ATM",
+      "待機中",
+      "認証中",
+      "使用中",
+      "取引開始",
+      "カードを挿入する",
+      "暗証番号を入力する",
+      "認証完了",
+      "取引終了",
+      ":利用者",
+      "操作中",
+      "待機中"
+    ],
     "text_count": 64
   },
   "whiteboard_ja.png": {
     "drawing_method": "whiteboard",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "sd 取引開始から正常終了",
+      ":ATM",
+      "待機中",
+      "認証中",
+      "使用中",
+      "取引開始",
+      "カードを挿入する",
+      "暗証番号を入力する",
+      "認証完了",
+      "取引終了",
+      ":利用者",
+      "操作中",
+      "待機中"
+    ],
     "text_count": 64
   }
 }

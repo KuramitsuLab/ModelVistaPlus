@@ -1,5 +1,6 @@
 {
     "tag": "関係",
+    "type": "関1",
     "question": "次の中で、『Registered User』が実行できないユースケースはどれですか？",
     "answer": "Resolve Inquiry",
     "choice": [

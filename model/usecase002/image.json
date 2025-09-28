@@ -1,37 +1,87 @@
 {
-  "title": ":",
+  "title": "Use Case: Bank Transaction System via ATM",
   "tag": [
-    "",
+    "uml",
     "usecase"
   ],
   "features": "汎化や包含が含まれる、usecase_1より要素多い",
-  "elements": {},
+  "elements": {
+    "textbox": 11,
+    "actor": 3,
+    "usecase": 5,
+    "association": 8,
+    "system": 1
+  },
   "overview_counts": {
-    "entities": "9",
+    "entities": "8",
     "relationships": "8"
   },
   "powerpoint_en.png": {
     "drawing_method": "powerpoint",
     "lang": "en",
-    "text": [],
-    "text_count": 0
+    "text": [
+      "ATM",
+      "Enter PIN",
+      "<<include>>",
+      "Withdraw Money",
+      "Deposit Money",
+      "Update Passbook",
+      "Request Account Transfer (Remittance)",
+      "Depositor",
+      "Remittance Requester",
+      "Other Bank"
+    ],
+    "text_count": 141
   },
   "powerpoint_ja.png": {
     "drawing_method": "powerpoint",
     "lang": "ja",
-    "text": [],
-    "text_count": 76
+    "text": [
+      "ATM",
+      "暗証番号を入力する",
+      "<<include>>",
+      "預金を引き出す",
+      "預金を預け入れる",
+      "通帳を記入する",
+      "口座振込（振替）を依頼する",
+      "預金者",
+      "振込依頼者",
+      "他銀行"
+    ],
+    "text_count": 69
   },
   "handwritten_ja.png": {
     "drawing_method": "handwritten",
     "lang": "ja",
-    "text": [],
-    "text_count": 76
+    "text": [
+      "ATM",
+      "暗証番号を入力する",
+      "<<include>>",
+      "預金を引き出す",
+      "預金を預け入れる",
+      "通帳を記入する",
+      "口座振込（振替）を依頼する",
+      "預金者",
+      "振込依頼者",
+      "他銀行"
+    ],
+    "text_count": 69
   },
   "whiteboard_ja.png": {
     "drawing_method": "whiteboard",
     "lang": "ja",
-    "text": [],
-    "text_count": 76
+    "text": [
+      "ATM",
+      "暗証番号を入力する",
+      "<<include>>",
+      "預金を引き出す",
+      "預金を預け入れる",
+      "通帳を記入する",
+      "口座振込（振替）を依頼する",
+      "預金者",
+      "振込依頼者",
+      "他銀行"
+    ],
+    "text_count": 69
   }
 }

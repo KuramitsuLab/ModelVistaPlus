@@ -1,11 +1,17 @@
 {
-  "title": ":",
+  "title": "Use Case:Online Bookstore system",
   "tag": [
-    "",
+    "uml",
     "usecase"
   ],
   "features": "ユースケースを丸の外に書く記法、アクターやユースケースの数が比較的多い",
-  "elements": {},
+  "elements": {
+    "textbox": 12,
+    "actor": 5,
+    "usecase": 7,
+    "association": 8,
+    "system": 1
+  },
   "overview_counts": {
     "entities": "12",
     "relationships": "8"
@@ -13,25 +19,77 @@
   "powerpoint_en.png": {
     "drawing_method": "powerpoint",
     "lang": "en",
-    "text": [],
+    "text": [
+      "Online Customer",
+      "Cancel Order",
+      "Timer",
+      "Order Books",
+      "Deliver Order",
+      "Delivery Person",
+      "Credit Company",
+      "Approve Invoice",
+      "Reject Invoice",
+      "Pack and Ship Order",
+      "Restock Products",
+      "Warehouse Staff"
+    ],
     "text_count": 0
   },
   "powerpoint_ja.png": {
     "drawing_method": "powerpoint",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "オンライン顧客",
+      "注文をキャンセルする",
+      "タイマー",
+      "書籍を注文する",
+      "信販会社",
+      "請求を承認する",
+      "請求を拒否する",
+      "注文を配達する",
+      "配達員",
+      "注文と梱包と出荷を行う",
+      "製品を補充する",
+      "倉庫係員"
+    ],
     "text_count": 78
   },
   "handwritten_ja.png": {
     "drawing_method": "handwritten",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "オンライン顧客",
+      "注文をキャンセルする",
+      "タイマー",
+      "書籍を注文する",
+      "信販会社",
+      "請求を承認する",
+      "請求を拒否する",
+      "注文を配達する",
+      "配達員",
+      "注文と梱包と出荷を行う",
+      "製品を補充する",
+      "倉庫係員"
+    ],
     "text_count": 78
   },
   "whiteboard_ja.png": {
     "drawing_method": "whiteboard",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "オンライン顧客",
+      "注文をキャンセルする",
+      "タイマー",
+      "書籍を注文する",
+      "信販会社",
+      "請求を承認する",
+      "請求を拒否する",
+      "注文を配達する",
+      "配達員",
+      "注文と梱包と出荷を行う",
+      "製品を補充する",
+      "倉庫係員"
+    ],
     "text_count": 78
   }
 }

@@ -1,13 +1,18 @@
 {
-  "title": ":",
+  "title": "Timing: ATM Transaction Process",
   "tag": [
     "",
     "timing"
   ],
   "features": "基礎的な図",
-  "elements": {},
+  "elements": {
+    "textbox":8,
+    "actor":1,
+    "lifeline":1,
+    "state":3
+  },
   "overview_counts": {
-    "entities": "2",
+    "entities": "6",
     "relationships": "1"
   },
   "powerpoint_en.png": {
@@ -19,19 +24,46 @@
   "powerpoint_ja.png": {
     "drawing_method": "powerpoint",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "sd 取引開始から正常終了",
+      ":ATM",
+      "待機中",
+      "認証中",
+      "使用中",
+      "取引開始",
+      "認証完了",
+      "取引終了"
+    ],
     "text_count": 37
   },
   "handwritten_ja.png": {
     "drawing_method": "handwritten",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "sd 取引開始から正常終了",
+      ":ATM",
+      "待機中",
+      "認証中",
+      "使用中",
+      "取引開始",
+      "認証完了",
+      "取引終了"
+    ],
     "text_count": 37
   },
   "whiteboard_ja.png": {
     "drawing_method": "whiteboard",
     "lang": "ja",
-    "text": [],
+    "text": [
+      "sd 取引開始から正常終了",
+      ":ATM",
+      "待機中",
+      "認証中",
+      "使用中",
+      "取引開始",
+      "認証完了",
+      "取引終了"
+    ],
     "text_count": 37
   }
 }

@@ -1,5 +1,71 @@
 {
     "title": "Class: Library Management",
     "url":"https://boardmix.com/articles/class-diagram/",
-    "tag": ["UML", "class"]
-}
+    "tag": ["UML", "class"],
+    "features": "複雑な図",
+    "elements": {
+        "class": 9,
+        "attribute": 19,
+        "association":4,
+        "generalization": 4,
+        "composition": 1
+    },
+    "overview_counts": {
+        "entities": 9,
+        "relationships": 9
+    },
+    "download_en.png":{
+        "drawing_method": "download",
+        "lang": "en",
+        "text": [   
+        "Library Management",
+        "Catalog",
+        "+author_name: String",
+        "+no_of_copies: integer",
+        "+updateInfo()",
+        "+searching()",
+        "Books",
+        "+author_name: string",
+        "+author_name: String",
+        "+no_of_books: integer",
+        "+removeFirmCatalog()",
+        "+addtoCatalog()",
+        "reference book",
+        "+SearchRefbook()",
+        "general book",
+        "Librarian",
+        "+name: string",
+        "+address: string",
+        "+mobile_number: integer",
+        "+updateInfo()",
+        "+issueBooks()",
+        "+verificationInfo()",
+        "+searchBook()",
+        "+returnBook()",
+        "Member",
+        "+name: string",
+        "+adress: string",
+        "+phone_number: string",
+        "+requestforBook()",
+        "+returnBook()",
+        "Faculty Member",
+        "+name",
+        "+id",
+        "+checkoutBook()",
+        "Student",
+        "+name: string",
+        "+student_id: string",
+        "+checkoutBook()",
+        "+returnBook()",
+        "Alert",
+        "+issue_date: date",
+        "+book_name: string",
+        "+return_date: date",
+        "+fine: integer",
+        "+fineCall()",
+        "+viewAlert()",
+        "+sendtoLibraian()"
+        ],
+        "text_count": 0
+    }
+}   

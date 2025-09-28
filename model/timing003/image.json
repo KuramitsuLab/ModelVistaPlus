@@ -6,6 +6,8 @@
   ],
   "features": "時間制約あり",
   "elements": {
+    "textbox":13,
+    "actor":1,
     "lifeline":1,
     "state":4
   },

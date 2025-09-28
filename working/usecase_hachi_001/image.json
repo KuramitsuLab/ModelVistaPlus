@@ -15,7 +15,7 @@
         "relationships": 8
     },
     "download_en.png":{
-        "drawing_method": "powerpoint",
+        "drawing_method": "download",
         "lang": "en",
         "text": [
             "Online Shopping Management System",

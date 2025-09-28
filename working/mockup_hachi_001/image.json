@@ -8,6 +8,9 @@
         "textbox": 24,
         "button": 18
     },
+    "overview_counts": {
+        "entities": 24
+    },
     "download_en.png":{
         "drawing_method": "download",
         "lang": "en",

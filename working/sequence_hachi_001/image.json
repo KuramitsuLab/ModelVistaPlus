@@ -9,7 +9,10 @@
         "lifeline": 2,
         "message": 7
     },
-    "overview_counts": {},
+    "overview_counts": {
+        "entities": 3,
+        "relationships": 7
+    },
     "download_en.png":{
         "drawing_method": "download",
         "lang": "en",

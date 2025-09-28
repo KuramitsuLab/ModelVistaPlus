@@ -7,7 +7,7 @@
   "features": "分岐なし",
   "elements": {
     "textbox": 12,
-    "actor": 1,
+    "partition": 2,
     "activity": 8,
     "initial": 1,
     "final": 1,

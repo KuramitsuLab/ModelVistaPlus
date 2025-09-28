@@ -1,5 +1,32 @@
 {
     "title": "Use Case: Online Store",
     "url":"https://moqups.com/templates/mapping-and-diagramming/uml-diagrams/use-case-diagram/",
-    "tag": ["UML", "usecase"]
+    "tag": ["UML", "usecase"],
+    "features": "基本的な図",
+    "elements": {
+        "textbox": 8,
+        "actor": 2,
+        "usecase": 5,
+        "association": 7,
+        "system": 1
+    },
+    "overview_counts": {
+        "entities": 7,
+        "relationships": 7
+    },
+    "download_en.png":{
+        "drawing_method": "download",
+        "lang": "en",
+        "text": [
+            "Online Store",
+            "Visitor",
+            "Admin",
+            "Place Order",
+            "Cancel Order",
+            "Manage Order",
+            "Change Order Status",
+            "Update Products"
+        ],
+        "text_count": 0
+    }
 }

@@ -1,0 +1,72 @@
+{
+    "tag": [
+        "UML",
+        "usecase"
+    ],
+    "starndard": "UML",
+    "features": "基礎的な図、アクターがアイコン",
+    "elements": {
+        "entities": 3,
+        "relations": 2,
+        "textbox": 4,
+        "actor": 1,
+        "usecase": 2,
+        "association": 2,
+        "system": 1
+    },
+    "source": "unknown",
+    "OCR": [
+        {
+            "lang": "ja", 
+            "text": [
+                "鉄道改札システム",
+                "利用者",
+                "チケットを挿入する",
+                "改札を通過する"
+            ],
+            "text_count": 27
+        },
+        {
+            "lang": "en",
+            "text": [
+                "Railway Ticket Gate System",
+                "User",
+                "Insert Ticket",
+                "Pass Through Gate"
+            ],
+            "text_count": 0
+        }
+    ],
+    "files": [
+        {
+            "file": "powerpoint_ja-fs8.png",
+            "drawing_method": "powerpoint",
+            "lang": "ja"
+        },
+        {
+            "file": "powerpoint_en-fs8.png",
+            "drawing_method": "powerpoint",
+            "lang": "en"
+        },
+        {
+            "file": "dgplantuml_ja-fs8.png",
+            "drawing_method": "plantuml",
+            "lang": "ja"
+        },
+        {
+            "file": "dgplantuml_en-fs8.png",
+            "drawing_method": "plantuml",
+            "lang": "en"
+        },
+        {
+            "file": "dgwhiteboard_ja-fs8.png",
+            "drawing_method": "whiteboard",
+            "lang": "ja"
+        },
+        {
+            "file": "dghandwritten_ja-fs8.png",
+            "drawing_method": "handwritten",
+            "lang": "ja"
+        }
+    ]
+}

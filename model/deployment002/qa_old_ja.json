@@ -1,0 +1,128 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "通信経路の数として正しいものはどれですか？",
+    "answer": "1",
+    "choice": [
+      "3",
+      "0",
+      "2",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "ノードの数として正しいものはどれですか？",
+    "answer": "4",
+    "choice": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "成果物の数として正しいものはどれですか？",
+    "answer": "4",
+    "choice": [
+      "4",
+      "3",
+      "2",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "この図に含まれるノード名として正しいものはどれですか？",
+    "answer": "サーバマシン",
+    "choice": [
+      "クライアントソフトウェア",
+      "サーバマシン",
+      "pop",
+      "ゲートウェイ"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "この図に含まれる成果物として正しいものはどれですか？",
+    "answer": "Mailer.exe",
+    "choice": [
+      "device",
+      "JRE",
+      "Mailer.exe",
+      "サーバマシン"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "サーバマシンから見たクライアントマシンの多重度はどれですか？",
+    "answer": "*",
+    "choice": [
+      "*",
+      "1..*",
+      "1",
+      "0..1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "サーバマシンが通信経路でつながっているのはどれですか？",
+    "answer": "クライアントマシン",
+    "choice": [
+      "クライアントマシン",
+      "JRE",
+      "Mailer.exe",
+      "Linux"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関2",
+    "question": "サーバマシンの実行環境として正しいものはどれですか？",
+    "answer": "Linux",
+    "choice": [
+      "クライアントマシン",
+      "JRE",
+      "Mailer.exe",
+      "Linux"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関4",
+    "question": "JREの成果物として正しいものはどれですか？",
+    "answer": "MailChecker.jar",
+    "choice": [
+      "クライアントマシン",
+      "MailChecker.jar",
+      "Mailer.exe",
+      "sendmail"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれるエンティティの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "4",
+      "6",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれるリレーションシップの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "4",
+      "6",
+      "2",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれる正しいエンティティ名はどれですか？",
+    "answer": "user（ユーザー）",
+    "choice": [
+      "title（書名）",
+      "商品",
+      "books（貸出状況）",
+      "user（ユーザー）"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参",
+    "question": "「books（蔵書）」エンティティのアトリビュートとして、正しいのはどれですか？",
+    "answer": "isbn（ISBN）",
+    "choice": [
+      "isbn（ISBN）",
+      "returned_at（返却日時）",
+      "name（名前）",
+      "lendings（貸出状況）"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参",
+    "question": "「books（蔵書）」エンティティに含まれる情報として適切でないものはどれですか？",
+    "answer": "メールアドレス",
+    "choice": [
+      "書名",
+      "メールアドレス",
+      "著者",
+      "価格"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "ユーザーと貸出状況の関係として正しいものはどれですか？",
+    "answer": "1対多の関係",
+    "choice": [
+      "1対多の関係",
+      "多対多の関係",
+      "無関係",
+      "1対1の関係"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

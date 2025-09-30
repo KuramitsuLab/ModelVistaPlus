@@ -1,0 +1,114 @@
+[
+  {
+    "tag": "数",
+    "type": "認1",
+    "question": "画像に含まれるパーティションの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認2",
+    "question": "画像に含まれるアクションの数はどれですか？",
+    "answer": "7",
+    "choice": [
+      "9",
+      "8",
+      "7",
+      "10"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認3",
+    "question": "画像に含まれる制御フローの数はどれですか？",
+    "answer": "8",
+    "choice": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認7",
+    "question": "画像内にあるパーティション名として正しいのはどれですか？",
+    "answer": "システム",
+    "choice": [
+      "システム",
+      "会計員",
+      "利用者",
+      "チケット挿入口"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認8",
+    "question": "画像内にあるアクション名として正しいのはどれですか？",
+    "answer": "入力内容の確認表示",
+    "choice": [
+      "入力内容の確認表示",
+      "チケットを作成する",
+      "設定項目を保存",
+      "ユーザーの登録完了"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "順序関係",
+    "type": "参1",
+    "question": "開始ノードの直後のアクションはどれですか？",
+    "answer": "問い合わせ種別メニューの表示",
+    "choice": [
+      "チケットを保存し受付けメールを送信",
+      "問い合わせ種別メニューの表示",
+      "PC利用登録内容を入力",
+      "問い合わせ種別に「PC利用登録」を設定"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "順序関係",
+    "type": "参2",
+    "question": "終了ノードの直前のアクションはどれですか？",
+    "answer": "チケットを保存し受付けメールを送信",
+    "choice": [
+      "依頼先情報を入力してチケットを確定",
+      "問い合わせ種別メニューの表示",
+      "チケットを保存し受付けメールを送信",
+      "問い合わせ種別に「PC利用登録」を設定"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "順序関係",
+    "type": "関1",
+    "question": "「入力内容の確認表示」アクションの直後のアクションはどれですか？",
+    "answer": "依頼先情報を入力してチケットを確定",
+    "choice": [
+      "問い合わせ種別メニューの表示",
+      "チケットを保存し受付メールを送信",
+      "依頼先情報を入力してチケットを確定",
+      "PC利用登録内容を入力"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

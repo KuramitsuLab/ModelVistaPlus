@@ -1,0 +1,226 @@
+[
+  {
+    "tag": "数",
+    "type": "認1",
+    "question": "画像に含まれるクラスの数はどれですか？",
+    "answer": "4",
+    "choice": [
+      "5",
+      "4",
+      "6",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認2",
+    "question": "画像に含まれる関連の数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認2",
+    "question": "画像に含まれる汎化の数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認3",
+    "question": "画像に含まれる関連名として正しいものはどれですか？",
+    "answer": "所属する",
+    "choice": [
+      "氏名",
+      "社員",
+      "所属する",
+      "経費を登録する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認4",
+    "question": "画像に含まれるクラス名として正しいものはどれですか？",
+    "answer": "社員",
+    "choice": [
+      "パスワード",
+      "部署名",
+      "経費を登録する",
+      "社員"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認5",
+    "question": "画像に含まれるクラスの属性名として正しいものはどれですか？",
+    "answer": "氏名",
+    "choice": [
+      "社員",
+      "経費を登録する",
+      "所属する",
+      "氏名"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認6",
+    "question": "画像に含まれるクラスの操作名として正しいものはどれですか？",
+    "answer": "経費を登録する",
+    "choice": [
+      "氏名",
+      "社員を申請する",
+      "所属する",
+      "経費を登録する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認7",
+    "question": "画像に含まれる可視性として正しいものはどれですか？",
+    "answer": "+",
+    "choice": [
+      "#",
+      "+",
+      "-",
+      "~"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "関係",
+    "type": "関1",
+    "question": "「社員」クラスと関連のあるクラスはどれですか？",
+    "answer": "部署",
+    "choice": [
+      "マネージャ",
+      "部署",
+      "所属社員",
+      "会社"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "関係",
+    "type": "関3",
+    "question": "「部署」クラスから「社員」クラスを見たときの多重度として正しいものはどれですか？",
+    "answer": "1..*",
+    "choice": [
+      "1..*",
+      "1",
+      "0..*",
+      "所属社員"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "説明",
+    "type": "関3",
+    "question": "画像中の社員が所属する部署数に関する正しい説明はどれですか？",
+    "answer": "社員は1つの部署に所属する",
+    "choice": [
+      "社員は1つの部署に所属する",
+      "社員は1つ以上の部署に所属する",
+      "社員が所属する部署数に関しては明記されていない",
+      "社員は0個以上の部署に所属する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "関係",
+    "type": "関4",
+    "question": "画像中の「部署」から見て、「社員」の正しい関連端名はどれですか？",
+    "answer": "所属社員",
+    "choice": [
+      "所属部署",
+      "所属社員",
+      "部署名",
+      "氏名"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "関係",
+    "type": "関6",
+    "question": "「社員」クラスのサブクラスはどれですか？",
+    "answer": "マネージャ",
+    "choice": [
+      "部長",
+      "マネージャ",
+      "所属社員",
+      "部署"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "参1",
+    "question": "画像中の社員クラスの属性として正しいものはどれですか？",
+    "answer": "パスワード",
+    "choice": [
+      "部署名",
+      "所属する",
+      "パスワード",
+      "経費を登録する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "説明",
+    "type": "参2",
+    "question": "画像中の社員クラスの操作「ログインする」の可視性の説明として正しいものはどれですか？",
+    "answer": "すべてのクラスからアクセス可能",
+    "choice": [
+      "社員クラスとマネージャクラスのみアクセス可能",
+      "社員クラス以外アクセス可能",
+      "社員クラスのみアクセス可能",
+      "すべてのクラスからアクセス可能"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "参2",
+    "question": "画像中の社員IDの型として正しいものはどれですか？",
+    "answer": "文字列",
+    "choice": [
+      "1",
+      "整数",
+      "パスワード",
+      "文字列"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

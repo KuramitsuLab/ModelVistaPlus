@@ -1,0 +1,142 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中のデータベースのテーブルの値が入っている行数の総数はどれですか？",
+    "answer": "7",
+    "choice": [
+      "2",
+      "11",
+      "7",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中のデータベースのテーブルの画像中の表で値が入っている列数の総数はどれですか？",
+    "answer": "11",
+    "choice": [
+      "11",
+      "7",
+      "6",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像中のデータベースのテーブルの値が入っているセルの総数はどれですか？",
+    "answer": "40",
+    "choice": [
+      "30",
+      "10",
+      "40",
+      "20"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像中のデータベースに含まれる列名として正しいものはどれですか？",
+    "answer": "単価",
+    "choice": [
+      "3",
+      "単価",
+      "個数",
+      "商品ID"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像中のヘッダーテーブルに含まれる列名として正しいものはどれですか？",
+    "answer": "納品先",
+    "choice": [
+      "発注ID",
+      "合計値",
+      "数量",
+      "納品先"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "画像に含まれるテーブルの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "画像中の明細テーブルの4列目2行目の値はどれですか？",
+    "answer": "330",
+    "choice": [
+      "2",
+      "100",
+      "330",
+      "ABCレストラン"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "画像中の合計金額が1,060円の納品先はどれですか？",
+    "answer": "ABCレストラン",
+    "choice": [
+      "630",
+      "XXカフェ",
+      "カレー",
+      "ABCレストラン"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "画像中のデータベースのうち「XXカフェ」が格納されている列名はどれですか？",
+    "answer": "納品先",
+    "choice": [
+      "ABCレストラン",
+      "納品先",
+      "1",
+      "店名"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参2",
+    "question": "画像中で単価が100円の商品を使っている納品先はどれですか？",
+    "answer": "ABCレストラン",
+    "choice": [
+      "XXカフェ",
+      "ABCレストラン",
+      "ゆで卵",
+      "カレーセット"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

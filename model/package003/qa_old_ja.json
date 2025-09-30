@@ -1,0 +1,72 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるパッケージの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "5",
+      "2",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる依存関係の数はいくつですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "4",
+      "6",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像内にあるパッケージ名として正しいのはどれですか？",
+    "answer": "bean",
+    "choice": [
+      "control",
+      "OrderFrame",
+      "bean",
+      "repository"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "serviceパッケージの内部要素として正しいものはどれですか？",
+    "answer": "OrderControl",
+    "choice": [
+      "OrderFrame",
+      "ui",
+      "OrderControl",
+      "OrderBean"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "serviceの依存先のパッケージはどれですか？",
+    "answer": "bean",
+    "choice": [
+      "ui",
+      "control",
+      "bean",
+      "OrderBean"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

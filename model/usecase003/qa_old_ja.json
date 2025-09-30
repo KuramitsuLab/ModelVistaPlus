@@ -1,0 +1,156 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるユースケースの数はどれですか？",
+    "answer": "7",
+    "choice": [
+      "6",
+      "5",
+      "8",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれるアクターの数はどれですか？",
+    "answer": "5",
+    "choice": [
+      "7",
+      "5",
+      "6",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれる関連の数はどれですか？",
+    "answer": "8",
+    "choice": [
+      "8",
+      "5",
+      "6",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "画像に含まれる包含の数はどれですか？",
+    "answer": "0",
+    "choice": [
+      "1",
+      "0",
+      "5",
+      "8"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認5",
+    "question": "画像に含まれる拡張の数はどれですか？",
+    "answer": "0",
+    "choice": [
+      "8",
+      "5",
+      "1",
+      "0"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認6",
+    "question": "この画像の汎化の説明として正しいものはどれですか？",
+    "answer": "アクターの汎化もユースケースの汎化も含まれていない",
+    "choice": [
+      "アクターの汎化は含まれるが、ユースケースの汎化は含まれていない",
+      "アクターの汎化もユースケースの汎化も含まれる",
+      "アクターの汎化もユースケースの汎化も含まれていない",
+      "ユースケースの汎化は含まれるが、アクターの汎化は含まれていない"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認7",
+    "question": "この図に含まれる正しいユースケースはどれですか？",
+    "answer": "注文を配達する",
+    "choice": [
+      "オンライン顧客",
+      "注文を配達する",
+      "在庫を確認する",
+      "返品を処理する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認8",
+    "question": "この図に含まれる正しいアクターはどれですか？",
+    "answer": "配達員",
+    "choice": [
+      "開発者",
+      "配達員",
+      "注文を配達する",
+      "システム管理者"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認9",
+    "question": "この図のシステム名として正しいのはどれですか？",
+    "answer": "システム名は明記されていない",
+    "choice": [
+      "システム名は明記されていない",
+      "オンライン顧客",
+      "注文を配達する",
+      "ネットショッピングシステム"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "システムがユースケース「請求を承認する」機能を提供するのはどのアクターに対してですか？",
+    "answer": "信販会社",
+    "choice": [
+      "配達員",
+      "注文を配達する",
+      "倉庫係員",
+      "信販会社"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "アクター「倉庫係員」が行う操作は次のうちどれですか？",
+    "answer": "製品を補充する",
+    "choice": [
+      "在庫を確認する",
+      "注文を配達する",
+      "製品を補充する",
+      "配達員"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

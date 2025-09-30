@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるオブジェクトの数はどれですか？",
+    "answer": "8",
+    "choice": [
+      "10",
+      "14",
+      "8",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれるリンクの数はどれですか？",
+    "answer": "14",
+    "choice": [
+      "8",
+      "14",
+      "11",
+      "10"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれるオブジェクト名とクラス名の組み合わせで正しいものはどれですか？",
+    "answer": "田中：ユーザ",
+    "choice": [
+      "ユーザ：佐藤",
+      "田中：ユーザ",
+      "メールアドレス：田中",
+      "佐藤：コメント"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "「佐藤」オブジェクトのクラスはどれですか？",
+    "answer": "ユーザ",
+    "choice": [
+      "友達",
+      "佐藤純一",
+      "ユーザ",
+      "タイムライン"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参2",
+    "question": "「：コメント」オブジェクトの「投稿内容」の属性値はどれですか？",
+    "answer": "”がんばりましたね！”",
+    "choice": [
+      "友達間",
+      "”がんばりましたね！”",
+      "\"今日はいい天気。\"",
+      "：日記"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "「：友達申請」オブジェクトが意味的につながっているオブジェクトはどれですか？",
+    "answer": "佐藤：ユーザ",
+    "choice": [
+      "申請日",
+      "：日記",
+      "佐藤のタイムライン：タイムライン",
+      "佐藤：ユーザ"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

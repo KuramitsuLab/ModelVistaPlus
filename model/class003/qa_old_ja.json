@@ -1,0 +1,198 @@
+[
+  {
+    "tag": "数",
+    "type": "認1",
+    "question": "画像に含まれるクラスの数はどれですか？",
+    "answer": "10",
+    "choice": [
+      "9",
+      "3",
+      "10",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認2",
+    "question": "画像に含まれる関連の数はどれですか？",
+    "answer": "7",
+    "choice": [
+      "16",
+      "9",
+      "7",
+      "14"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認2",
+    "question": "画像に含まれる集約の数はどれですか？",
+    "answer": "6",
+    "choice": [
+      "8",
+      "2",
+      "4",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認2",
+    "question": "画像に含まれる汎化の数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "12",
+      "3",
+      "6",
+      "9"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認4",
+    "question": "画像に含まれるクラス名として正しいものはどれですか？",
+    "answer": "人物",
+    "choice": [
+      "人物",
+      "図書タイトル番号",
+      "社員",
+      "貸出し実施"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認5",
+    "question": "画像に含まれるクラスの属性として正しいものはどれですか？",
+    "answer": "書名",
+    "choice": [
+      "社員ID",
+      "create",
+      "図書",
+      "書名"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認6",
+    "question": "画像に含まれるクラスの操作として正しいものはどれですか？",
+    "answer": "貸出し実行！",
+    "choice": [
+      "キャンセルする",
+      "本人確認手段",
+      "図書検索",
+      "貸出し実行！"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "関係",
+    "type": "関1",
+    "question": "画像中の「図書」クラスと関連のあるクラスはどれですか？",
+    "answer": "図書貸出",
+    "choice": [
+      "図書館員",
+      "図書利用者",
+      "図書登録番号",
+      "図書貸出"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "関係",
+    "type": "関3",
+    "question": "画像中の「登録利用者」クラスから「貸出予約」クラスを見たときの多重度はいくつですか？",
+    "answer": "0..*",
+    "choice": [
+      "1..*",
+      "1",
+      "0..*",
+      "0..1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "関係",
+    "type": "関6",
+    "question": "画像中の「人物」クラスのサブクラスはどれですか？",
+    "answer": "図書館員",
+    "choice": [
+      "図書貸出",
+      "図書分類",
+      "氏名",
+      "図書館員"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "関係",
+    "type": "関6",
+    "question": "画像中の「登録利用者」が集約されるクラスはどれですか？",
+    "answer": "図書館",
+    "choice": [
+      "利用者",
+      "利用者登録番号",
+      "図書館",
+      "人物"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "関係",
+    "type": "関6",
+    "question": "画像中で図書館と全体-部分の関係にあるのは、どれですか？",
+    "answer": "図書館員",
+    "choice": [
+      "貸出予約",
+      "図書館員",
+      "図書貸出",
+      "人物"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "参1",
+    "question": "画像中の「図書貸出」クラスの属性名はどれですか？",
+    "answer": "貸出し日",
+    "choice": [
+      "図書登録番号",
+      "貸出し実行",
+      "貸出し日",
+      "返却日"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "参2",
+    "question": "画像中の「貸し出し権利あり？」の可視性はどれですか？",
+    "answer": "+",
+    "choice": [
+      "+",
+      "#",
+      "-",
+      "~"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

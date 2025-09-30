@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中の表で値が入っている行数として正しいものはどれですか？",
+    "answer": "6",
+    "choice": [
+      "10",
+      "3",
+      "6",
+      "15"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中の表で値が入っている列数として正しいものはどれですか？",
+    "answer": "6",
+    "choice": [
+      "15",
+      "10",
+      "3",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像中の表で値が入っているセルの数として正しいものはどれですか？",
+    "answer": "36",
+    "choice": [
+      "20",
+      "12",
+      "36",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "表に含まれている行の名前として正しいのはどれですか？",
+    "answer": "とても好き",
+    "choice": [
+      "食べたことない",
+      "大好物",
+      "大嫌い",
+      "とても好き"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "表中の1列目2行目の値として正しいものはどれですか？",
+    "answer": "10",
+    "choice": [
+      "15",
+      "55",
+      "まあ好き",
+      "10"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "その他",
+    "question": "和菓子がとても好きで抹茶が嫌いな人数は何人ですか？",
+    "answer": "2",
+    "choice": [
+      "20",
+      "7",
+      "45",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

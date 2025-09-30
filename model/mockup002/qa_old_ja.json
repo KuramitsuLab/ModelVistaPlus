@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "ジャケットのサイズを選択するボタンの数はいくつですか？",
+    "answer": "4",
+    "choice": [
+      "3",
+      "6",
+      "2",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "「カートに入れる」ボタンは画面のどこに表示されていますか？",
+    "answer": "右下",
+    "choice": [
+      "右下",
+      "左下",
+      "中央",
+      "右上"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれるボタン名として正しいのはどれですか？",
+    "answer": "MEN",
+    "choice": [
+      "MEN",
+      "在庫あり",
+      "サイズ",
+      "SALE"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "このシステムの名称はどれですか？",
+    "answer": "T-FUTURE",
+    "choice": [
+      "V-PAST",
+      "O-NEXT",
+      "V-NOW",
+      "T-FUTURE"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

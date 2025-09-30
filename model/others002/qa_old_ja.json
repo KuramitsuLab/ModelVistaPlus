@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれるエンティティの数はどれですか？",
+    "answer": "7",
+    "choice": [
+      "4",
+      "7",
+      "5",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれるリレーションシップの数はどれですか？",
+    "answer": "7",
+    "choice": [
+      "7",
+      "5",
+      "3",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれる正しいエンティティ名はどれですか？",
+    "answer": "梱包",
+    "choice": [
+      "仕入れ先",
+      "本店",
+      "支店コード",
+      "梱包"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参",
+    "question": "「受注」エンティティのアトリビュートとして、正しいのはどれですか？",
+    "answer": "受注日",
+    "choice": [
+      "支店コード",
+      "受注日",
+      "担当者",
+      "受注ID"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参",
+    "question": "「顧客コード」アトリビュートを保持するエンティティはどれですか？",
+    "answer": "顧客",
+    "choice": [
+      "顧客名",
+      "顧客",
+      "支店",
+      "商品"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "「担当者」エンティティと「受注」エンティティの両方とリレーションシップを持つエンティティはどれですか？",
+    "answer": "梱包",
+    "choice": [
+      "受注明細",
+      "梱包",
+      "支店",
+      "受注ID"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

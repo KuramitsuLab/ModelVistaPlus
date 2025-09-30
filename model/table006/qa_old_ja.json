@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中の表で座席クラスタイプは何種類ありますか？",
+    "answer": "2",
+    "choice": [
+      "2",
+      "7",
+      "10",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中のデータベースのテーブルの画像中の表で値が入っている列数の総数はどれですか？",
+    "answer": "5",
+    "choice": [
+      "2",
+      "1",
+      "8",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "表に含まれている正しい列名はどれですか？",
+    "answer": "時期区分",
+    "choice": [
+      "増減率",
+      "年間推移",
+      "基準値",
+      "時期区分"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "その他",
+    "question": "普通車クラスの加算料金はいくらですか？",
+    "answer": "0円",
+    "choice": [
+      "1000円",
+      "0円",
+      "2000円",
+      "5000円"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "その他",
+    "question": "ピーク1の時期として正しいのはどれですか？",
+    "answer": "4月27日~5月6日",
+    "choice": [
+      "8月20日~8月31日",
+      "12月28日~2月1日",
+      "4月27日~5月6日",
+      "3月25日~4月5日"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "その他",
+    "question": "3月26日に新幹線を利用します。区間の基本料金が5,000円だとして、グリーン車を利用した際の基本運賃として正しいのはどれですか？",
+    "answer": "8,750円",
+    "choice": [
+      "8,750円",
+      "5,000円",
+      "9,000円",
+      "8,500円"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

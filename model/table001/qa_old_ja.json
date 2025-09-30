@@ -1,0 +1,100 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中の表で値が入っている行数として正しいものはどれですか？",
+    "answer": "4",
+    "choice": [
+      "6",
+      "12",
+      "4",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中の表で値が入っている列数として正しいものはどれですか？",
+    "answer": "3",
+    "choice": [
+      "6",
+      "3",
+      "10",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "表中の値が◯であるセル数として正しいものはどれですか？",
+    "answer": "4",
+    "choice": [
+      "5",
+      "3",
+      "6",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "表中の値が△であるセル数として正しいものはどれですか？",
+    "answer": "5",
+    "choice": [
+      "3",
+      "5",
+      "7",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "表中の値が×であるセル数として正しいものはどれですか？",
+    "answer": "3",
+    "choice": [
+      "4",
+      "2",
+      "5",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "表に含まれている正しい列名はどれですか？",
+    "answer": "スクラッチ",
+    "choice": [
+      "ID",
+      "パッケージ(スクラッチ)",
+      "スクラッチ",
+      "適用性"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "表に含まれている正しい行名はどれですか？",
+    "answer": "導入期間",
+    "choice": [
+      "適用範囲",
+      "実装スピード",
+      "パッケージ（ノンカスタマイズ）",
+      "導入期間"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

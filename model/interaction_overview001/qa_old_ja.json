@@ -1,0 +1,44 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるアクティビティの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる制御フローの数はどれですか？",
+    "answer": "6",
+    "choice": [
+      "2",
+      "6",
+      "8",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "画像中の開始ノードの次のアクションはどれですか？",
+    "answer": "書籍管理システムの処理を選択する",
+    "choice": [
+      "書籍管理システムの処理を選択する",
+      "本を借りる",
+      "本を返却する",
+      "蔵書情報を取得する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

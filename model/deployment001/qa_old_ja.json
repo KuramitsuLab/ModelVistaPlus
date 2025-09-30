@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "通信経路の数として正しいものはどれですか？",
+    "answer": "2",
+    "choice": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "ノードの数として正しいものはどれですか？",
+    "answer": "3",
+    "choice": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "コンポーネントの数として正しいものはどれですか？",
+    "answer": "2",
+    "choice": [
+      "4",
+      "2",
+      "5",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "この図に含まれる正しいノード名は何ですか？",
+    "answer": "中央サーバ",
+    "choice": [
+      "クラウドストレージ",
+      "中央サーバ",
+      "データベース",
+      "ローカルサーバ"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "プリンタノードが通信経路でつながっているのはどのノードですか？",
+    "answer": "デスクトップクライアント",
+    "choice": [
+      "ユーザインタフェース",
+      "データベース",
+      "デスクトップクライアント",
+      "中央サーバ"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関2",
+    "question": "「データベース」コンポーネントが配置されているノードはどれですか？",
+    "answer": "中央サーバ",
+    "choice": [
+      "プリンタ",
+      "ユーザインタフェース",
+      "中央サーバ",
+      "データセンター"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

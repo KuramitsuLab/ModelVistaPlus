@@ -1,0 +1,100 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるコンポーネントの種類はいくつですか？",
+    "answer": "5",
+    "choice": [
+      "5",
+      "8",
+      "1",
+      "15"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれるコンポーネント間の関係性を示す線の数はいくつですか？",
+    "answer": "5",
+    "choice": [
+      "1",
+      "9",
+      "2",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "このサービスで使用するサーバの数はいくつですか？",
+    "answer": "2",
+    "choice": [
+      "7",
+      "4",
+      "2",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "この図に含まれるコンポーネントとして正しいのはどれですか？",
+    "answer": "お客様端末",
+    "choice": [
+      "スマートフォン",
+      "ファイアウォール",
+      "お客様端末",
+      "プリンタ"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認6",
+    "question": "クライアントは何を使用してこのサービスを使用しますか？",
+    "answer": "PC",
+    "choice": [
+      "スマートフォン",
+      "PC",
+      "テレビ",
+      "タブレット"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "APサーバとDBサーバの関係として正しいものはどれですか？",
+    "answer": "APサーバはDBサーバと通信し、データのやり取りを行う。",
+    "choice": [
+      "APサーバはDBサーバを介さず、直接お客様端末とやり取りを行う。",
+      "APサーバとDBサーバは独立して動作し、互いに通信しない。",
+      "DBサーバはAPサーバを制御する。",
+      "APサーバはDBサーバと通信し、データのやり取りを行う。"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "AMMデータ管理センタとお客様端末の通信に関しての説明として正しいものはどれですか？",
+    "answer": "インターネットを介してお客様端末と通信を行う。",
+    "choice": [
+      "インターネットを利用せず、LANを使用している。",
+      "お客様端末のみ，インターネットに接続している．",
+      "インターネットを介してお客様端末と通信を行う。",
+      "インターネットを利用せず、直接接続する。"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

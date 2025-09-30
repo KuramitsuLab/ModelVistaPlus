@@ -1,0 +1,100 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中のライフラインの数として正しいものはどれですか？",
+    "answer": "1",
+    "choice": [
+      "7",
+      "1",
+      "2",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像中に含まれる状態の数として正しいものはどれですか？",
+    "answer": "3",
+    "choice": [
+      "6",
+      "1",
+      "4",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像中のメッセージの数として正しいものはどれですか？",
+    "answer": "0",
+    "choice": [
+      "1",
+      "6",
+      "3",
+      "0"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "画像中に含まれるライフライン名として正しいものはどれですか？",
+    "answer": "ATM",
+    "choice": [
+      "使用中",
+      "ATM",
+      "認証完了",
+      "ログイン画面"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "画像中に含まれるイベント名として正しいものはどれですか？",
+    "answer": "取引開始",
+    "choice": [
+      "取引開始",
+      "待機中",
+      "エラー発生",
+      "ATM"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "画像中で使用中の次になる状態はどれですか？",
+    "answer": "待機中",
+    "choice": [
+      "取引終了",
+      "待機中",
+      "認証中",
+      "使用完了"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "画像中で待機中から認証中に状態が切り替わる際に発生するイベントはどれですか？",
+    "answer": "取引開始",
+    "choice": [
+      "認証開始",
+      "認証完了",
+      "認証中",
+      "取引開始"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

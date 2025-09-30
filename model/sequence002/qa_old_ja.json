@@ -1,0 +1,142 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるライフラインの数はどれですか？",
+    "answer": "6",
+    "choice": [
+      "14",
+      "9",
+      "3",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2-1",
+    "question": "画像に含まれる同期メッセージの数はどれですか？",
+    "answer": "6",
+    "choice": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2-2",
+    "question": "画像に含まれる非同期メッセージの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2-3",
+    "question": "画像に含まれるリプライメッセージの数はどれですか？",
+    "answer": "7",
+    "choice": [
+      "3",
+      "1",
+      "5",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれる実行指定の数はどれですか？",
+    "answer": "7",
+    "choice": [
+      "5",
+      "7",
+      "6",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認7",
+    "question": "画像に含まれるライフライン名として正しいのはどれですか？",
+    "answer": "他店券明細",
+    "choice": [
+      "ユーザー",
+      "普通預金登録",
+      "他店券明細",
+      "入金履歴"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認8",
+    "question": "画像に含まれるメッセージ名として正しいのはどれですか？",
+    "answer": "入金",
+    "choice": [
+      "残高照会",
+      "入金",
+      "普通預金入金コントロール",
+      "口座作成"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参2",
+    "question": "入金依頼が送信されたとき、アクティブ中のライフラインはどれですか？",
+    "answer": "普通預金インタフェース",
+    "choice": [
+      "普通預金インタフェース",
+      "普通預金口座",
+      "個人顧客アクター",
+      "個人顧客"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "「入金」リクエストは、どのオブジェクトに送信されますか？",
+    "answer": "普通預金口座",
+    "choice": [
+      "普通預金コントロール",
+      "普通預金口座",
+      "個人顧客",
+      "他店券明細"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "普通預金口座から未記帳に送信されるリクエストはどれですか？",
+    "answer": "未記帳",
+    "choice": [
+      "他店券",
+      "入金依頼",
+      "未記帳",
+      "入金"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

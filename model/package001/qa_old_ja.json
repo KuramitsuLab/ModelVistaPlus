@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるパッケージの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "1",
+      "5",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる依存関係の数はいくつですか？",
+    "answer": "2",
+    "choice": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像内にあるパッケージ名として正しいのはどれですか？",
+    "answer": "ui",
+    "choice": [
+      "data",
+      "controller",
+      "application",
+      "ui"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "serviceの依存先のパッケージはどれですか？",
+    "answer": "domain",
+    "choice": [
+      "domain",
+      "application",
+      "data",
+      "ui"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

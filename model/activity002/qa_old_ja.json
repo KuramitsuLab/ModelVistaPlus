@@ -1,0 +1,170 @@
+[
+  {
+    "tag": "数",
+    "type": "認1",
+    "question": "画像に含まれるパーティションの数はどれですか？",
+    "answer": "4",
+    "choice": [
+      "2",
+      "5",
+      "4",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認2",
+    "question": "画像に含まれるアクションの数はどれですか？",
+    "answer": "10",
+    "choice": [
+      "13",
+      "11",
+      "10",
+      "12"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認3",
+    "question": "画像に含まれる制御フローの数はどれですか？",
+    "answer": "18",
+    "choice": [
+      "17",
+      "15",
+      "18",
+      "14"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認4",
+    "question": "画像に含まれるデシジョンノードの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "0",
+      "3",
+      "2",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認6",
+    "question": "画像内で行われている並行処理の回数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認7",
+    "question": "画像内にあるパーティション名として正しいのはどれですか？",
+    "answer": "配達員",
+    "choice": [
+      "新規の注文を開始する",
+      "商品管理員",
+      "利用者",
+      "配達員"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認8",
+    "question": "画像内にあるアクション名として正しいのはどれですか？",
+    "answer": "注文を梱包する",
+    "choice": [
+      "注文を検品する",
+      "在庫を確認する",
+      "注文を梱包する",
+      "紙幣を投入する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "順序関係",
+    "type": "参1",
+    "question": "開始ノードの直後のアクションはどれですか？",
+    "answer": "新規の注文を開始する",
+    "choice": [
+      "新規の注文を開始する",
+      "決済を済ませる",
+      "注文に品目を追加する",
+      "紙幣を投入する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "順序関係",
+    "type": "参2",
+    "question": "終了ノードの直前のアクションはどれですか？",
+    "answer": "注文を配達する",
+    "choice": [
+      "注文を配達する",
+      "注文を集荷する",
+      "金額を表示する",
+      "決済を済ませる"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "順序関係",
+    "type": "参3",
+    "question": "画像中に含まれる分岐の条件として正しいものはどれですか？",
+    "answer": "追加する品目がない",
+    "choice": [
+      "注文ボタンを押す",
+      "追加する品目がない",
+      "請求を拒否する",
+      "その他"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "順序関係",
+    "type": "関1",
+    "question": "「請求を承認する」アクションの直後のアクションはどれですか？",
+    "answer": "集荷を要求する",
+    "choice": [
+      "発送する",
+      "請求を拒否する",
+      "集荷を要求する",
+      "決済を済ませる"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "順序関係",
+    "type": "関2",
+    "question": "「決済を済ませる」の後に注文金額が利用限度額以上の場合の次の処理はどれですか？",
+    "answer": "請求を拒否する",
+    "choice": [
+      "集荷を要求する",
+      "注文内容を見直す",
+      "請求を拒否する",
+      "請求を承認する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中のデータベースのテーブルの行数の総数はどれですか？",
+    "answer": "15",
+    "choice": [
+      "6",
+      "15",
+      "13",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中のデータベースのテーブルの列数の総数はどれですか？",
+    "answer": "15",
+    "choice": [
+      "3",
+      "15",
+      "8",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像中のデータベースのテーブルの値が入っているセルの総数はどれですか？",
+    "answer": "77",
+    "choice": [
+      "77",
+      "15",
+      "42",
+      "57"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像中のデータベースのテーブルに含まれる列名として正しいものはどれですか？",
+    "answer": "published_at",
+    "choice": [
+      "published_at",
+      "book_name",
+      "user_name",
+      "published_day"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像中のlendingsテーブルに含まれる列名として正しいものはどれですか？",
+    "answer": "returned_at",
+    "choice": [
+      "user_name",
+      "title",
+      "returned_at",
+      "lend_at"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "画像に含まれるテーブルの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "画像中のusersテーブルの2列目3行目の値はどれですか？",
+    "answer": "佐藤 次郎",
+    "choice": [
+      "システム設計の思考法",
+      "hanako@example.com",
+      "山田 太郎",
+      "佐藤 次郎"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "book_idが2のpriceとして正しいのはどれですか？",
+    "answer": "2,000",
+    "choice": [
+      "2,000",
+      "1,980",
+      "ITの基本がわかる本",
+      "2022/12/02"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "画像中のデータベースのうち「現代技術社」が格納されている列名はどれですか？",
+    "answer": "publisher",
+    "choice": [
+      "publisher",
+      "社名",
+      "2",
+      "price"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参2",
+    "question": "画像中の鈴木花子さんが借りた本のタイトルはどれですか？",
+    "answer": "未来のAI",
+    "choice": [
+      "6",
+      "未来のAI",
+      "ITの基本がわかる本",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

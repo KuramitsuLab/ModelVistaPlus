@@ -1,0 +1,72 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるアクティビティの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "4",
+      "2",
+      "1",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる制御フローの数はどれですか？",
+    "answer": "6",
+    "choice": [
+      "8",
+      "3",
+      "9",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "この画像の図はアクティビティ図と何の図の組み合わせですか？",
+    "answer": "コミュニケーション図",
+    "choice": [
+      "シーケンス図",
+      "クラス図",
+      "コミュニケーション図",
+      "ステートマシン図"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "ログイン済みである場合、次のアクションはどれですか？",
+    "answer": "カスタマーサポートシステムへのお問い合わせ",
+    "choice": [
+      "ログイン処理",
+      "図書管理システムでの貸し出し処理",
+      "カスタマーサポートシステムへのお問い合わせ",
+      "トラブルの通知"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関2",
+    "question": "カスタマーサポートシステムへの問い合わせアクション内で、一番最後に送信されるメッセージは何ですか？",
+    "answer": "トラブル解決の通知",
+    "choice": [
+      "トラブル解決の通知",
+      "トラブルの通知",
+      "トラブルの対処完了メッセージ",
+      "トラブル内容の送信"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

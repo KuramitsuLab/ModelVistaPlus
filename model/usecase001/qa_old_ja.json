@@ -1,0 +1,114 @@
+[
+  {
+    "tag": "エンティティの数",
+    "type": "認1",
+    "question": "画像に含まれるユースケースの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "エンティティの数",
+    "type": "認2",
+    "question": "画像に含まれるアクターの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "4",
+      "3",
+      "1",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "エンティティの数",
+    "type": "認3",
+    "question": "画像に含まれる関連の数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認7",
+    "question": "この図に含まれる正しいユースケースはどれですか？",
+    "answer": "チケットを挿入する",
+    "choice": [
+      "チケットを購入する",
+      "バーを開ける",
+      "改札システムの電源を入れる",
+      "チケットを挿入する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認8",
+    "question": "この図に含まれるアクターはどれですか？",
+    "answer": "利用者",
+    "choice": [
+      "社員",
+      "鉄道改札システム",
+      "利用者",
+      "駅員"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認9",
+    "question": "このシステムの名称はどれですか？",
+    "answer": "鉄道改札システム",
+    "choice": [
+      "チケット購入システム",
+      "利用者",
+      "駅内監視システム",
+      "鉄道改札システム"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "システムがユースケース「チケットを挿入する」機能を提供するのはどのアクターに対してですか？",
+    "answer": "利用者",
+    "choice": [
+      "利用者",
+      "社員",
+      "駅員",
+      "鉄道管理システム"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "アクター「利用者」が利用する操作は次のうちどれですか？",
+    "answer": "改札を通過する",
+    "choice": [
+      "改札を通過する",
+      "チケットを購入する",
+      "バーを開ける",
+      "改札システムの電源を入れる"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

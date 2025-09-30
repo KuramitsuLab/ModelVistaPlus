@@ -1,0 +1,128 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるライフラインの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "5",
+      "3",
+      "6",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2-1",
+    "question": "画像に含まれる同期メッセージの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "6",
+      "5",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2-3",
+    "question": "画像に含まれるリプライメッセージの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "6",
+      "4",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれる実行指定の数はどれですか？",
+    "answer": "5",
+    "choice": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認7",
+    "question": "画像に含まれるライフライン名はどれですか？",
+    "answer": "棚",
+    "choice": [
+      "ログイン画面",
+      "検索",
+      "貸出申請",
+      "棚"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認8",
+    "question": "画像に含まれるメッセージ名はどれですか？",
+    "answer": "返却申請",
+    "choice": [
+      "ユーザー",
+      "棚",
+      "ログイン",
+      "返却申請"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参2",
+    "question": "貸出申請が送信されたとき、アクティブなライフラインはどれですか？",
+    "answer": "ユーザー",
+    "choice": [
+      "ユーザー",
+      "検索",
+      "貸出結果",
+      "棚"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "貸出申請のリクエストは、どのオブジェクトに送信されますか？",
+    "answer": "書籍",
+    "choice": [
+      "棚",
+      "書籍",
+      "ユーザー",
+      "貸出申請は送信されない"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "ユーザーから棚に送信されるリクエストはどれですか？",
+    "answer": "検索",
+    "choice": [
+      "検索結果",
+      "貸出申請",
+      "貸出結果",
+      "検索"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "依存関係の数として正しいものはどれですか？",
+    "answer": "6",
+    "choice": [
+      "6",
+      "4",
+      "5",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "ノードの数として正しいものはどれですか？",
+    "answer": "6",
+    "choice": [
+      "4",
+      "7",
+      "10",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "成果物の数として正しいものはどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "コンポーネントの数として正しいものはどれですか？",
+    "answer": "4",
+    "choice": [
+      "1",
+      "4",
+      "3",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "この図に含まれる正しいノード名は何ですか？",
+    "answer": "サブプロセッサ Atmel AVR",
+    "choice": [
+      "Enhanced AVR firmware",
+      "走行プログラム",
+      "メカニズム",
+      "サブプロセッサ Atmel AVR"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "この図に含まれる正しいコンポーネント名は何ですか？",
+    "answer": "UI",
+    "choice": [
+      "センサ・モータ制御プログラム",
+      "NXT Hardware",
+      "走行プログラム",
+      "UI"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "この図に含まれる正しい成果物名は何ですか？",
+    "answer": "センサ・モータ制御プログラム",
+    "choice": [
+      "Enhanced NXT firmware",
+      "メインプロセッサ　Atmel ARM7",
+      "センサ・モータ制御プログラム",
+      "メカニズム"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関2",
+    "question": "メインプロセッサ Atmel ARM7の実行環境は何ですか？",
+    "answer": "Enhanced NXT firmware",
+    "choice": [
+      "デバイスドライバ",
+      "NXT Hardware",
+      "Enhanced NXT firmware",
+      "サブプロセッサ　Atmel AVR"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関3",
+    "question": "センサ・モータ制御プログラムと依存関係にあるのはどれですか？",
+    "answer": "サブプロセッサ Atmel AVR",
+    "choice": [
+      "走行プログラム",
+      "Enhanced NXT firmware",
+      "サブプロセッサ Atmel AVR",
+      "NXT Hardware"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

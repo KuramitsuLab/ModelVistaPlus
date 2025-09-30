@@ -1,0 +1,100 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "構造化分類子の数として正しいものはどれですか？",
+    "answer": "1",
+    "choice": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "パートの数として正しいものはどれですか？",
+    "answer": "4",
+    "choice": [
+      "3",
+      "1",
+      "4",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認5",
+    "question": "提供インターフェースの数として正しいものはどれですか？",
+    "answer": "1",
+    "choice": [
+      "3",
+      "0",
+      "1",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認5",
+    "question": "要求インターフェースの数として正しいものはどれですか？",
+    "answer": "1",
+    "choice": [
+      "0",
+      "3",
+      "2",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "メモリとコネクトされているのはどれですか？",
+    "answer": "マザーボード",
+    "choice": [
+      "CPU",
+      "モニター",
+      "パソコン",
+      "マザーボード"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関2",
+    "question": "画像中に含まれる提供インターフェースとして正しいものはどれですか？",
+    "answer": "モニター",
+    "choice": [
+      "送信",
+      "CPU",
+      "モニター",
+      "キーボード"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関2",
+    "question": "画像中に含まれる要求インターフェースとして正しいものはどれですか？",
+    "answer": "キーボード",
+    "choice": [
+      "モニター",
+      "キーボード",
+      "CPU",
+      "受信"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

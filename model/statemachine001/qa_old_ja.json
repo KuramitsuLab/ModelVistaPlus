@@ -1,0 +1,44 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれる単純状態の数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "4",
+      "3",
+      "7",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる外部遷移の数はどれですか？",
+    "answer": "4",
+    "choice": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "「走行中」から停車すると、どの状態になりますか？",
+    "answer": "初期状態",
+    "choice": [
+      "停車中",
+      "下車",
+      "初期状態",
+      "駐車中"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

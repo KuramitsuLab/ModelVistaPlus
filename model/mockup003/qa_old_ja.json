@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "TOPページ画面に含まれるボタンの数はいくつですか？",
+    "answer": "2",
+    "choice": [
+      "5",
+      "2",
+      "10",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "「送信」ボタンはCONTACTページ画面のどこに表示されていますか？",
+    "answer": "下",
+    "choice": [
+      "右",
+      "中央",
+      "下",
+      "上"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれるボタン名として正しいのはどれですか？",
+    "answer": "Contact",
+    "choice": [
+      "Help",
+      "Cancel",
+      "About",
+      "Contact"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "「Home」ボタンを押すとどの画面に遷移しますか？",
+    "answer": "TOPページ画面",
+    "choice": [
+      "Home画面",
+      "CONTACTページ画面",
+      "TOPページ画面",
+      "送信完了画面"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

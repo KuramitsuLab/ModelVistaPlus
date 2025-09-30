@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるパッケージの数はどれですか？",
+    "answer": "4",
+    "choice": [
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる依存関係の数はいくつですか？",
+    "answer": "4",
+    "choice": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像内にあるパッケージ名として正しいのはどれですか？",
+    "answer": "entitiy",
+    "choice": [
+      "service",
+      "entitiy",
+      "controller",
+      "repository"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "db accessの依存元のパッケージはどれですか？",
+    "answer": "control",
+    "choice": [
+      "control",
+      "service",
+      "entity",
+      "ui"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

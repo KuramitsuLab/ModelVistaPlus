@@ -1,0 +1,100 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるライフラインの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "6",
+      "5",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれるコネクタの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれるメッセージの数はどれですか？",
+    "answer": "4",
+    "choice": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれる同期メッセージの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "4",
+      "2",
+      "5",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれるリプライメッセージの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "画像の最後のシーケンス番号はいくつですか？",
+    "answer": "4",
+    "choice": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "「会員登録画面」ライフラインから「ユーザー」ライフラインに送信されるメッセージは何ですか？",
+    "answer": "登録結果表示",
+    "choice": [
+      "登録結果表示",
+      "登録結果",
+      "情報登録",
+      "情報入力"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

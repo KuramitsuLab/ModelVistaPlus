@@ -1,0 +1,72 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれる画面の数はいくつですか？",
+    "answer": "11",
+    "choice": [
+      "4",
+      "11",
+      "15",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる矢印の数はいくつですか？",
+    "answer": "10",
+    "choice": [
+      "10",
+      "3",
+      "5",
+      "16"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "この図に含まれる画面名として正しいのはどれですか？",
+    "answer": "マイページ画面",
+    "choice": [
+      "特典一覧画面",
+      "よくあるご質問",
+      "マイページ画面",
+      "予約ガイド画面"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "乗客情報入力画面から直接遷移できる画面として正しいのはどれですか？",
+    "answer": "支払い画面",
+    "choice": [
+      "支払い画面",
+      "ログイン画面",
+      "予約確認画面",
+      "サポート画面"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "ホーム画面からマイページ画面に行くには最初に遷移すべきページはどれですか？",
+    "answer": "ログイン画面",
+    "choice": [
+      "座席選択画面",
+      "ログイン画面",
+      "列車検索画面",
+      "サポート画面"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

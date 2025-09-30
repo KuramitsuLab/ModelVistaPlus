@@ -1,0 +1,142 @@
+[
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれるプロセスの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "4",
+      "2",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれるデータストアの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "2",
+      "7",
+      "3",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれる源泉と吸収の数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "4",
+      "7",
+      "2",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれるデータフローの数はどれですか？",
+    "answer": "7",
+    "choice": [
+      "7",
+      "4",
+      "2",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれるプロセス名として正しいものはどれですか？",
+    "answer": "注文受付",
+    "choice": [
+      "顧客",
+      "在庫確認",
+      "注文受付",
+      "受注情報"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれる正しいデータストア名はどれですか？",
+    "answer": "受注情報",
+    "choice": [
+      "商品",
+      "出荷処理",
+      "受注情報",
+      "商品注文"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれる正しい外的要素名はどれですか？",
+    "answer": "物流倉庫",
+    "choice": [
+      "商品注文",
+      "在庫情報",
+      "配送",
+      "物流倉庫"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれる正しいデータフロー名はどれですか？",
+    "answer": "注文入力",
+    "choice": [
+      "注文受付",
+      "受注情報",
+      "返品対応",
+      "注文入力"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "配送指示は「出荷処理」プロセスからどのプロセスに流れるでしょうか？",
+    "answer": "配送",
+    "choice": [
+      "商品配送",
+      "注文受付",
+      "受注情報",
+      "配送"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "「出荷処理」プロセスに流れるデータフローとして正しいものはどれですか？",
+    "answer": "注文データ",
+    "choice": [
+      "配送",
+      "商品注文",
+      "注文データ",
+      "在庫情報"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

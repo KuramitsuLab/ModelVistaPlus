@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるボタンの数はいくつですか？",
+    "answer": "10",
+    "choice": [
+      "16",
+      "20",
+      "10",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "「ログイン」ボタンは画面のどこに表示されていますか？",
+    "answer": "右上",
+    "choice": [
+      "右上",
+      "右下",
+      "左下",
+      "左上"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれるボタン名として正しいのはどれですか？",
+    "answer": "会員登録",
+    "choice": [
+      "キャンセル",
+      "会員登録",
+      "予約",
+      "パスワード再設定"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "このシステムの名称はどれですか？",
+    "answer": "HOTEL SORA",
+    "choice": [
+      "SKY HOTEL",
+      "HOTEL HORIZON",
+      "HINATA INN",
+      "HOTEL SORA"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

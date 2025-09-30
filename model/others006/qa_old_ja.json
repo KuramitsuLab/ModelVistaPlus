@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "",
+    "type": "認",
+    "question": "ガントチャートに含まれる期間として正しいものはどれですか？",
+    "answer": "約2ヶ月",
+    "choice": [
+      "約2日",
+      "約2ヶ月",
+      "約2年",
+      "約2週間"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれる作業内容の数はどれですか？",
+    "answer": "11",
+    "choice": [
+      "8",
+      "11",
+      "15",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれる正しい作業内容はどれですか？",
+    "answer": "結合テスト",
+    "choice": [
+      "受け入れテスト",
+      "設計レビュー",
+      "結合テスト",
+      "単体テスト"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "テスト計画の作成の終了後に開始されるタスクはどれですか？",
+    "answer": "結合テスト",
+    "choice": [
+      "テスト計画の検証",
+      "システムテスト",
+      "結合テスト",
+      "構成テスト"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "構成テストの終了日はどれですか？",
+    "answer": "98/2/17",
+    "choice": [
+      "98/1/23",
+      "98/2/17",
+      "98/2/2",
+      "98/2/1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参",
+    "question": "プロジェクトで最も遅い終了日が設定されているタスクはどれですか？",
+    "answer": "結果の文書化",
+    "choice": [
+      "結果の文書化",
+      "構成テスト",
+      "性能テスト",
+      "結果の文書化"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

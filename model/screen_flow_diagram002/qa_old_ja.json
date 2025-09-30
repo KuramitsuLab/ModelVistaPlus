@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれる画面の数はいくつですか？",
+    "answer": "5",
+    "choice": [
+      "2",
+      "6",
+      "5",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる矢印の数はいくつですか？",
+    "answer": "4",
+    "choice": [
+      "6",
+      "2",
+      "4",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "この図に含まれる画面名として正しいのはどれですか？",
+    "answer": "サービス申し込み",
+    "choice": [
+      "キャンペーンお知らせページ",
+      "サービス申し込み",
+      "ログインページ",
+      "マイページ"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "トップページから直接遷移できる画面として正しいのはどれですか？",
+    "answer": "ニュース一覧",
+    "choice": [
+      "ニュース詳細",
+      "ニュース一覧",
+      "店舗情報ページ",
+      "サービス申し込み"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中の表で値が入っているセルの数として正しいものはどれですか？",
+    "answer": "26",
+    "choice": [
+      "7",
+      "26",
+      "6",
+      "12"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中の表の業務内容の数として正しいものはどれですか？",
+    "answer": "6",
+    "choice": [
+      "6",
+      "2",
+      "3",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "表に含まれている正しい列名はどれですか？",
+    "answer": "業務量",
+    "choice": [
+      "定常",
+      "60件/時間",
+      "業務量",
+      "処理種別"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "表に含まれている正しい業務内容はどれですか？",
+    "answer": "ログインする",
+    "choice": [
+      "搭乗手続きを行う",
+      "ログインする",
+      "パスワードを変更する",
+      "領収書を発行する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "その他",
+    "question": "ログインする業務の定常の業務量は1時間あたりは何件ですか？",
+    "answer": "10件",
+    "choice": [
+      "20件",
+      "10件",
+      "40件",
+      "120件"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像中の表で値が入っている行数として正しいものはどれですか？",
+    "answer": "4",
+    "choice": [
+      "8",
+      "2",
+      "4",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像中の表で値が入っている列数として正しいものはどれですか？",
+    "answer": "5",
+    "choice": [
+      "10",
+      "5",
+      "2",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "値が書かれているセルの数として正しいものはどれですか？",
+    "answer": "10",
+    "choice": [
+      "5",
+      "10",
+      "13",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "表に記載されているUの数として正しいものはどれですか？",
+    "answer": "6",
+    "choice": [
+      "6",
+      "3",
+      "4",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "表に含まれている正しい列名はどれですか？",
+    "answer": "PCの送付",
+    "choice": [
+      "支払い処理",
+      "PCの送付",
+      "PC在庫",
+      "R"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参",
+    "question": "表に含まれている正しい行名はどれですか？",
+    "answer": "PC在庫",
+    "choice": [
+      "PC在庫",
+      "C",
+      "販売情報",
+      "在庫確認"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "「問い合わせチケット」に対して、「調達」業務が行うデータ操作として正しいものはどれですか？",
+    "answer": "Read",
+    "choice": [
+      "Create",
+      "Delete",
+      "Update",
+      "Read"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

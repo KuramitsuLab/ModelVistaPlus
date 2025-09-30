@@ -1,0 +1,114 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるライフラインの数はどれですか？",
+    "answer": "13",
+    "choice": [
+      "18",
+      "13",
+      "7",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれるコネクタの数はどれですか？",
+    "answer": "16",
+    "choice": [
+      "10",
+      "16",
+      "8",
+      "20"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれるメッセージの数はどれですか？",
+    "answer": "19",
+    "choice": [
+      "7",
+      "10",
+      "12",
+      "19"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれる同期メッセージの数はどれですか？",
+    "answer": "18",
+    "choice": [
+      "10",
+      "7",
+      "18",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれるリプライメッセージの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "4",
+      "3",
+      "1",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "画像中の最後のシーケンス番号はいくつですか？",
+    "answer": "5.1",
+    "choice": [
+      "終了する",
+      "5.1",
+      "6.2",
+      "4.2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "「：走行」ライフラインから「左モータ：モータ」ライフラインに送信されるメッセージは何ですか？",
+    "answer": "回転する",
+    "choice": [
+      "電圧を測定する",
+      "回転角度を測定する",
+      "終了する",
+      "回転する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "「検知する」の直前に送信されるメッセージは何ですか？",
+    "answer": "回転する",
+    "choice": [
+      "走行する",
+      "回転する",
+      "電圧を測定する",
+      "終了する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

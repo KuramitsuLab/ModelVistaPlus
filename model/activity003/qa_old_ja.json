@@ -1,0 +1,198 @@
+[
+  {
+    "tag": "数",
+    "type": "認1",
+    "question": "画像に含まれるアクティビティの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "1",
+      "4",
+      "2",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認2",
+    "question": "画像に含まれるアクションの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認3",
+    "question": "画像に含まれる制御フローの数はどれですか？",
+    "answer": "10",
+    "choice": [
+      "10",
+      "9",
+      "6",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認4",
+    "question": "画像に含まれるデシジョンノードの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認4",
+    "question": "画像に含まれるマージノードの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "4",
+      "2",
+      "3",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認5",
+    "question": "画像に含まれるオブジェクトノードの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認6",
+    "question": "画像内で行われている並行処理の回数はどれですか？",
+    "answer": "0",
+    "choice": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認7",
+    "question": "画像内にあるアクティビティ名として正しいのはどれですか？",
+    "answer": "100円両替機",
+    "choice": [
+      "100円両替機",
+      "500円両替機",
+      "紙幣",
+      "ATM"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認8",
+    "question": "画像内にあるアクション名として正しいのはどれですか？",
+    "answer": "投入金を戻す",
+    "choice": [
+      "硬貨",
+      "100円両替機",
+      "1,000円紙幣または500円硬貨",
+      "投入金を戻す"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認8",
+    "question": "画像内にあるオブジェクトノードとして正しいのはどれですか？",
+    "answer": "紙幣",
+    "choice": [
+      "クレジットカード",
+      "100円両替機",
+      "紙幣",
+      "100円硬貨を出す"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "順序関係",
+    "type": "参1",
+    "question": "開始ノードの直後のアクションはどれですか？",
+    "answer": "投入金の種類を判別する",
+    "choice": [
+      "紙幣",
+      "100円硬貨を出す",
+      "投入金の種類を判別する",
+      "1,000円紙幣を出す"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "参3",
+    "question": "画像中に含まれる分岐の条件として正しいものはどれですか？",
+    "answer": "1,000円紙幣または500円硬貨",
+    "choice": [
+      "釣り切れ",
+      "100円硬貨を出す",
+      "1,000円紙幣または500円硬貨",
+      "投入金の種類を判別する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "順序関係",
+    "type": "関1",
+    "question": "「投入金を戻す」アクションの前のアクションはどれですか？",
+    "answer": "投入金の種類を判別する",
+    "choice": [
+      "投入金の種類を判別する",
+      "紙幣",
+      "100円硬貨を出す",
+      "チケットを保存し受付メールを送信"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "順序関係",
+    "type": "関2",
+    "question": "デシジョンノードで100円硬貨を出すアクションを行う際のガードは何ですか？",
+    "answer": "1,000円紙幣または500円硬貨",
+    "choice": [
+      "硬貨が不足している場合",
+      "投入金の種類を判別する",
+      "else",
+      "1,000円紙幣または500円硬貨"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

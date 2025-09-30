@@ -1,0 +1,114 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "構造化分類子の数として正しいものはどれですか？",
+    "answer": "1",
+    "choice": [
+      "2",
+      "1",
+      "4",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "パートの数として正しいものはどれですか？",
+    "answer": "6",
+    "choice": [
+      "5",
+      "4",
+      "7",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "プロパティの数として正しいものはどれですか？",
+    "answer": "1",
+    "choice": [
+      "0",
+      "6",
+      "1",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認5",
+    "question": "要求インターフェースの数として正しいものはどれですか？",
+    "answer": "1",
+    "choice": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認5",
+    "question": "提供インターフェースの数として正しいものはどれですか？",
+    "answer": "1",
+    "choice": [
+      "3",
+      "1",
+      "0",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "タッチパネルとコネクトされているのはどれですか？",
+    "answer": "モデム",
+    "choice": [
+      "ATM",
+      "カードリーダ",
+      "モデム",
+      "セキュリティセンサ"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関2",
+    "question": "画像中に含まれる提供インターフェースとして正しいものはどれですか？",
+    "answer": "送信",
+    "choice": [
+      "外部通信受付",
+      "受信",
+      "ATM",
+      "送信"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関2",
+    "question": "画像中に含まれる要求インターフェースとして正しいものはどれですか？",
+    "answer": "受信",
+    "choice": [
+      "外部通信受付",
+      "送信",
+      "ATM",
+      "受信"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

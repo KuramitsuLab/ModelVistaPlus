@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるオブジェクトの数はどれですか？",
+    "answer": "4",
+    "choice": [
+      "5",
+      "4",
+      "7",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれるリンクの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれるオブジェクト名とクラス名の組み合わせとして正しいものはどれですか？",
+    "answer": "山田さん：社員",
+    "choice": [
+      "山田さん：社員",
+      "：開発部",
+      "佐藤さん：社員",
+      "東京支店：部署"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "「鈴木さん」オブジェクトのクラス名は何ですか？",
+    "answer": "社員",
+    "choice": [
+      "管理者",
+      "部署",
+      "山田さん",
+      "社員"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参2",
+    "question": "「：部署」オブジェクトの「部署名」の属性値はどれですか？",
+    "answer": "”開発部”",
+    "choice": [
+      "”99-9999-9999”",
+      "\"渡辺さん\"",
+      "\"営業部\"",
+      "”開発部”"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "「山田さん：社員」が意味的に繋がりのあるオブジェクトはどれですか？",
+    "answer": "：部署",
+    "choice": [
+      "渡辺さん：社員",
+      "つながっているオブジェクトはない",
+      "：部署",
+      "部署名"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

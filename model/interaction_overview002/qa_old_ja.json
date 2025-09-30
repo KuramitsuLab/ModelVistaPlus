@@ -1,0 +1,72 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるアクティビティの数はどれですか？",
+    "answer": "5",
+    "choice": [
+      "5",
+      "2",
+      "4",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる制御フローの数はどれですか？",
+    "answer": "9",
+    "choice": [
+      "9",
+      "8",
+      "2",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "この画像の図はアクティビティ図と何の図の組み合わせですか？",
+    "answer": "シーケンス図",
+    "choice": [
+      "シーケンス図",
+      "ステートマシン図",
+      "クラス図",
+      "コミュニケーション図"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "画像中の開始ノードの次のアクションはどれですか？",
+    "answer": "会員登録をする",
+    "choice": [
+      "会員がログインする",
+      "会員登録をする",
+      "買い物籠に商品を追加する",
+      "買い物籠の商品を参照する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関2",
+    "question": "画像中の「注文する」アクション内で、「注文を登録する」メッセージの送信元のライフラインとして正しいものはどれですか？",
+    "answer": "注文画面",
+    "choice": [
+      "注文画面",
+      "会員",
+      "ユーザ",
+      "注文管理"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれるパーティションの数はどれですか？",
+    "answer": "4",
+    "choice": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれるプロセスの数はどれですか？",
+    "answer": "6",
+    "choice": [
+      "7",
+      "9",
+      "8",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれる判断の数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "2",
+      "1",
+      "0",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれるデータベースの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "2",
+      "1",
+      "4",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像内にあるパーティション名として正しいのはどれですか？",
+    "answer": "予約照会システム",
+    "choice": [
+      "ホテル予約の電話",
+      "予約照会システム",
+      "ホテル受付",
+      "予約記録"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像内にあるプロセスとして正しいのはどれですか？",
+    "answer": "空室情報を回答",
+    "choice": [
+      "空室情報を回答",
+      "ホテル予約の電話",
+      "予約記録",
+      "空室を探す"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参",
+    "question": "開始の状態はどれですか？",
+    "answer": "ホテル予約の電話",
+    "choice": [
+      "ホテルのネット予約",
+      "空室情報を回答",
+      "オペレーター",
+      "ホテル予約の電話"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "空室がある場合、その直後のプロセスとして正しいのはどれですか？",
+    "answer": "システムに予約情報を送信",
+    "choice": [
+      "お客様に別の宿を提案",
+      "予約記録",
+      "空室情報を回答",
+      "システムに予約情報を送信"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

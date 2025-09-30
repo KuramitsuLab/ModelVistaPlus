@@ -1,0 +1,100 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるコンポーネントの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "0",
+      "1",
+      "3",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる提供インターフェースの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "3",
+      "1",
+      "2",
+      "0"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる要求インターフェースの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "0",
+      "3",
+      "2",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれるポートの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "2",
+      "1",
+      "0",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "この図に含まれる正しいコンポーネント名は何ですか？",
+    "answer": "DBアクセスコンポーネント",
+    "choice": [
+      "ネットワークコンポーネント",
+      "処理結果",
+      "DBアクセスコンポーネント",
+      "データ処理"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "この図に含まれる正しいインターフェース名は何ですか？",
+    "answer": "接続要求",
+    "choice": [
+      "データ処理",
+      "受信",
+      "DBアクセスコンポーネント",
+      "接続要求"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "DBアクセスコンポーネントの提供インタフェースはどれですか？",
+    "answer": "処理結果",
+    "choice": [
+      "接続要求",
+      "データ処理",
+      "処理結果",
+      "処理要求"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

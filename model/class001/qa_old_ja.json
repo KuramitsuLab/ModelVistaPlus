@@ -1,0 +1,114 @@
+[
+  {
+    "tag": "数",
+    "type": "認1",
+    "question": "画像に含まれるクラスの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "1",
+      "9",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認2",
+    "question": "画像に含まれる関連の数はどれですか？",
+    "answer": "0",
+    "choice": [
+      "3",
+      "6",
+      "9",
+      "0"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "数",
+    "type": "認2",
+    "question": "画像に含まれる汎化の数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "0",
+      "2",
+      "4",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認4",
+    "question": "画像に含まれるクラス名として正しいものはどれですか？",
+    "answer": "州内学生",
+    "choice": [
+      "授業料を計算する",
+      "州内学生",
+      "学生数",
+      "社員"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認5",
+    "question": "画像に含まれるクラスの属性として正しいものはどれですか？",
+    "answer": "学生数",
+    "choice": [
+      "授業料を計算する",
+      "学生数",
+      "州内学生",
+      "氏名"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "認識",
+    "type": "認6",
+    "question": "画像に含まれるクラスの操作として正しいものはどれですか？",
+    "answer": "授業料を計算する",
+    "choice": [
+      "ログインする",
+      "州内学生",
+      "授業料を計算する",
+      "単位時間"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "関係",
+    "type": "関1-6",
+    "question": "スーパークラスはどれですか？",
+    "answer": "学生",
+    "choice": [
+      "会社",
+      "学生数",
+      "州内学生",
+      "学生"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "関係",
+    "type": "関1-6",
+    "question": "サブクラスはどれですか？",
+    "answer": "州内学生",
+    "choice": [
+      "州内学生",
+      "単位時間",
+      "社員",
+      "学生"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

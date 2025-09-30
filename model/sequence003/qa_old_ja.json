@@ -1,0 +1,156 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるライフラインの数はどれですか？",
+    "answer": "4",
+    "choice": [
+      "8",
+      "3",
+      "6",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2-1",
+    "question": "画像に含まれる同期メッセージの数はどれですか？",
+    "answer": "6",
+    "choice": [
+      "10",
+      "9",
+      "6",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれる実行指定の数はどれですか？",
+    "answer": "7",
+    "choice": [
+      "4",
+      "6",
+      "7",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれる破棄イベントの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "1",
+      "4",
+      "2",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認5-2",
+    "question": "画像に含まれるオルタナティブの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認7",
+    "question": "画像に含まれるライフライン名はどれですか？",
+    "answer": "：ログイン処理",
+    "choice": [
+      "ログインする",
+      "：セッション管理",
+      "：ログイン処理",
+      "：ログアウト画面"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認8",
+    "question": "画像に含まれるメッセージ名はどれですか？",
+    "answer": "ログイン情報を入力する",
+    "choice": [
+      "会員番号",
+      "認証結果=OK",
+      "ログイン情報を入力する",
+      "ログイン処理"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "破棄されるライフラインはどれですか？",
+    "answer": "：ログイン画面",
+    "choice": [
+      "：ログイン画面",
+      "：ログイン処理",
+      "認証エラー画面へ遷移する",
+      "Aさん：アクター"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参2",
+    "question": "「認証結果=認証する(パスワード)」が送信されたとき、アクティブが開始するライフラインはどれですか？",
+    "answer": "Aさんの会員情報：会員情報",
+    "choice": [
+      "：ログイン画面",
+      "：会員リスト",
+      "：ログイン処理",
+      "Aさんの会員情報：会員情報"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参3",
+    "question": "この図に含まれている結合フラグメントとして正しいものはどれですか？",
+    "answer": "オルタナティブ",
+    "choice": [
+      "ループ",
+      "オプション",
+      "ブレイク",
+      "オルタナティブ"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "「：ログイン画面」から「：ログイン処理」に送信されるリクエストはどれですか？",
+    "answer": "ログインする(会員番号, パスワード)",
+    "choice": [
+      "ログイン情報を入力する(会員情報, パスワード)",
+      "Aさんの会員情報=会員情報を取得する(会員番号)",
+      "認証エラー画面へ遷移する()",
+      "ログインする(会員番号, パスワード)"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

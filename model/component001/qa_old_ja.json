@@ -1,0 +1,100 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるコンポーネントの数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "2",
+      "4",
+      "1",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる委譲コネクタの数はどれですか？",
+    "answer": "0",
+    "choice": [
+      "0",
+      "3",
+      "1",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる提供インターフェースの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "0",
+      "3",
+      "2",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる要求インターフェースの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれるアセンブリコネクタの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "3",
+      "2",
+      "0",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "この図に含まれる正しいコンポーネント名は何ですか？",
+    "answer": "給与管理",
+    "choice": [
+      "ユーザー管理システム",
+      "給与管理",
+      "給与サービス",
+      "サーバー"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関2",
+    "question": "給与管理コンポーネントが接続されているコンポーネント名として正しいものはどれですか？",
+    "answer": "社員",
+    "choice": [
+      "社員",
+      "給与サービス",
+      "給与管理",
+      "ネットワーク"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像中の表で操作者内容の行を除いた行数として正しいものはどれですか？",
+    "answer": "6",
+    "choice": [
+      "6",
+      "3",
+      "10",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像中の表で値が入っている列数として正しいものはどれですか？",
+    "answer": "6",
+    "choice": [
+      "2",
+      "6",
+      "10",
+      "5"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "値が書かれているセルの数として正しいものはどれですか？",
+    "answer": "36",
+    "choice": [
+      "26",
+      "57",
+      "10",
+      "36"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "表に記載されている操作後の状態の数として正しいものはどれですか？",
+    "answer": "13",
+    "choice": [
+      "3",
+      "23",
+      "36",
+      "13"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "表に含まれている正しい列名はどれですか？",
+    "answer": "申請",
+    "choice": [
+      "作成中",
+      "複製",
+      "申請",
+      "拒否"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参",
+    "question": "表に含まれている操作後の状態として正しい値はどれですか？",
+    "answer": "承認待ち",
+    "choice": [
+      "申請中",
+      "削除待ち",
+      "承認待ち",
+      "新規作成"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "承認待ち状態が発生する操作はどれですか？",
+    "answer": "申請",
+    "choice": [
+      "申請",
+      "新規作成",
+      "作成中",
+      "削除"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "作成中の状態で使用者が編集を行った場合、どの状態に遷移しますか？",
+    "answer": "作成中",
+    "choice": [
+      "作成中",
+      "編集中",
+      "物理削除",
+      "承認待ち"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "「物理削除」状態になる前の操作として正しいものはどれですか？",
+    "answer": "削除",
+    "choice": [
+      "作成中",
+      "削除",
+      "編集",
+      "削除済"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "「物理削除」状態になる前の状態として正しいものはどれですか？",
+    "answer": "作成中",
+    "choice": [
+      "削除済",
+      "削除",
+      "承認待ち",
+      "作成中"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

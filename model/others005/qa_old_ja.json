@@ -1,0 +1,72 @@
+[
+  {
+    "tag": "",
+    "type": "認",
+    "question": "ガントチャートに含まれる期間として正しいものはどれですか？",
+    "answer": "5ヶ月",
+    "choice": [
+      "5ヶ月",
+      "4週間",
+      "2日",
+      "1ヶ月"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認",
+    "question": "画像に含まれるタスク内容として正しいものはどれですか？",
+    "answer": "CMレビュー",
+    "choice": [
+      "ベンダーバックアップ計画期限",
+      "CMレビュー",
+      "CM作成",
+      "CM撮影"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "CMレビューが計画されている頻度として最も適切なものはどれですか？",
+    "answer": "週1回実施",
+    "choice": [
+      "週1回実施",
+      "月1回実施",
+      "毎月の第2週に実施",
+      "毎月の第1週に実施"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "ベンダーバックアップ計画期限が設定されているのはどのタイミングですか？",
+    "answer": "2ヶ月目",
+    "choice": [
+      "4ヶ月目",
+      "2ヶ月目",
+      "3ヶ月目",
+      "5ヶ月目"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関",
+    "question": "CMプロセス改善ミッションは5ヶ月の間で何回開催されますか？",
+    "answer": "2回",
+    "choice": [
+      "7回",
+      "19回",
+      "2回",
+      "1回"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

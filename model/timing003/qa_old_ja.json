@@ -1,0 +1,100 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像中のライフラインの数として正しいものはどれですか？",
+    "answer": "1",
+    "choice": [
+      "5",
+      "3",
+      "1",
+      "0"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像中に含まれる状態の総数として正しいものはどれですか？",
+    "answer": "4",
+    "choice": [
+      "5",
+      "7",
+      "4",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像中のメッセージの数として正しいものはどれですか？",
+    "answer": "0",
+    "choice": [
+      "1",
+      "2",
+      "0",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "画像中に含まれるライフライン名として正しいものはどれですか？",
+    "answer": "ATM",
+    "choice": [
+      "認証中",
+      "ログイン画面",
+      "一定時間操作なし",
+      "ATM"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "画像中に含まれる状態名として正しいものはどれですか？",
+    "answer": "使用中",
+    "choice": [
+      "一定時間操作なし",
+      "操作中",
+      "ATM",
+      "使用中"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "画像中で認証中の次になる状態はどれですか？",
+    "answer": "待機移行中",
+    "choice": [
+      "待機移行中",
+      "認証完了",
+      "ユーザが操作を行う",
+      "使用中"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "その他",
+    "question": "画像中の「一定時間操作なし」の一定時間とはどれくらいですか？",
+    "answer": "60秒",
+    "choice": [
+      "3分",
+      "60秒",
+      "2t秒",
+      "10秒"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

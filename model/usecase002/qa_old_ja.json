@@ -1,0 +1,198 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるユースケースの数はどれですか？",
+    "answer": "5",
+    "choice": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれるアクターの数はどれですか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれる関連の数はどれですか？",
+    "answer": "5",
+    "choice": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "画像に含まれる包含の数はどれですか？",
+    "answer": "2",
+    "choice": [
+      "7",
+      "5",
+      "6",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認5",
+    "question": "画像に含まれる拡張の数はどれですか？",
+    "answer": "0",
+    "choice": [
+      "0",
+      "2",
+      "1",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認6",
+    "question": "この画像の汎化の説明として正しいものはどれですか？",
+    "answer": "アクターの汎化は含まれるが、ユースケースの汎化は含まれていない",
+    "choice": [
+      "ユースケースの汎化は含まれるが、アクターの汎化は含まれていない",
+      "アクターの汎化もユースケースの汎化も含まれていない",
+      "アクターの汎化もユースケースの汎化も含まれる",
+      "アクターの汎化は含まれるが、ユースケースの汎化は含まれていない"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認7",
+    "question": "この図に含まれる正しいユースケースはどれですか？",
+    "answer": "通帳を記入する",
+    "choice": [
+      "ATM",
+      "通帳を記入する",
+      "振込依頼者",
+      "カードを挿入する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認8",
+    "question": "この図に含まれる正しいアクターはどれですか？",
+    "answer": "他銀行",
+    "choice": [
+      "銀行社員",
+      "通帳を記入する",
+      "他銀行",
+      "ATM管理者"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認9",
+    "question": "このシステムの名称はどれですか？",
+    "answer": "ATM",
+    "choice": [
+      "オンラインバンキング",
+      "ATM",
+      "口座管理システム",
+      "暗証番号を入力する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "システムがユースケース「通帳を記入する」機能を提供するのはどのアクターに対してですか？",
+    "answer": "預金者",
+    "choice": [
+      "他銀行",
+      "振込依頼者",
+      "預金者",
+      "利用者"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "アクター「振込依頼者」が直接行う操作は次のうちどれですか？",
+    "answer": "口座振込（振替）を依頼する",
+    "choice": [
+      "暗証番号を入力する",
+      "預金者",
+      "口座振込（振替）を依頼する",
+      "通帳を記入する"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関2",
+    "question": "「預金を引き出す」ユースケースと「口座振込（振替）を依頼する」ユースケースが包含しているユースケースはどれですか？",
+    "answer": "暗証番号を入力する",
+    "choice": [
+      "カードを挿入する",
+      "通帳を記入する",
+      "暗証番号を入力する",
+      "預金を引き出す"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関2",
+    "question": "「暗証番号を記入する」ユースケースが包含されているユースケースの組み合わせで正しいものはどれですか？",
+    "answer": "「預金を引き出す」と「口座振込（振替）を依頼する」",
+    "choice": [
+      "「預金を引き出す」と「口座振込（振替）を依頼する」",
+      "「振込依頼者」と「預金者」",
+      "「預金を預け入れる」と「口座振込（振替）を依頼する」",
+      "「預金を引き出す」と「通帳を記入する」"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関3",
+    "question": "画像中のアクターに関する説明として正しいものはどれですか？",
+    "answer": "「預金者」は「振込依頼者」の汎化である",
+    "choice": [
+      "「他銀行」は「振込依頼者」の特化である",
+      "「暗証番号を入力する」は「預金を引き出す」の汎化である",
+      "「預金者」は「振込依頼者」の汎化である",
+      "「振込依頼者」は「預金者」の汎化である"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

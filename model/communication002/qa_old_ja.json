@@ -1,0 +1,128 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるライフラインの数はどれですか？",
+    "answer": "6",
+    "choice": [
+      "9",
+      "5",
+      "8",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれるコネクタの数はどれですか？",
+    "answer": "7",
+    "choice": [
+      "7",
+      "6",
+      "9",
+      "8"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれるメッセージの数はどれですか？",
+    "answer": "9",
+    "choice": [
+      "8",
+      "7",
+      "6",
+      "9"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれる同期メッセージの数はどれですか？",
+    "answer": "4",
+    "choice": [
+      "7",
+      "3",
+      "6",
+      "4"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれる非同期メッセージの数はどれですか？",
+    "answer": "4",
+    "choice": [
+      "4",
+      "5",
+      "3",
+      "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "画像に含まれるリプライメッセージの数はどれですか？",
+    "answer": "1",
+    "choice": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参1",
+    "question": "画像の最後のシーケンス番号はいくつですか？",
+    "answer": "6",
+    "choice": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "「下り側：列車判別装置」ライフラインから「下り側：遮断機」ライフラインに送信されるメッセージ名は何ですか？",
+    "answer": "遮断機を下ろす",
+    "choice": [
+      "5b",
+      "列車種別を伝える",
+      "警報を鳴らす",
+      "遮断機を下ろす"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "「列車種別を伝える」の次に送信されるメッセージ名は何ですか？",
+    "answer": "遮断時間を伝える",
+    "choice": [
+      "遮断時間を伝える",
+      "警報を鳴らす",
+      "列車判別装置",
+      "遮断機を下ろす"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "コラボレーションの数として正しいものはどれですか？",
+    "answer": "1",
+    "choice": [
+      "1",
+      "3",
+      "2",
+      "0"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "コラボレーション使用の数として正しいものはどれですか？",
+    "answer": "2",
+    "choice": [
+      "5",
+      "2",
+      "1",
+      "3"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認6",
+    "question": "コラボレーションロールの数として正しいものはどれですか？",
+    "answer": "3",
+    "choice": [
+      "2",
+      "3",
+      "5",
+      "1"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "1号機：ATMの依頼先はどれですか？",
+    "answer": "はなまる銀行預金システム",
+    "choice": [
+      "現金管理システム",
+      "はなまる銀行預金システム",
+      "振込業務システム",
+      "引出し業務システム"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

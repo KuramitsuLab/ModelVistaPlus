@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれるコンポーネントの種類はいくつですか？",
+    "answer": "10",
+    "choice": [
+      "3",
+      "6",
+      "10",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれるコンポーネント間の関係性を示す線の数はいくつですか？",
+    "answer": "10",
+    "choice": [
+      "15",
+      "3",
+      "5",
+      "10"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認3",
+    "question": "このサービスで使用するサーバの数はいくつですか？",
+    "answer": "4",
+    "choice": [
+      "4",
+      "2",
+      "7",
+      "10"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認4",
+    "question": "この図に含まれるコンポーネントとして正しいのはどれですか？",
+    "answer": "ルータ",
+    "choice": [
+      "プリンタ",
+      "スマートフォン",
+      "ファイアウォール",
+      "ルータ"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認6",
+    "question": "クライアントは何を使用してこのサービスを使用しますか？",
+    "answer": "PC",
+    "choice": [
+      "PC",
+      "スマートウォッチ",
+      "タブレット",
+      "スマートフォン"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "ログ出力はどこから出力されますか？",
+    "answer": "ファイルサーバ",
+    "choice": [
+      "クライアントPC",
+      "APサーバ",
+      "ファイルサーバ",
+      "Webサーバ"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "tag": "",
+    "type": "認1",
+    "question": "画像に含まれる単純状態の数はどれですか？",
+    "answer": "5",
+    "choice": [
+      "8",
+      "5",
+      "6",
+      "7"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "認2",
+    "question": "画像に含まれる外部遷移の数はどれですか？",
+    "answer": "13",
+    "choice": [
+      "15",
+      "16",
+      "13",
+      "14"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参3",
+    "question": "開始状態の直後の状態はどれですか？",
+    "answer": "初期設定中",
+    "choice": [
+      "資質設定中",
+      "初期設定中",
+      "待機中",
+      "交戦中"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "参4",
+    "question": "終了状態の直前の状態はどれですか？",
+    "answer": "待機中",
+    "choice": [
+      "交戦中",
+      "資質設定中",
+      "待機中",
+      "セーブ中"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "",
+    "type": "関1",
+    "question": "報告中の状態から敵キャラクタがエリアに入ると、どの状態になりますか？",
+    "answer": "交戦中",
+    "choice": [
+      "待機中",
+      "交戦中",
+      "資質設定中",
+      "警戒中"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  }
+]

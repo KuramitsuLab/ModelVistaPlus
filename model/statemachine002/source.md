@@ -1,6 +1,7 @@
-```
+
 ## Mermaid
 
+```
 stateDiagram-v2
     direction LR
     [*] --> 停止中 : システム起動
@@ -26,3 +27,21 @@ stateDiagram-v2
 
 ## PlantUML
 
+```
+@startuml
+left to right direction
+
+state "Stopped" as Stopped
+state "Parked" as Parked
+state "Driving" as Driving
+
+[*] --> Stopped : System Start
+Stopped --> Parked : Engine Off
+Stopped --> Driving : Start Driving
+Driving --> Stopped : Stop
+Driving --> Driving : Accelerate/Decelerate
+Parked --> Stopped : Engine On
+Parked --> [*] : System Shutdown
+
+@enduml
+```

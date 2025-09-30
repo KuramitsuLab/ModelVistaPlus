@@ -1,0 +1,30 @@
+{
+    "title": "Use Case: Customer Management",
+    "url":"https://www.ogis-ri.co.jp/otc/hiroba/UMLTutorial/analysis/do_work/dowork1_1.html",
+    "tag": ["UML", "usecase"],
+    "features": "基本的な図",
+    "elements": {
+        "textbox": 6,
+        "actor": 4,
+        "usecase": 2,
+        "association": 5,
+        "system": 0
+    },
+    "overview_counts": {
+        "entities": 6,
+        "relationships": 5
+    },
+    "download_en.png":{
+        "drawing_method": "download",
+        "lang": "jp",
+        "text": [
+            "顧客係",
+            "注文を登録する",
+            "顧客情報管理システム",
+            "在庫情報管理システム",
+            "注文を照会する",
+            "配送事務係"
+        ],
+        "text_count": 0
+    }
+}

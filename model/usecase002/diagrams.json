@@ -1,0 +1,82 @@
+{
+    "tag": [
+        "UML",
+        "usecase"
+    ],
+    "starndard": "UML",
+    "features": "基礎的な図、アクターがアイコン",
+    "elements": {
+        "entities": 9,
+        "relations": 8,
+        "textbox": 11,
+        "actor": 3,
+        "usecase": 5,
+        "association": 8,
+        "system": 1
+    },
+    "source": "unknown",
+    "OCR": [
+        {
+            "lang": "ja", 
+            "text": [
+                "ATM",
+                "暗証番号を入力する",
+                "預金を引き出す",
+                "預金を預け入れる",
+                "通帳を記入する",
+                "口座振込（振替）を依頼する",
+                "預金者",
+                "振込依頼者",
+                "他銀行"
+            ],
+            "text_count": 69
+        },
+        {
+            "lang": "en",
+            "text": [
+                "ATM",
+                "Enter PIN",
+                "Withdraw Money",
+                "Deposit Money",
+                "Update Passbook",
+                "Request Account Transfer (Remittance)",
+                "Depositor",
+                "Remittance Requester",
+                "Other Bank"
+            ],
+            "text_count": 141
+        }
+    ],
+    "files": [
+        {
+            "file": "powerpoint_ja-fs8.png",
+            "drawing_method": "powerpoint",
+            "lang": "ja"
+        },
+        {
+            "file": "powerpoint_en-fs8.png",
+            "drawing_method": "powerpoint",
+            "lang": "en"
+        },
+        {
+            "file": "dgplantuml_ja-fs8.png",
+            "drawing_method": "plantuml",
+            "lang": "ja"
+        },
+        {
+            "file": "dgplantuml_en-fs8.png",
+            "drawing_method": "plantuml",
+            "lang": "en"
+        },
+        {
+            "file": "dgwhiteboard_ja-fs8.png",
+            "drawing_method": "whiteboard",
+            "lang": "ja"
+        },
+        {
+            "file": "dghandwritten_ja-fs8.png",
+            "drawing_method": "handwritten",
+            "lang": "ja"
+        }
+    ]
+}

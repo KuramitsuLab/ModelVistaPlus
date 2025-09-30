@@ -1,0 +1,16 @@
+[
+    {
+        "tag": "図種類",
+        "question": "この図の種類は何ですか？",
+        "answer": "ユースケース図",
+        "choice": [
+            "ユースケース図",
+            "クラス図",
+            "シーケンス図",
+            "アクティビティ図"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+
+]

@@ -1,0 +1,14 @@
+{
+    "tag": "エンティティの数",
+    "type": "認2",
+    "question": "この図に含まれるアクターの数は？",
+    "answer": "1",
+    "choice": [
+        "4",
+        "3",
+        "1",
+        "2"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+}

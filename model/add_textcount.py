@@ -2,7 +2,7 @@
 import os, json, re, sys, collections
 
 # ===== 設定 =====
-INPUT_JSON = "ModelVista_new20250927_edited.json"  # 図ごとの問題配列（ここから画像中の文字数を取る）
+INPUT_JSON = "ModelVista_new20250927_edited.json"  # 図ごとの問題配列（ここからこの図中の文字数を取る）
 MODEL_ROOT = "/Users/obarayui/Git/ModelVistaPlus/model"                                # image.json があるルート
 DRY_RUN    = False                                   # True: 変更内容だけ表示 / False: 実際に書き込み
 TARGET_IDS = None                                   # 例: {"usecase001","class003"}  None=全image_id
@@ -11,7 +11,7 @@ TARGET_IDS = None                                   # 例: {"usecase001","class0
 if not os.path.exists(INPUT_JSON):
     print(f"[ERROR] {INPUT_JSON} が見つかりません"); sys.exit(1)
 
-# ===== 元データ読み込み（image_id -> 画像中の文字数）=====
+# ===== 元データ読み込み（image_id -> この図中の文字数）=====
 with open(INPUT_JSON, "r", encoding="utf-8") as f:
     data = json.load(f)
 
@@ -20,14 +20,14 @@ if isinstance(data, dict):
 elif not isinstance(data, list):
     print("[ERROR] 入力JSONのトップは配列/オブジェクトである必要があります"); sys.exit(1)
 
-# image_id ごとに最初に見つかった「画像中の文字数」を採用
+# image_id ごとに最初に見つかった「この図中の文字数」を採用
 textcount_by_image = collections.OrderedDict()
 for it in data:
     img = (it.get("image_id") or "").strip()
     if not img:
         continue
-    if img not in textcount_by_image and "画像中の文字数" in it:
-        val = it["画像中の文字数"]
+    if img not in textcount_by_image and "この図中の文字数" in it:
+        val = it["この図中の文字数"]
         # 数字っぽければ int に、それ以外は文字列のまま
         try:
             val = int(str(val).strip())
@@ -62,7 +62,7 @@ for image_id, tc in textcount_by_image.items():
     before = json.dumps(meta, ensure_ascii=False)
 
     # *.png セクションに text_count を追加
-    # - *_ja.png は text_count = tc（画像中の文字数）
+    # - *_ja.png は text_count = tc（この図中の文字数）
     # - それ以外の *.png は、text_count が未設定なら 0 を追加（既存あれば尊重）
     changed = False
     for k in list(meta.keys()):

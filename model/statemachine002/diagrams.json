@@ -1,0 +1,88 @@
+{
+    "tag": [
+        "UML",
+        "state machine diagram"
+    ],
+    "starndard": "UML",
+    "elements": {
+        "entities": 3,
+        "relations": 4,
+        "textbox": 7,
+        "states": 4,
+        "events": 4
+    },
+    "source": "unknown",
+    "OCR": [
+        {
+            "lang": "ja", 
+            "text": [
+                    "駐車中", 
+                    "初期状態", 
+                    "初期化",
+                    "走行中", 
+                    "進行", 
+                    "下車", 
+                    "停車"
+            ],
+            "text_count": 0
+        },
+        {
+            "lang": "en",
+            "text": [
+                "Stopped",
+                "System Start",
+                "Parked",
+                "Engine Off",
+                "Driving",
+                "Start Driving",
+                "Stop",
+                "Accelerate/Decelerate",
+                "Engine On",
+                "System Shutdown"
+            ],
+            "text_count": 0
+        }
+    ],
+    "files": [
+        {
+            "file": "mermaid_ja-fs8.png",
+            "drawing_method": "mermaid",
+            "lang": "ja"
+        },
+        {
+            "file": "mermaid_en-fs8.png",
+            "drawing_method": "mermaid",
+            "lang": "en"
+        },
+        {
+            "file": "powerpoint_ja-fs8.png",
+            "drawing_method": "powerpoint",
+            "lang": "ja"
+        },
+        {
+            "file": "powerpoint_en-fs8.png",
+            "drawing_method": "powerpoint",
+            "lang": "en"
+        },
+        {
+            "file": "dgplantuml_ja-fs8.png",
+            "drawing_method": "plantuml",
+            "lang": "ja"
+        },
+        {
+            "file": "dgplantuml_en-fs8.png",
+            "drawing_method": "plantuml",
+            "lang": "en"
+        },
+        {
+            "file": "dgwhiteboard_ja-fs8.png",
+            "drawing_method": "whiteboard",
+            "lang": "ja"
+        },
+        {
+            "file": "dghandwritten_ja-fs8.png",
+            "drawing_method": "handwritten",
+            "lang": "ja"
+        }
+    ]
+}

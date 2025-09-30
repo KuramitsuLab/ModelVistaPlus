@@ -1,7 +1,6 @@
 [
   {
-    "tag": "",
-    "type": "認1",
+    "tag": "計数 状態",
     "question": "この図に含まれる単純状態の数は？",
     "answer": "3",
     "choice": [
@@ -14,93 +13,34 @@
     "is_translated": false
   },
   {
-    "tag": "",
-    "type": "認2",
-    "question": "この図に含まれる外部遷移の数は？",
+    "tag": "計数 状態遷移",
+    "question": "この図に含まれる状態遷移の数は？",
     "answer": "11",
     "choice": [
+      "11",
       "4",
       "7",
-      "9",
-      "11"
+      "9"
     ],
     "authored_by": "human",
     "is_translated": false
   },
   {
-    "tag": "",
-    "type": "参1",
-    "question": "湯沸し中の状態で行われるentryアクションはどれですか？",
-    "answer": "湯沸しランプを点灯する",
-    "choice": [
-      "保温中",
-      "湯沸しランプを点灯する",
-      "湯を沸かす",
-      "保温ランプを点灯する"
-    ],
-    "authored_by": "human",
-    "is_translated": false
-  },
-  {
-    "tag": "",
-    "type": "参1",
-    "question": "保温中の状態で行われるexitアクションはどれですか？",
-    "answer": "保温ランプを点灯する",
-    "choice": [
-      "湯沸しランプを点灯する",
-      "保温する",
-      "湯沸し中",
-      "保温ランプを点灯する"
-    ],
-    "authored_by": "human",
-    "is_translated": false
-  },
-  {
-    "tag": "",
-    "type": "参1",
-    "question": "湯沸しの状態で行われるdoアクティビティはどれですか？",
-    "answer": "湯を沸かす",
-    "choice": [
-      "湯を沸かす",
-      "湯沸しランプを点灯する",
-      "保温する",
-      "湯沸し完了"
-    ],
-    "authored_by": "human",
-    "is_translated": false
-  },
-  {
-    "tag": "",
-    "type": "参3",
-    "question": "開始状態の直後の状態はどれですか？",
-    "answer": "待機中",
-    "choice": [
-      "保温中",
-      "電源OFF",
-      "待機中",
-      "湯沸し中"
-    ],
-    "authored_by": "human",
-    "is_translated": false
-  },
-  {
-    "tag": "",
-    "type": "関1",
+    "tag": "探索 状態",
     "question": "湯沸しが完了するとどの状態になりますか？",
     "answer": "保温中",
     "choice": [
-      "湯沸し中",
-      "湯沸しランプを消灯する",
       "保温中",
+      "湯沸し中",
+      "終了状態",
       "待機中"
     ],
     "authored_by": "human",
     "is_translated": false
   },
   {
-    "tag": "",
-    "type": "関1",
-    "question": "「湯沸し中」から「待機中」に遷移する時に起こるエフェクトはどれですか？",
+    "tag": "探索 イベント",
+    "question": "「湯沸し中」から「待機中」に遷移する時に起こるイベントは？",
     "answer": "上蓋が開いた",
     "choice": [
       "湯を沸かす",
@@ -112,8 +52,7 @@
     "is_translated": false
   },
   {
-    "tag": "",
-    "type": "関2",
+    "tag": "探索 状態",
     "question": "保温中の状態で水位が基準以外の時の時、どの状態に遷移しますか？",
     "answer": "湯沸し中",
     "choice": [

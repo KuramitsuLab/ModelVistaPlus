@@ -1,0 +1,198 @@
+[
+  {
+    "tag": "計数 状態",
+    "question": "この図に含まれる第2階層のサブ状態（Q1_1, Q2_1など）の総数は？",
+    "answer": "25",
+    "choice": [
+      "20",
+      "25",
+      "30",
+      "22"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "計数 イベント",
+    "question": "この図に含まれる全イベント（E1～E47）の総数は？",
+    "answer": "47",
+    "choice": [
+      "45",
+      "47",
+      "50",
+      "42"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "遷移 階層内",
+    "question": "Q1内のサブ状態Q1_1からE6で直接遷移する先は？",
+    "answer": "Q1_4",
+    "choice": [
+      "Q1_2",
+      "Q1_3",
+      "Q1_4",
+      "Q2_1"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "遷移 階層間",
+    "question": "イベントE32によってQ1から遷移する先の複合状態は？",
+    "answer": "Q2",
+    "choice": [
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "遷移 最短経路",
+    "question": "Q1からQ3へ直接遷移するために必要なイベントは？",
+    "answer": "E37",
+    "choice": [
+      "E32",
+      "E33",
+      "E37",
+      "E44"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "遷移 終了",
+    "question": "終了状態[*]へ遷移できる複合状態の数は？",
+    "answer": "3",
+    "choice": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "遷移 サイクル",
+    "question": "Q2内でサブ状態Q2_1に戻るために必要な最小イベント数は？",
+    "answer": "2",
+    "choice": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "計数 遷移",
+    "question": "Q4内のサブ状態から発生する遷移（階層内のみ）の総数は？",
+    "answer": "7",
+    "choice": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "遷移 逆方向",
+    "question": "Q5からQ1へ直接戻るためのイベントは？",
+    "answer": "E36",
+    "choice": [
+      "E35",
+      "E36",
+      "E40",
+      "E44"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "遷移 初期状態",
+    "question": "Q3に入った時の初期サブ状態は？",
+    "answer": "Q3_1",
+    "choice": [
+      "Q3_1",
+      "Q3_2",
+      "Q3_3",
+      "Q3_4"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "計数 複合状態",
+    "question": "第1階層に含まれる複合状態（Q1～Q5）の総数は？",
+    "answer": "5",
+    "choice": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "遷移 クロス",
+    "question": "Q2からQ5へ直接遷移するイベントは？",
+    "answer": "E43",
+    "choice": [
+      "E38",
+      "E41",
+      "E43",
+      "E33"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "遷移 複数経路",
+    "question": "Q1からQ4へ遷移する方法は何通りあるか？",
+    "answer": "2",
+    "choice": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "計数 サブ状態",
+    "question": "Q4内のサブ状態数は？",
+    "answer": "5",
+    "choice": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  },
+  {
+    "tag": "遷移 特定経路",
+    "question": "Q3_2からE18で遷移する先は？",
+    "answer": "Q3_1",
+    "choice": [
+      "Q3_1",
+      "Q3_3",
+      "Q3_4",
+      "Q2_1"
+    ],
+    "authored_by": "ai",
+    "is_translated": false
+  }
+]
+

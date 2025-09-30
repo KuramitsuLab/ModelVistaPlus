@@ -1,0 +1,142 @@
+[
+  {
+    "tag": "図種類",
+    "question": "このような図は何と呼ばれますか？",
+    "answer": "状態遷移図",
+    "choice": [
+      "状態遷移図",
+      "アクティビティ図",
+      "フローチャート",
+      "シーケンス図"
+    ],
+    "authored_by": "human",
+    "is_translated": false
+  },
+  {
+    "tag": "探索 状態",
+    "question": "「走行中」から「停車」イベントが発生すると、どの状態になりますか？",
+    "answer": "停止中",
+    "choice": [
+      "停止中",
+      "駐車中",
+      "走行中",
+      "システム終了"
+    ],
+    "authored_by": "AI",
+    "is_translated": false
+  },
+  {
+    "tag": "探索 状態",
+    "question": "システム起動時に最初に遷移する状態はどれですか？",
+    "answer": "停止中",
+    "choice": [
+      "停止中",
+      "駐車中",
+      "走行中",
+      "エンジン停止"
+    ],
+    "authored_by": "AI",
+    "is_translated": false
+  },
+  {
+    "tag": "探索 状態",
+    "question": "システム終了イベントが発生可能な状態はどれですか？",
+    "answer": "駐車中",
+    "choice": [
+      "駐車中",
+      "停止中",
+      "走行中",
+      "すべての状態"
+    ],
+    "authored_by": "AI",
+    "is_translated": false
+  },
+  {
+    "tag": "探索 状態",
+    "question": "「加速/減速」イベントが発生したとき、遷移する状態は？",
+    "answer": "走行中",
+    "choice": [
+      "走行中",
+      "停止中",
+      "駐車中",
+      "加速中/減速中"
+    ],
+    "authored_by": "AI",
+    "is_translated": false
+  },
+  {
+    "tag": "順序",
+    "question": "「駐車中」から「走行中」へ遷移するために必要なイベントの順序として正しいものはどれですか？",
+    "choice": [
+      "エンジン始動 → 発進",
+      "発進 → エンジン始動",
+      "停車 → 発進",
+      "エンジン停止 → 発進"
+    ],
+    "authored_by": "AI",
+    "is_translated": false
+  },
+  {
+    "tag": "探索 状態遷移",
+    "question": "「エンジン停止」イベントが発生すると、どの状態からどの状態へ遷移しますか？",
+    "choice": [
+      "停止中から駐車中",
+      "走行中から駐車中",
+      "駐車中から停止中",
+      "走行中から停止中"
+    ],
+    "authored_by": "AI",
+    "is_translated": false
+  },
+  {
+    "tag": "計数 状態",
+    "question": "この状態遷移図には、通常の状態（初期状態と終了状態を除く）はいくつありますか？",
+    "answer": "3",
+    "choice": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "authored_by": "AI",
+    "is_translated": false
+  },
+  {
+    "tag": "計数 状態",
+    "question": "「停止中」から直接遷移できる状態はいくつありますか？",
+    "answer": "2",
+    "choice": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "authored_by": "AI",
+    "is_translated": false
+  },
+  {
+    "tag": "探索 状態遷移",
+    "question": "「発進」イベントが発生すると、どの状態からどの状態へ遷移しますか？",
+    "choice": [
+      "停止中から走行中",
+      "駐車中から走行中",
+      "走行中から停止中",
+      "駐車中から停止中"
+    ],
+    "authored_by": "AI",
+    "is_translated": false
+  },
+  {
+    "tag": "最小数",
+    "question": "「走行中」から「駐車中」へ遷移するために必要な最小イベント数はいくつですか？",
+    "answer": "2",
+    "choice": [
+      "2",
+      "1",
+      "3",
+      "0"
+    ],
+    "authored_by": "AI",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,72 @@
+{
+    "tag": [
+        "UML",
+        "state machine diagram"
+    ],
+    "starndard": "UML",
+    "elements": {
+        "entities": 5,
+        "relations": 11,
+        "textbox": 14,
+        "states": 5,
+        "events": 5,
+        "transitions": 11
+    },
+    "source": "unknown",
+    "OCR": [
+        {
+            "lang": "ja", 
+            "text": [
+            ],
+            "text_count": 0
+        },
+        {
+            "lang": "en",
+            "text": [
+            ],
+            "text_count": 0
+        }
+    ],
+    "files": [
+        {
+            "file": "mermaid_ja-fs8.png",
+            "drawing_method": "mermaid",
+            "lang": "ja"
+        },
+        {
+            "file": "mermaid_en-fs8.png",
+            "drawing_method": "mermaid",
+            "lang": "en"
+        },
+        {
+            "file": "powerpoint_ja-fs8.png",
+            "drawing_method": "powerpoint",
+            "lang": "ja"
+        },
+        {
+            "file": "powerpoint_en-fs8.png",
+            "drawing_method": "powerpoint",
+            "lang": "en"
+        },
+        {
+            "file": "dgplantuml_ja-fs8.png",
+            "drawing_method": "plantuml",
+            "lang": "ja"
+        },
+        {
+            "file": "dgplantuml_en-fs8.png",
+            "drawing_method": "plantuml",
+            "lang": "en"
+        },
+        {
+            "file": "dgwhiteboard_ja-fs8.png",
+            "drawing_method": "whiteboard",
+            "lang": "ja"
+        },
+        {
+            "file": "dghandwritten_ja-fs8.png",
+            "drawing_method": "handwritten",
+            "lang": "ja"
+        }
+    ]
+}

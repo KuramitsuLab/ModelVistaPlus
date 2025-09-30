@@ -38,8 +38,19 @@
     ],
     "text_count": 27
   },
-  "handwritten_ja.png": {
-    "drawing_method": "handwritten",
+  "plantuml_en-fs8.png": {
+    "drawing_method": "plantuml",
+    "lang": "en",
+    "text": [
+      "Railway Ticket Gate System",
+      "User",
+      "Insert Ticket",
+      "Pass Through Gate"
+    ],
+    "text_count": 0
+  },
+  "plantuml_ja-fs8.png": {
+    "drawing_method": "plantuml",
     "lang": "ja",
     "text": [
       "鉄道改札システム",

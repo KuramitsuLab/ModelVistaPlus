@@ -1,0 +1,37 @@
+{
+    "title": "Use Case: Online Shopping System",
+    "url":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lucidchart.com%2Fpages%2Fja%2Fuml-use-case-diagram&psig=AOvVaw1CZejciXIBIThak-jNqd10&ust=1759304245790000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKjU5ZX9_48DFQAAAAAdAAAAABAR",
+    "tag": ["UML", "usecase"],
+    "features": "基本的な図",
+    "elements": {
+        "textbox": 12,
+        "actor": 5,
+        "usecase": 4,
+        "association": 12,
+        "system": 1
+    },
+    "overview_counts": {
+        "entities": 10,
+        "relationships": 12
+    },
+    "download_en.png":{
+        "drawing_method": "download",
+        "lang": "en",
+        "text": [
+            "Customer",
+            "Online Shopping System",
+            "View items",
+            "include",
+            "Make purchase",
+            "include",
+            "Complete checkout",
+            "Log in",
+            "service",
+            "Authentication",
+            "Identify Provider",
+            "Credit Payment Service",
+            "PayPal"
+        ],
+        "text_count": 0
+    }
+}

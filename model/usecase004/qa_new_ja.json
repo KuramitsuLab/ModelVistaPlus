@@ -1,0 +1,262 @@
+[
+    {
+        "tag": "図種類",
+        "question": "この図の種類は何ですか？",
+        "answer": "ユースケース図",
+        "choice": [
+            "ユースケース図",
+            "クラス図",
+            "シーケンス図",
+            "アクティビティ図"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "アクター数",
+        "question": "この図に登場するアクター（外部システムを除く）の数は？",
+        "answer": "5",
+        "choice": [
+            "5",
+            "7",
+            "3",
+            "9"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "外部システム",
+        "question": "この図に含まれる外部システムアクターの数は？",
+        "answer": "4",
+        "choice": [
+            "4",
+            "1",
+            "3",
+            "5"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "パッケージ構造",
+        "question": "システムはいくつの主要パッケージに分類されていますか？",
+        "answer": "6",
+        "choice": [
+            "6",
+            "4",
+            "5",
+            "7"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "関係性理解",
+        "question": "「コードをプッシュ」と「自動ビルド実行」の関係を表すUML関係は？",
+        "answer": "include",
+        "choice": [
+            "include",
+            "extend",
+            "generalization",
+            "association"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "関係性理解",
+        "question": "「自動ビルド実行」と「コードカバレッジ測定」の関係を表すUML関係は？",
+        "answer": "extend",
+        "choice": [
+            "include",
+            "extend",
+            "generalization",
+            "dependency"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "デプロイ戦略",
+        "question": "「カナリアデプロイ実行」と「本番環境デプロイ」の関係を表すUML関係は？",
+        "answer": "generalization",
+        "choice": [
+            "include",
+            "extend",
+            "generalization",
+            "aggregation"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "アクター権限",
+        "question": "「シークレット管理」ユースケースにアクセスできるアクターの組み合わせはどれですか？",
+        "answer": "DevOpsエンジニアとセキュリティ監査者",
+        "choice": [
+            "開発者とDevOpsエンジニア",
+            "DevOpsエンジニアとセキュリティ監査者",
+            "QAエンジニアとセキュリティ監査者",
+            "全てのアクター"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "承認フロー",
+        "question": "本番環境デプロイの承認に必要なアクターは誰ですか？",
+        "answer": "プロダクトオーナーとセキュリティ監査者",
+        "choice": [
+            "DevOpsエンジニアのみ",
+            "QAエンジニアのみ",
+            "プロダクトオーナーとセキュリティ監査者",
+            "開発者とDevOpsエンジニア"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "テスト階層",
+        "question": "「E2Eテスト実行」の前提となるテストは何ですか？",
+        "answer": "統合テスト実行",
+        "choice": [
+            "単体テスト実行",
+            "統合テスト実行",
+            "パフォーマンステスト実行",
+            "静的コード解析"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "品質管理",
+        "question": "「品質ゲート評価」が依存するユースケースはどれですか？",
+        "answer": "コードカバレッジ測定と脆弱性スキャン",
+        "choice": [
+            "静的コード解析のみ",
+            "コードカバレッジ測定のみ",
+            "コードカバレッジ測定と脆弱性スキャン",
+            "全ての品質管理ユースケース"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "デプロイ依存関係",
+        "question": "「本番環境デプロイ」が必須で依存するユースケースはどれですか？",
+        "answer": "ビルドアーティファクト管理とデプロイ承認管理",
+        "choice": [
+            "自動ビルド実行のみ",
+            "ビルドアーティファクト管理のみ",
+            "ビルドアーティファクト管理とデプロイ承認管理",
+            "ステージング環境デプロイ"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "外部連携",
+        "question": "「失敗通知受信」ユースケースと連携する外部システムはどれですか？",
+        "answer": "Slackボット",
+        "choice": [
+            "GitHubWebhook",
+            "Slackボット",
+            "コンテナレジストリ",
+            "Kubernetesクラスタ"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "アクター役割",
+        "question": "最も多くのユースケースに関与しているアクターは誰ですか？",
+        "answer": "DevOpsエンジニア",
+        "choice": [
+            "開発者",
+            "DevOpsエンジニア",
+            "QAエンジニア",
+            "セキュリティ監査者"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "パッケージ内容",
+        "question": "「ビルド・テスト」パッケージに含まれるユースケースはいくつありますか？",
+        "answer": "7つ",
+        "choice": [
+            "5つ",
+            "6つ",
+            "7つ",
+            "8つ"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "セキュリティ",
+        "question": "セキュリティ監査者が関与する品質管理系のユースケースはどれですか？",
+        "answer": "脆弱性スキャン、ライセンスチェック、品質ゲート評価",
+        "choice": [
+            "静的コード解析のみ",
+            "脆弱性スキャンのみ",
+            "脆弱性スキャン、ライセンスチェック、品質ゲート評価",
+            "全ての品質管理ユースケース"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "デプロイ戦略種類",
+        "question": "図中に示されているデプロイ戦略（本番環境デプロイを含む）はいくつありますか？",
+        "answer": "4つ",
+        "choice": [
+            "2つ",
+            "3つ",
+            "4つ",
+            "5つ"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "ビルドプロセス",
+        "question": "「自動ビルド実行」が必須で実行する（includeで依存する）処理はどれですか？",
+        "answer": "単体テスト実行と静的コード解析",
+        "choice": [
+            "単体テスト実行のみ",
+            "静的コード解析のみ",
+            "単体テスト実行と静的コード解析",
+            "全てのテスト"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "監視機能",
+        "question": "「監視・通知」パッケージに含まれるユースケースはいくつありますか？",
+        "answer": "5つ",
+        "choice": [
+            "3つ",
+            "4つ",
+            "5つ",
+            "6つ"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    },
+    {
+        "tag": "Kubernetes連携",
+        "question": "Kubernetesクラスタと連携するユースケースはどれですか？",
+        "answer": "本番環境デプロイとロールバック実行",
+        "choice": [
+            "本番環境デプロイのみ",
+            "ロールバック実行のみ",
+            "本番環境デプロイとロールバック実行",
+            "全てのデプロイ系ユースケース"
+        ],
+        "authored_by": "human",
+        "is_translated": false
+    }
+]

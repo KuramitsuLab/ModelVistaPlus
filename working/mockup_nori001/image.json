@@ -1,0 +1,38 @@
+{
+    "title": "Mockup: Map App",
+    "url":"https://miro.com/ja/mockup/what-is-a-mockup/",
+    "tag": ["mockup"],
+    "features": "スマホ画面",
+    "elements": {
+        "screen": 3,
+        "textbox": 5,
+        "button": 14
+    },
+    "overview_counts": {
+        "entities": 3,
+        "relationships": 2
+    },
+    "download_en.png":{
+        "drawing_method": "download",
+        "lang": "en",
+        "text": [
+        "Sign UP",
+        "Name",
+        "kristin",
+        "Email",
+        "kristin.johnson1996@yahoo.com",
+        "Password",
+        "**************",
+        "Sign In",
+        "or use one of your social profiles",
+        "Twitter",
+        "Facebook",
+        "Sign In",
+        "Hi Kristin,where would you like to go?",
+        "National Park",
+        "137 results",
+        "Kenai Fjords National Park, Alaska",
+        "The Harding Icefield, which is actually composed of 40 glaciers, is the star attraction in Kenai Fjords National Park. And to skip the Harding Icefield Trail....."
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+@startuml
+title Create ECT Ticket: Basic Scenario
+skinparam ActivityBorderRoundCorner 8
+skinparam activity {
+  BackgroundColor White
+  BorderColor Black
+}
+
+|Service Desk (Actor)|
+start
+:Start Ticket Creation;
+
+|System|
+:1. Display Inquiry Type Menu;
+
+|Service Desk (Actor)|
+:2. Specify "PC Usage Registration" as Inquiry Type;
+
+|System|
+:3. Display PC Usage Registration Ticket Form;
+
+|Service Desk (Actor)|
+:4. Enter PC Usage Registration Details;
+
+|System|
+:5. Display Confirmation of Entered Information;
+
+|Service Desk (Actor)|
+:6. Enter Destination Information and Confirm Ticket;
+
+|System|
+:7. Save Ticket and Send Acknowledgement Email;
+
+|Service Desk (Actor)|
+stop
+:Ticket Creation Completed;
+@enduml

@@ -1,0 +1,24 @@
+@startuml 100円両替機
+
+title 100円両替機
+
+start
+
+fork
+  :紙幣;
+fork again
+  :硬貨;
+end fork
+
+:投入金の種類を
+判別する;
+
+if () then ([1,000円紙幣または500円硬貨])
+  :100円硬貨を出す;
+else ([else])
+  :投入金を戻す;
+endif
+
+stop
+
+@enduml

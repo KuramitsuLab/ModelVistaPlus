@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "この図において、「データ処理」が直接依存している処理はどれか？",
+    "choice": [
+      "DB接続処理",
+      "処理要求",
+      "処理結果",
+      "接続要求"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "DBアクセスコンポーネントが外部に対して返却するものは何か？",
+    "choice": [
+      "処理結果",
+      "接続要求",
+      "処理要求",
+      "DB接続処理"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この図が示すアーキテクチャ上の特徴として最も適切なものはどれか？",
+    "choice": [
+      "処理が階層的に分離されている",
+      "全ての処理が並列実行される",
+      "データ処理がDB接続処理の下位に位置する",
+      "処理要求と接続要求が同一である"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "「処理要求」を起点として、最終的にコンポーネント外部へ送信されるものは何か？",
+    "choice": [
+      "接続要求",
+      "処理要求",
+      "データ処理",
+      "DBアクセスコンポーネント"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "この図から読み取れる処理の流れとして正しいものはどれか？",
+    "choice": [
+      "上から下への一方向の流れ",
+      "下から上への一方向の流れ",
+      "双方向の循環する流れ",
+      "左右に分岐する並列の流れ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "DBアクセスコンポーネント内に含まれる処理として正しいものはどれか？",
+    "choice": [
+      "データ処理とDB接続処理",
+      "処理要求と処理結果",
+      "接続要求と処理結果",
+      "処理要求と接続要求"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この設計において、データベースへのアクセスを担当する箇所はどれか？",
+    "choice": [
+      "DB接続処理",
+      "データ処理",
+      "処理要求",
+      "処理結果"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "「処理結果」を生成するために必要な入力として最も直接的なものはどれか？",
+    "choice": [
+      "処理要求",
+      "接続要求",
+      "DB接続処理",
+      "DBアクセスコンポーネント"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "この図におけるDBアクセスコンポーネントの入力ポイントはいくつあるか？",
+    "choice": [
+      "2つ",
+      "1つ",
+      "3つ",
+      "4つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "コンポーネント内で最初に実行される処理として適切なものはどれか？",
+    "choice": [
+      "データ処理",
+      "DB接続処理",
+      "処理結果の返却",
+      "接続要求の送信"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

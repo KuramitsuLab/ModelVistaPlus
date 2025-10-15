@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "この図のシステムにおいて、センサ・モータ制御プログラムが実行されるハードウェアはどれか？",
+    "choice": [
+      "サブプロセッサ Atmel AVR",
+      "メインプロセッサ Atmel ARM7",
+      "Enhanced NXT firmware",
+      "NXT Hardware全体"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "走行プログラムと各コンポーネント（UI、走破戦略など）を接続するために使用されているものは何か？",
+    "choice": [
+      "manifest",
+      "deploy",
+      "execution environment",
+      "device"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "メインプロセッサ上で走行プログラムを実行するために必要な実行環境は何か？",
+    "choice": [
+      "Enhanced NXT firmware",
+      "Atmel ARM7",
+      "センサ・モータ制御プログラム",
+      "サブプロセッサ Atmel AVR"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "走行プログラムがmanifestで直接接続していないコンポーネントはどれか？",
+    "choice": [
+      "サブプロセッサ Atmel AVR",
+      "UI",
+      "走破戦略",
+      "デバイスドライバ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "この図において、deployの関係が示されているアーティファクトの組み合わせとして正しいものはどれか？",
+    "choice": [
+      "走行プログラムとセンサ・モータ制御プログラムの2つ",
+      "走行プログラムのみ",
+      "センサ・モータ制御プログラムのみ",
+      "UI、走破戦略、デバイスドライバ、メカニズムの4つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "NXT Hardwareに含まれるデバイスとして図に明示されているプロセッサの数はいくつか？",
+    "choice": [
+      "2つ",
+      "1つ",
+      "3つ",
+      "4つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "この図の構成において、センサやモータが正常に動作しなくなった場合、最も直接的に影響を受けるプログラムはどれか？",
+    "choice": [
+      "センサ・モータ制御プログラム",
+      "UI",
+      "走破戦略",
+      "デバイスドライバ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "Enhanced NXT firmwareが実行されるハードウェアとして図に示されているものはどれか？",
+    "choice": [
+      "メインプロセッサ Atmel ARM7",
+      "サブプロセッサ Atmel AVR",
+      "NXT Hardware全体",
+      "走行プログラム"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "図に示されているコンポーネントのうち、manifestによって走行プログラムと接続されているものはいくつあるか？",
+    "choice": [
+      "4つ",
+      "2つ",
+      "3つ",
+      "5つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "メインプロセッサとサブプロセッサが別々のプログラムを実行する構成において、開発時に考慮すべき最も重要なリスクはどれか？",
+    "choice": [
+      "2つのプロセッサ間の通信や同期の問題",
+      "UIコンポーネントの表示速度",
+      "走破戦略の複雑性",
+      "デバイスドライバのバグ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

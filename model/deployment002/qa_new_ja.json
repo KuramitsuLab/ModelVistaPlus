@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "クライアントマシン上でMailChecker.jarを実行するために必要な実行環境はどれか？",
+    "choice": [
+      "JRE",
+      "Linux",
+      ".NET Framework",
+      "Python"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "拡張性",
+    "question": "この図から読み取れるサーバとクライアントの接続関係として最も適切なものはどれか？",
+    "choice": [
+      "1台のサーバに複数のクライアントが接続可能",
+      "1台のクライアントに複数のサーバが接続可能",
+      "サーバとクライアントは1対1の関係",
+      "複数のサーバに複数のクライアントが接続可能"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "サーバマシンのexecutionEnvironmentとして指定されているOSはどれか？",
+    "choice": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "UNIX"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "この構成におけるサーバマシンの障害が与える影響として最も適切なものはどれか？",
+    "choice": [
+      "接続している全てのクライアントがメール機能を利用できなくなる",
+      "一部のクライアントのみが影響を受ける",
+      "クライアント側で自動的にフェイルオーバーされる",
+      "他のサーバが自動的に処理を引き継ぐ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "サーバマシン上でメール受信機能を提供しているコンポーネントはどれか？",
+    "choice": [
+      "pop",
+      "sendmail",
+      "MailChecker.jar",
+      "Mailer.exe"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "Mailer.exeの実行ファイル形式から推測される想定実行環境として最も適切なものはどれか？",
+    "choice": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "クロスプラットフォーム"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "クライアントマシンに配置されているコンポーネントの組み合わせとして正しいものはどれか？",
+    "choice": [
+      "MailChecker.jarとMailer.exe",
+      "sendmailとpop",
+      "MailChecker.jarとsendmail",
+      "Mailer.exeとpop"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "サーバマシン上でメール送信機能を提供しているコンポーネントはどれか？",
+    "choice": [
+      "sendmail",
+      "pop",
+      "MailChecker.jar",
+      "Mailer.exe"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "この図に描かれているデバイス間の接続における多重度として正しいものはどれか？",
+    "choice": [
+      "サーバ側が1、クライアント側が*（多）",
+      "サーバ側が*（多）、クライアント側が1",
+      "両側とも1",
+      "両側とも*（多）"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "クライアントマシンに異なる形式の実行ファイル（jarとexe）が混在していることから懸念される開発上の課題として最も適切なものはどれか？",
+    "choice": [
+      "異なる実行環境への対応と保守が必要になる",
+      "メモリ使用量が必ず増加する",
+      "ネットワーク帯域が不足する",
+      "データベース接続が複雑化する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

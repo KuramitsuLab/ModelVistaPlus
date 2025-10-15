@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "この図において、最も多くのコンポーネントが直接接続されている中心的な部品はどれか？",
+    "choice": [
+      "マザーボード",
+      "CPU",
+      "メモリ",
+      "ハードディスク"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "モニターとキーボードが接続されている先として、図から読み取れる直接の接続先はどれか？",
+    "choice": [
+      "マザーボードへの接続ポート",
+      "CPU",
+      "メモリ",
+      "ハードディスク"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "図から読み取れる構成において、CPUとメモリが動作するために必ず必要となる部品はどれか？",
+    "choice": [
+      "マザーボード",
+      "ハードディスク",
+      "モニター",
+      "キーボード"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この図で「パソコン」という枠の外側に配置されているコンポーネントはどれか？",
+    "choice": [
+      "モニターとキーボード",
+      "メモリとCPU",
+      "マザーボードとハードディスク",
+      "CPUとハードディスク"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "メモリとCPUが共通して接続されている部品はどれか？",
+    "choice": [
+      "マザーボード",
+      "ハードディスク",
+      "モニター",
+      "キーボード"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "図において、内部コンポーネントとして「パソコン」の枠内に配置されているものはいくつあるか？",
+    "choice": [
+      "4つ",
+      "2つ",
+      "3つ",
+      "5つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "この構成図において、ハードディスクが接続されている先はどれか？",
+    "choice": [
+      "マザーボード",
+      "CPU",
+      "メモリ",
+      "接続ポート"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "図の構成から、マザーボードに障害が発生した場合に影響を受けないコンポーネントはどれか？",
+    "choice": [
+      "該当なし（すべて影響を受ける）",
+      "モニター",
+      "ハードディスク",
+      "メモリ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "図において、ユーザーが直接操作する入力デバイスとして示されているものはどれか？",
+    "choice": [
+      "キーボード",
+      "マザーボード",
+      "CPU",
+      "ハードディスク"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "この図の構成において、マザーボードと直接接続されていないコンポーネントはどれか？",
+    "choice": [
+      "該当なし（すべて接続されている）",
+      "CPU",
+      "メモリ",
+      "ハードディスク"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

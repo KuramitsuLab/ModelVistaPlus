@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "この画面のヘッダーに表示されているカテゴリとして正しくないものはどれか？",
+    "choice": [
+      "ADULT",
+      "MEN",
+      "WOMEN",
+      "KIDS"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "商品のサイズ選択で利用できるオプションの組み合わせとして正しいものはどれか？",
+    "choice": [
+      "S、M、L、XL",
+      "XS、S、M、L",
+      "S、M、L、XXL",
+      "M、L、XL、XXL"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "商品画像を切り替えるために使用されるUI要素はどれか？",
+    "choice": [
+      "左右の矢印ボタン",
+      "ドロップダウンメニュー",
+      "スワイプジェスチャー",
+      "ページネーション"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "画面に表示されている商品の価格として正しいものはどれか？",
+    "choice": [
+      "¥3,980（税込）",
+      "¥3,980（税抜）",
+      "¥4,980（税込）",
+      "¥2,980（税込）"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "「カートに入れる」ボタンが目立つ色（オレンジ）で配置されている理由として最も適切なものはどれか？",
+    "choice": [
+      "購入アクションを促すため",
+      "ページの美観を損なうため",
+      "他のボタンと区別しにくくするため",
+      "テキストを読みにくくするため"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "「カートに入れる」ボタンをクリックする前に選択が必要な項目として正しくないものはどれか？",
+    "choice": [
+      "配送先住所",
+      "カラー",
+      "サイズ",
+      "数量"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "ヘッダーに配置されているアイコンで、お気に入り機能を表すものはどれか？",
+    "choice": [
+      "ハートアイコン",
+      "虫眼鏡アイコン",
+      "カートアイコン",
+      "ユーザーアイコン"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "この画面の実装時に考慮すべきリスクとして正しいものはどれか？",
+    "choice": [
+      "選択した組み合わせが在庫切れの場合の処理",
+      "商品名の表示",
+      "カテゴリの選択",
+      "ヘッダーの配置"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "その他",
+    "question": "この画面に表示されているサイト名はどれか？",
+    "choice": [
+      "T-FUTURE",
+      "HOTEL SORA",
+      "Flickly",
+      "CONTACT"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "画面に表示されている在庫状況として正しいものはどれか？",
+    "choice": [
+      "在庫あり",
+      "在庫なし",
+      "予約受付中",
+      "入荷待ち"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

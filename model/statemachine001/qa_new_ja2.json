@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "「進行」イベントが発生可能な前提状態はどれか?",
+    "choice": [
+      "初期状態",
+      "駐車中",
+      "走行中",
+      "任意の状態"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "走行中から駐車中に遷移する際、必ず経由しなければならない状態はどれか?",
+    "choice": [
+      "初期状態",
+      "直接遷移可能",
+      "一時停止状態",
+      "準備状態"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "駐車中から初期状態に遷移するためのイベントはどれか?",
+    "choice": [
+      "初期化",
+      "進行",
+      "停車",
+      "下車"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "この状態マシンにおいて単一障害点となり得る状態はどれか?",
+    "choice": [
+      "初期状態",
+      "駐車中",
+      "走行中",
+      "全ての状態が同等"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "「停車」イベントを発生させるために必要な前提状態はどれか?",
+    "choice": [
+      "走行中",
+      "初期状態",
+      "駐車中",
+      "任意の状態"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "初期状態から遷移可能な状態の組み合わせとして正しいものはどれか?",
+    "choice": [
+      "駐車中と走行中",
+      "駐車中のみ",
+      "走行中のみ",
+      "遷移不可"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "走行中状態から初期状態に戻るためのイベントはどれか?",
+    "choice": [
+      "停車",
+      "下車",
+      "初期化",
+      "進行"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この状態マシンで管理される状態の総数はいくつか?",
+    "choice": [
+      "3つ",
+      "2つ",
+      "4つ",
+      "5つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "「進行」イベントが失敗した場合、システムが留まる状態はどれか?",
+    "choice": [
+      "初期状態",
+      "駐車中",
+      "走行中",
+      "エラー状態"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "駐車中と走行中の状態間を移動する際の制約として正しいものはどれか?",
+    "choice": [
+      "必ず初期状態を経由する",
+      "直接遷移可能",
+      "停車イベントで直接遷移",
+      "下車イベントで直接遷移"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "この図に表示されているページの数として正しいものはどれか？",
+    "choice": [
+      "2ページ（TOPとCONTACT）",
+      "1ページ",
+      "3ページ",
+      "4ページ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "お問い合わせフォームで入力できる項目として正しくないものはどれか？",
+    "choice": [
+      "電話番号",
+      "お名前",
+      "E-mailアドレス",
+      "お問い合わせ内容"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "TOPページからCONTACTページに遷移するために使用される要素はどれか？",
+    "choice": [
+      "「お問い合わせはこちら」リンク",
+      "Homeボタン",
+      "ハンバーガーメニュー",
+      "送信ボタン"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "CONTACTページからTOPページに戻るために使用される要素はどれか？",
+    "choice": [
+      "Homeボタン",
+      "送信ボタン",
+      "お問い合わせはこちらリンク",
+      "Flicklyロゴ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この図が示すデザインで想定されているデバイスとして最も適切なものはどれか？",
+    "choice": [
+      "スマートフォン",
+      "デスクトップPC",
+      "タブレット",
+      "スマートウォッチ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "その他",
+    "question": "両方のページに共通して表示されているサイト名はどれか？",
+    "choice": [
+      "Flickly",
+      "T-FUTURE",
+      "HOTEL SORA",
+      "CONTACT"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "TOPページに表示されている主要なビジュアル要素はどれか？",
+    "choice": [
+      "建物の画像",
+      "商品の画像",
+      "地図",
+      "グラフ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "お問い合わせフォームの実装時に考慮すべき検証として正しいものはどれか？",
+    "choice": [
+      "メールアドレスの形式チェック",
+      "画像のサイズチェック",
+      "ページ遷移の速度",
+      "ロゴの配置"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "この図が示すページ構成の特徴として正しいものはどれか？",
+    "choice": [
+      "TOPとCONTACTが相互にリンクしている",
+      "一方向のリンクのみ",
+      "リンクが存在しない",
+      "3つ以上のページ間でリンクしている"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "お問い合わせフォームで入力完了後に実行されるアクションはどれか？",
+    "choice": [
+      "送信ボタンをクリックする",
+      "Homeボタンをクリックする",
+      "ハンバーガーメニューを開く",
+      "ロゴをクリックする"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

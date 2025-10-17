@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "ユーザーからのアクセスを複数のEC2インスタンスに分散する役割を担うコンポーネントはどれか？",
+    "choice": [
+      "Elastic Load Balancing",
+      "Amazon CloudFront",
+      "Amazon RDS",
+      "Amazon CloudWatch"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "負荷に応じてEC2インスタンス数を自動調整する機能を提供するコンポーネントはどれか？",
+    "choice": [
+      "Auto Scaling group",
+      "Elastic Load Balancing",
+      "Amazon CloudWatch",
+      "Amazon Route 53"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "全てのEC2インスタンスが接続するデータベースサービスはどれか？",
+    "choice": [
+      "Amazon RDS",
+      "Amazon S3",
+      "Amazon CloudWatch",
+      "Elastic Load Balancing"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "CloudFrontが配信するコンテンツの保存先として正しいものはどれか？",
+    "choice": [
+      "Amazon S3",
+      "Amazon EC2",
+      "Amazon RDS",
+      "Elastic Load Balancing"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "この図から判断して単一障害点となる可能性が最も高いコンポーネントはどれか？",
+    "choice": [
+      "Amazon RDS",
+      "Amazon EC2",
+      "Elastic Load Balancing",
+      "Amazon CloudWatch"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "EC2インスタンスの監視を行うコンポーネントはどれか？",
+    "choice": [
+      "Amazon CloudWatch",
+      "Amazon Route 53",
+      "Amazon S3",
+      "Auto Scaling group"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この図が示すアーキテクチャの可用性を高めている要素として正しいものはどれか？",
+    "choice": [
+      "Auto Scaling group内の複数EC2インスタンス",
+      "CloudFrontのみ",
+      "Route 53のみ",
+      "RDSのみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "ユーザーがRoute 53を経由してアクセスする直接の接続先はどれか？",
+    "choice": [
+      "Elastic Load Balancing",
+      "Amazon EC2",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "Elastic Load Balancingに障害が発生した場合の影響として最も適切なものはどれか？",
+    "choice": [
+      "全てのEC2インスタンスへのアクセスが不可",
+      "CloudFrontのみ影響",
+      "RDSのみ影響",
+      "CloudWatchのみ影響"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "Auto Scaling group内に配置されるコンポーネントとして正しいものはどれか？",
+    "choice": [
+      "複数のAmazon EC2インスタンス",
+      "Amazon RDS",
+      "Amazon CloudFront",
+      "Amazon Route 53"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

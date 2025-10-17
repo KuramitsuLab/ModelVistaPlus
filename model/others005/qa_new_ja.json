@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "最も高い頻度で実施されるアクティビティはどれか？",
+    "choice": [
+      "CMデビュー",
+      "CM安定化",
+      "CMプロセス改善セッション",
+      "ベンダーバックアップ計画期限"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "CM安定化が実施されるタイミングはどれか？",
+    "choice": [
+      "1ヶ月目1週目のみ",
+      "毎週",
+      "2ヶ月目1週目",
+      "4ヶ月目と5ヶ月目"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "CMデビューが開始される前に完了している必要があるアクティビティはどれか？",
+    "choice": [
+      "CM安定化",
+      "ベンダーバックアップ計画期限",
+      "CMプロセス改善セッション",
+      "ランダムIV&V監査"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "ランダムIV&V監査の実施期間として正しいものはどれか？",
+    "choice": [
+      "1ヶ月目から5ヶ月目まで継続",
+      "1ヶ月目のみ",
+      "4ヶ月目と5ヶ月目のみ",
+      "2ヶ月目から4ヶ月目まで"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "CMプロセス改善セッションが実施されるタイミングとして正しいものはどれか？",
+    "choice": [
+      "4ヶ月目1週目と5ヶ月目4週目",
+      "毎週",
+      "1ヶ月目1週目と2ヶ月目1週目",
+      "3ヶ月目のみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "ベンダーバックアップ計画期限が設定されているタイミングはどれか？",
+    "choice": [
+      "2ヶ月目1週目",
+      "1ヶ月目1週目",
+      "3ヶ月目1週目",
+      "5ヶ月目4週目"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "CM安定化が遅延した場合に最も影響を受けるアクティビティはどれか？",
+    "choice": [
+      "CMデビュー",
+      "ランダムIV&V監査",
+      "ベンダーバックアップ計画期限",
+      "CMプロセス改善セッション"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この図が示すスケジュールの計画期間として正しいものはどれか？",
+    "choice": [
+      "5ヶ月間",
+      "1ヶ月間",
+      "3ヶ月間",
+      "6ヶ月間"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "他のアクティビティと並行して継続的に実施されるものはどれか？",
+    "choice": [
+      "ランダムIV&V監査",
+      "CM安定化",
+      "ベンダーバックアップ計画期限",
+      "CMプロセス改善セッション"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "CMデビューの実施頻度として正しいものはどれか？",
+    "choice": [
+      "週次（毎週1回）",
+      "月次（毎月1回）",
+      "隔週（2週間に1回）",
+      "不定期"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

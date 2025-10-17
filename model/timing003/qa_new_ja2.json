@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "前提条件・制約",
+    "question": "認証中状態で一定時間操作がない場合に待機移行中へ遷移するまでの時間として正しいものはどれか?",
+    "choice": [
+      "60秒",
+      "10秒",
+      "30秒",
+      "120秒"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "図に示されているタイムラインの開始時刻として正しいものはどれか?",
+    "choice": [
+      "0",
+      "1",
+      "t",
+      "t2"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "待機移行中状態への遷移が依存する条件はどれか?",
+    "choice": [
+      "一定時間経過",
+      "ユーザ操作",
+      "認証完了",
+      "取引開始"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "ユーザが操作を行う時間枠として図に示されているものはどれか?",
+    "choice": [
+      "t2からt2+10まで",
+      "tからt+60まで",
+      "0から10まで",
+      "t2から無制限"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "認証中状態での一定時間操作なしの条件として図に示されているものはどれか?",
+    "choice": [
+      "{t+60}",
+      "{t2..t2+10}",
+      "{t+30}",
+      "{t+120}"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "図に示されている待機移行中への遷移をトリガーするイベントはどれか?",
+    "choice": [
+      "一定時間操作なし",
+      "ユーザが操作を行う",
+      "認証完了",
+      "取引終了"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "ユーザ操作の時間枠として指定されている期間の長さはどれか?",
+    "choice": [
+      "10秒",
+      "60秒",
+      "30秒",
+      "5秒"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "認証中状態でタイムアウトが発生した場合、次に遷移する状態はどれか?",
+    "choice": [
+      "待機移行中",
+      "待機中",
+      "使用中",
+      "取引終了"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "図に示されているタイムラインに含まれる時刻表記として正しくないものはどれか?",
+    "choice": [
+      "3",
+      "0",
+      "1",
+      "2"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "待機移行中から処理を継続させるために必要な条件はどれか?",
+    "choice": [
+      "ユーザが操作を行う",
+      "一定時間経過",
+      "認証完了",
+      "自動復帰"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "前提条件・制約",
+    "question": "社内LANエリアを示す背景色として使用されているのはどれか?",
+    "choice": [
+      "緑色",
+      "オレンジ色",
+      "青色",
+      "灰色"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "ログ処理コンポーネントがログ出力を受け取る元のコンポーネントとして正しいものはどれか?",
+    "choice": [
+      "ルータとファイルサーバ",
+      "処理サーバとDBサーバ",
+      "クライアントPCとハブ",
+      "APサーバ&Webサーバのみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "APサーバ&Webサーバに付加されているセキュリティ機能を示すアイコンはどれか?",
+    "choice": [
+      "鍵アイコン",
+      "盾アイコン",
+      "錠前アイコン",
+      "セキュリティアイコンはない"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "社内LANのクライアントPC間を接続するネットワーク機器はどれか?",
+    "choice": [
+      "ハブ",
+      "ルータ",
+      "ログ処理",
+      "APサーバ&Webサーバ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "ログ処理が障害で停止した場合、直接影響を受けるコンポーネントの組み合わせとして正しいものはどれか?",
+    "choice": [
+      "処理サーバとAPサーバ&Webサーバ",
+      "ルータとファイルサーバ",
+      "クライアントPCとハブ",
+      "DBサーバとメール配信"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "外部接続の単一エントリポイントとなるコンポーネントはどれか?",
+    "choice": [
+      "ルータ",
+      "ファイルサーバ",
+      "ログ処理",
+      "APサーバ&Webサーバ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "メール配信機能が依存しているコンポーネントはどれか?",
+    "choice": [
+      "APサーバ&Webサーバ",
+      "ログ処理",
+      "処理サーバ",
+      "DBサーバ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "図に示されている社内LANのクライアントPCの台数はいくつか?",
+    "choice": [
+      "3台",
+      "2台",
+      "4台",
+      "1台"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "ハブが障害で停止した場合のシステムへの影響として正しいものはどれか?",
+    "choice": [
+      "社内LANのクライアントPC間の通信ができなくなる",
+      "ルータが停止する",
+      "ログ処理が停止する",
+      "メール配信ができなくなる"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この構成における外部接続エリアとLANエリアの分離方法として使用されているものはどれか?",
+    "choice": [
+      "背景色による視覚的分離",
+      "ファイアウォールの配置",
+      "VLANの設定",
+      "物理的な距離"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

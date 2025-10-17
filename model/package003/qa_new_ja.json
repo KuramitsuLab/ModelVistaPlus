@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "OrderFrameクラスが依存しているクラスとして正しい組み合わせはどれか？",
+    "choice": [
+      "OrderControlとOrderBean",
+      "OrderControlのみ",
+      "OrderBeanのみ",
+      "依存なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "OrderBeanクラスが配置されているパッケージはどれか？",
+    "choice": [
+      "bean",
+      "ui",
+      "service",
+      "どのパッケージにも属さない"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "ビジネスロジック層に配置されているクラスはどれか？",
+    "choice": [
+      "OrderControl",
+      "OrderFrame",
+      "OrderBean",
+      "全てのクラス"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "OrderBeanの変更によって影響を受けるクラスとして正しい組み合わせはどれか？",
+    "choice": [
+      "OrderFrameとOrderControl",
+      "OrderFrameのみ",
+      "OrderControlのみ",
+      "影響なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "他のクラスに依存していないクラスはどれか？",
+    "choice": [
+      "OrderBean",
+      "OrderFrame",
+      "OrderControl",
+      "全て依存している"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この図が示すアーキテクチャの層の数はいくつか？",
+    "choice": [
+      "3層",
+      "2層",
+      "4層",
+      "1層"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "注文データを保持する責務を持つクラスはどれか？",
+    "choice": [
+      "OrderBean",
+      "OrderFrame",
+      "OrderControl",
+      "全てのクラス"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "uiパッケージに配置されているクラスはどれか？",
+    "choice": [
+      "OrderFrame",
+      "OrderControl",
+      "OrderBean",
+      "全てのクラス"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "OrderFrameがOrderBeanに直接依存していることの問題点として最も適切なものはどれか？",
+    "choice": [
+      "層間の分離が弱くなる",
+      "処理速度が向上する",
+      "メモリ使用量が削減される",
+      "セキュリティが強化される"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "OrderControlクラスが依存しているクラスはどれか？",
+    "choice": [
+      "OrderBean",
+      "OrderFrame",
+      "OrderControlとOrderBean",
+      "依存なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "作成前の状態から実行可能な操作はどれか？",
+    "choice": [
+      "新規作成",
+      "申請",
+      "編集",
+      "削除"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "削除操作が物理削除として実行される状態はどれか？",
+    "choice": [
+      "作成中",
+      "承認待ち",
+      "承認済",
+      "編集中"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "承認操作が実行可能な前提となる状態はどれか？",
+    "choice": [
+      "承認待ち",
+      "作成中",
+      "編集中",
+      "承認済"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "削除済の状態に関する特徴として正しいものはどれか？",
+    "choice": [
+      "他の状態へ遷移できない",
+      "編集中へ遷移できる",
+      "承認待ちへ遷移できる",
+      "作成前へ戻れる"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "承認待ちの状態から遷移可能な状態として正しい組み合わせはどれか？",
+    "choice": [
+      "承認済と編集中と削除済",
+      "作成中と編集中",
+      "承認済のみ",
+      "削除済のみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "編集操作が実行可能な状態として正しいものはどれか？",
+    "choice": [
+      "作成中、承認待ち、承認済、編集中",
+      "作成中のみ",
+      "承認待ちと承認済のみ",
+      "削除済"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "申請操作が実行可能な状態として正しい組み合わせはどれか？",
+    "choice": [
+      "作成中と編集中",
+      "承認待ちと承認済",
+      "作成前と削除済",
+      "承認済のみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "作成中での削除操作と承認待ちでの削除操作の違いとして正しいものはどれか？",
+    "choice": [
+      "作成中は物理削除、承認待ちは削除済へ遷移",
+      "両方とも物理削除",
+      "両方とも削除済へ遷移",
+      "作成中は削除不可"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "差戻し操作が実行された後の状態はどれか？",
+    "choice": [
+      "編集中",
+      "作成中",
+      "承認済",
+      "削除済"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この状態遷移マトリックスが示す主な設計目的はどれか？",
+    "choice": [
+      "各状態で実行可能な操作を明確に制限",
+      "データベースのパフォーマンス向上",
+      "ユーザー認証の強化",
+      "ネットワーク負荷の分散"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

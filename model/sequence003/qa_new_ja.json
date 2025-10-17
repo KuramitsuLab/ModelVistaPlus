@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "Aさんが最初にログイン情報を入力する先はどれか？",
+    "choice": [
+      "ログイン画面",
+      "ログイン処理",
+      "会員リスト",
+      "Aさんの会員情報"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "パスワード認証が実行される前に完了している必要がある処理はどれか？",
+    "choice": [
+      "会員情報の取得",
+      "画面遷移",
+      "認証エラー表示",
+      "前提条件なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "会員情報を取得するために使用される情報はどれか？",
+    "choice": [
+      "会員番号",
+      "パスワード",
+      "会員番号とパスワード",
+      "情報不要"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "認証結果に応じた分岐を表す記号として正しいものはどれか？",
+    "choice": [
+      "alt",
+      "loop",
+      "opt",
+      "par"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "認証がOKの場合に遷移する画面はどれか？",
+    "choice": [
+      "会員サービス画面",
+      "認証エラー画面",
+      "ログイン画面",
+      "会員リスト"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "パスワード認証を実行するオブジェクトはどれか？",
+    "choice": [
+      "Aさんの会員情報",
+      "ログイン画面",
+      "ログイン処理",
+      "会員リスト"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "認証がNGの場合に遷移する画面はどれか？",
+    "choice": [
+      "認証エラー画面",
+      "会員サービス画面",
+      "ログイン画面",
+      "会員リスト"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "ログイン処理が直接やり取りするオブジェクトとして正しいものはどれか？",
+    "choice": [
+      "会員リストとAさんの会員情報",
+      "ログイン画面のみ",
+      "Aさんアクターのみ",
+      "会員サービス画面のみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この図が示す分岐の条件として正しいものはどれか？",
+    "choice": [
+      "認証結果がOKかNGか",
+      "会員番号の有無",
+      "画面遷移の成否",
+      "パスワードの長さ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "会員番号が会員リストに存在しない場合に影響を受ける処理はどれか？",
+    "choice": [
+      "会員情報の取得とパスワード認証",
+      "ログイン情報の入力",
+      "画面遷移",
+      "影響なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

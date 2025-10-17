@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "この図に表示されているユーザーの数として正しいものはどれか？",
+    "choice": [
+      "2人",
+      "1人",
+      "3人",
+      "4人"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "佐藤と田中が友達になった日として表示されている日付はどれか？",
+    "choice": [
+      "2022年8月15日",
+      "2022年8月14日",
+      "2022年8月16日",
+      "2022年8月17日"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "図に表示されている投稿の種類として正しいものはどれか？",
+    "choice": [
+      "コメントと日記",
+      "コメントのみ",
+      "日記のみ",
+      "写真と動画"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "コメント投稿の公開範囲として設定されているものはどれか？",
+    "choice": [
+      "友達間",
+      "全員",
+      "非公開",
+      "一部の友達"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "田中の日記の公開範囲として設定されているものはどれか？",
+    "choice": [
+      "全員",
+      "友達間",
+      "非公開",
+      "一部の友達"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "友達申請オブジェクトが関連付けられているユーザーとして正しいものはどれか？",
+    "choice": [
+      "佐藤と田中",
+      "佐藤のみ",
+      "田中のみ",
+      "関連付けられていない"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "各ユーザーが持つタイムラインの数として正しいものはどれか？",
+    "choice": [
+      "1つずつ",
+      "共有で1つ",
+      "2つずつ",
+      "タイムラインはない"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "この図から判断して、セキュリティ上考慮すべき問題はどれか？",
+    "choice": [
+      "パスワードが平文で表示されている",
+      "メールアドレスの形式",
+      "友達申請の日付",
+      "投稿内容のテキスト"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "佐藤のメールアドレスとして表示されているものはどれか？",
+    "choice": [
+      "satojun@example.com",
+      "haru@example.com",
+      "sato@example.com",
+      "tanaka@example.com"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "その他",
+    "question": "友達申請の申請日として表示されている日付はどれか？",
+    "choice": [
+      "2022年8月14日",
+      "2022年8月15日",
+      "2022年8月16日",
+      "2022年8月17日"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

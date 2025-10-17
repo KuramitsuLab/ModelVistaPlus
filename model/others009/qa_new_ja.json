@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "全てのエンティティに対して更新（U）権限を持つ業務はどれか？",
+    "choice": [
+      "キッティング",
+      "在庫確認",
+      "申込内容確認",
+      "調達"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "PC在庫に対して作成（C）権限を持つ業務はどれか？",
+    "choice": [
+      "調達",
+      "在庫確認",
+      "キッティング",
+      "申込内容確認"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "問い合わせチケットに対して作成（C）権限を持つ業務はどれか？",
+    "choice": [
+      "申込内容確認",
+      "在庫確認",
+      "キッティング",
+      "PCの送付"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "ライセンス台帳を更新できる業務として正しいものはどれか？",
+    "choice": [
+      "キッティングのみ",
+      "キッティングと調達",
+      "全ての業務",
+      "申込内容確認のみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "在庫確認業務がPC在庫に対して持つ権限はどれか？",
+    "choice": [
+      "参照（R）のみ",
+      "作成（C）のみ",
+      "更新（U）のみ",
+      "参照と更新"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "PCの送付業務が操作するエンティティとして正しい組み合わせはどれか？",
+    "choice": [
+      "PC在庫と問い合わせチケット",
+      "ライセンス台帳とユーザーアカウント",
+      "PC在庫のみ",
+      "全てのエンティティ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "調達業務が問い合わせチケットに対して持つ権限はどれか？",
+    "choice": [
+      "参照（R）",
+      "作成（C）",
+      "更新（U）",
+      "削除（D）"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "ユーザーアカウントを更新できる業務はどれか？",
+    "choice": [
+      "キッティングのみ",
+      "キッティングと送付",
+      "全ての業務",
+      "調達のみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "このマトリックスで使用されている権限記号として正しい組み合わせはどれか？",
+    "choice": [
+      "C（作成）、R（参照）、U（更新）",
+      "C、R、U、D",
+      "R、W、X",
+      "A、B、C"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "このCRUDマトリックスが示す設計原則として最も適切なものはどれか？",
+    "choice": [
+      "業務ごとに必要最小限のアクセス権限のみ付与",
+      "全ての業務に全権限を付与",
+      "参照権限のみを全業務に付与",
+      "更新権限を全業務に付与"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

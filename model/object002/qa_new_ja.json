@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "Phillipが持つメールアドレスの数として正しいものはどれか？",
+    "choice": [
+      "5つ（ただし一部は空文字）",
+      "3つ",
+      "2つ",
+      "1つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "PhillipのIDとして表示されている値はどれか？",
+    "choice": [
+      "2",
+      "1",
+      "0",
+      "3"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "図に表示されている作業の名前として正しいものはどれか？",
+    "choice": [
+      "実装とテスト",
+      "設計と実装",
+      "要件定義とテスト",
+      "実装のみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "作業成果物（システム）の進捗度として表示されている値はどれか？",
+    "choice": [
+      "80",
+      "50",
+      "100",
+      "0"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "Phillipのメールアドレス[2]の値として正しいものはどれか？",
+    "choice": [
+      "空文字（\"\"）",
+      "ph@myorg.org",
+      "p.h@myorg.org",
+      "phillip@myorg.org"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "テスト仕様書の名前として表示されている値はどれか？",
+    "choice": [
+      "Test 0015",
+      "Test 0001",
+      "System Test",
+      "Unit Test"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "その他",
+    "question": "図に表示されている作業者の数として正しいものはどれか？",
+    "choice": [
+      "2人",
+      "1人",
+      "3人",
+      "4人"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "テスト作業の説明として記載されている内容に最も近いものはどれか？",
+    "choice": [
+      "ユーザーがログインできるかどうかのテスト",
+      "システムの性能テスト",
+      "データベースの接続テスト",
+      "UI表示のテスト"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "この図から判断して、実装時に考慮すべきメールアドレス管理のリスクはどれか？",
+    "choice": [
+      "空文字のメールアドレスの扱い",
+      "メールアドレスの暗号化",
+      "メールの送信方法",
+      "メールサーバーの設定"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "進捗度がReal型で管理されている理由として最も適切なものはどれか？",
+    "choice": [
+      "小数点以下の精度も表現できるため",
+      "文字列として扱うため",
+      "日付として扱うため",
+      "Boolean値として扱うため"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

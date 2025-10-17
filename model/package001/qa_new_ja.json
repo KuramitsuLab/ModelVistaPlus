@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "uiパッケージが直接依存しているパッケージはどれか？",
+    "choice": [
+      "service",
+      "domain",
+      "ui自身",
+      "依存なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この図が示すアーキテクチャパターンの特徴として正しいものはどれか？",
+    "choice": [
+      "各層が一方向に依存する階層構造",
+      "全てのパッケージが相互依存",
+      "domainがuiに依存",
+      "循環依存が許容される"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "他のパッケージに依存していない最下層のパッケージはどれか？",
+    "choice": [
+      "domain",
+      "service",
+      "ui",
+      "全て依存している"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "アーキテクチャ違反となる依存関係はどれか？",
+    "choice": [
+      "domain → service",
+      "ui → service",
+      "service → domain",
+      "どれも違反ではない"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "ビジネスロジックを担当するパッケージはどれか？",
+    "choice": [
+      "service",
+      "ui",
+      "domain",
+      "全てのパッケージ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "serviceパッケージが依存しているパッケージはどれか？",
+    "choice": [
+      "domain",
+      "ui",
+      "service自身",
+      "依存なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "domainパッケージの変更が影響を与える可能性が最も高いパッケージはどれか？",
+    "choice": [
+      "serviceとui両方",
+      "serviceのみ",
+      "uiのみ",
+      "影響なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "uiパッケージとdomainパッケージの関係として正しいものはどれか？",
+    "choice": [
+      "uiはserviceを経由してdomainに間接的に依存",
+      "uiはdomainに直接依存",
+      "domainがuiに依存",
+      "相互依存の関係"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この3層アーキテクチャの利点として最も適切なものはどれか？",
+    "choice": [
+      "各層の責務が明確で保守性が高い",
+      "全層が密結合で高速",
+      "依存関係が自由で柔軟",
+      "パッケージ数が少ない"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "ユーザーインターフェース層を担当するパッケージはどれか？",
+    "choice": [
+      "ui",
+      "service",
+      "domain",
+      "全てのパッケージ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

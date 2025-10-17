@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "前提条件・制約",
+    "question": "図に示されているライフラインの数はいくつか?",
+    "choice": [
+      "2つ",
+      "1つ",
+      "3つ",
+      "4つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "ATMが取引開始するためのトリガーとなる利用者の操作はどれか?",
+    "choice": [
+      "カードを挿入する",
+      "暗証番号を入力する",
+      "取引を終了する",
+      "待機する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "利用者が暗証番号を入力した後、ATMが遷移するイベントはどれか?",
+    "choice": [
+      "認証完了",
+      "取引開始",
+      "取引終了",
+      "待機中"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "ATMが認証中状態にある時、利用者の状態として正しいものはどれか?",
+    "choice": [
+      "操作中",
+      "待機中",
+      "認証中",
+      "使用中"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "利用者がカードを挿入する前のATMの状態はどれか?",
+    "choice": [
+      "待機中",
+      "認証中",
+      "使用中",
+      "操作中"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "ATMの認証完了が依存する利用者の操作はどれか?",
+    "choice": [
+      "暗証番号を入力する",
+      "カードを挿入する",
+      "取引を開始する",
+      "待機する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "図に示されている利用者の状態の種類として正しいものはどれか?",
+    "choice": [
+      "操作中と待機中",
+      "操作中のみ",
+      "待機中のみ",
+      "操作中、待機中、認証中"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "カード挿入の失敗時に考慮すべきリスクとして最も適切なものはどれか?",
+    "choice": [
+      "ATMが取引開始できない",
+      "利用者が待機中のまま",
+      "認証が自動完了する",
+      "取引が自動終了する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "ATMと利用者の状態遷移の関係として正しいものはどれか?",
+    "choice": [
+      "連動している",
+      "独立している",
+      "利用者がATMに依存",
+      "常に同期している"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "利用者の操作中状態がトリガーされるATMのイベントはどれか?",
+    "choice": [
+      "取引開始",
+      "認証完了",
+      "取引終了",
+      "待機中"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

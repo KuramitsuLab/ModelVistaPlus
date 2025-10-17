@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "貸出状況（lendings）テーブルが依存している他のテーブルはどれか？",
+    "choice": [
+      "users と books の両方",
+      "users のみ",
+      "books のみ",
+      "どのテーブルにも依存していない"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "この図から実現可能な機能として最も適切なものはどれか？",
+    "choice": [
+      "ユーザーごとの貸出履歴の参照",
+      "書籍の在庫数管理",
+      "貸出期限の自動計算",
+      "延滞料金の計算"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "users テーブルと books テーブルに共通して存在するカラムの用途として最も適切なものはどれか？",
+    "choice": [
+      "論理削除のためのフラグ",
+      "物理削除の実行日時",
+      "レコードの作成日時",
+      "最終更新日時"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "returned_at カラムが NULL のままのレコードが示す状態として最も適切なものはどれか？",
+    "choice": [
+      "現在貸出中",
+      "返却済み",
+      "貸出エラー",
+      "予約中"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "lendings テーブルから users や books への矢印が示す設計上の目的として最も適切なものはどれか？",
+    "choice": [
+      "外部キー制約による参照整合性の確保",
+      "テーブル結合時のパフォーマンス向上",
+      "データの暗号化",
+      "トランザクション分離レベルの設定"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "ISBN カラムの主な用途として最も適切なものはどれか？",
+    "choice": [
+      "書籍の一意識別",
+      "価格の計算基準",
+      "出版社の分類",
+      "貸出可能冊数の管理"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "ユーザーが削除された場合、lendings テーブルに与える影響として最も考慮すべきものはどれか？",
+    "choice": [
+      "user_id の参照整合性エラー",
+      "貸出日時の自動更新",
+      "返却日時の自動設定",
+      "書籍情報の削除"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "この図から判断して、同一書籍の複数貸出を制御する仕組みとして不足している要素はどれか？",
+    "choice": [
+      "在庫数や貸出可能状態の管理",
+      "ユーザーの認証情報",
+      "書籍の価格情報",
+      "削除フラグ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "lent_at と returned_at の両方が記録されている場合に計算可能な情報として最も適切なものはどれか？",
+    "choice": [
+      "貸出期間",
+      "書籍の購入日",
+      "ユーザーの登録日",
+      "削除予定日"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "delete_flag を使用する設計の利点として最も適切なものはどれか？",
+    "choice": [
+      "履歴データを保持したまま論理削除が可能",
+      "ストレージ容量の削減",
+      "検索速度の向上",
+      "データの暗号化強度の向上"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "この画面のヘッダー右側に配置されているボタンの組み合わせとして正しいものはどれか？",
+    "choice": [
+      "会員登録、ログイン、メニュー",
+      "検索、ログイン、設定",
+      "予約、会員登録、ヘルプ",
+      "ホーム、ログイン、言語選択"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "宿泊期間を入力する際に使用されるUI要素はどれか？",
+    "choice": [
+      "ドロップダウンメニュー",
+      "テキストボックス",
+      "カレンダーポップアップ",
+      "スライダー"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "画面に表示されているデフォルトの宿泊数として正しいものはどれか？",
+    "choice": [
+      "5泊",
+      "1泊",
+      "3泊",
+      "7泊"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この画面のレイアウトにおいて、左側に配置されている要素はどれか？",
+    "choice": [
+      "検索フォーム",
+      "ホテルの外観画像",
+      "施設案内写真",
+      "会社説明文"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "検索条件として入力できる項目に含まれないものはどれか？",
+    "choice": [
+      "予算範囲",
+      "宿泊期間",
+      "宿泊数",
+      "部屋数"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "この画面の実装時に考慮すべき日付検証として正しいものはどれか？",
+    "choice": [
+      "宿泊開始日は現在以降の日付である必要がある",
+      "宿泊開始日は過去の日付でも良い",
+      "年月日の選択は不要",
+      "日付の検証は不要"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "画面右側に表示されている情報として正しいものはどれか？",
+    "choice": [
+      "ホテルの外観と施設の案内",
+      "予約の確認情報",
+      "利用者のレビュー",
+      "料金プラン一覧"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "その他",
+    "question": "この画面に表示されているホテル名はどれか？",
+    "choice": [
+      "HOTEL SORA",
+      "T-FUTURE",
+      "Flickly",
+      "CONTACT"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "検索ボタンをクリックする前に入力が必要な項目として正しくないものはどれか？",
+    "choice": [
+      "クレジットカード情報",
+      "宿泊期間",
+      "利用人数",
+      "部屋数"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この画面デザインにおいて、ホテルの画像を大きく配置する目的として最も適切なものはどれか？",
+    "choice": [
+      "視覚的にホテルの魅力をアピールする",
+      "ページの読み込み時間を延ばす",
+      "テキスト情報を隠す",
+      "検索機能を目立たなくする"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

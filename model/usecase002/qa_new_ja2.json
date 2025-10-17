@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "預金を引き出すユースケースが必ず含む（include）機能はどれか?",
+    "choice": [
+      "暗証番号を入力する",
+      "預金を預け入れる",
+      "通帳を記入する",
+      "口座振込を依頼する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "図に示されているアクターの総数はいくつか?",
+    "choice": [
+      "3つ",
+      "2つ",
+      "4つ",
+      "5つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "<<include>>関係を使用する主な目的として最も適切なものはどれか?",
+    "choice": [
+      "共通機能の一元管理",
+      "アクターの追加",
+      "システムの分離",
+      "データの保存"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "システムアクターとして定義されているものはどれか?",
+    "choice": [
+      "他銀行",
+      "預金者",
+      "振込依頼者",
+      "ATM"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "口座振込（振替）を依頼するユースケースに関与するアクターの組み合わせとして正しいものはどれか?",
+    "choice": [
+      "振込依頼者と他銀行",
+      "預金者と他銀行",
+      "預金者と振込依頼者",
+      "振込依頼者のみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "預金者が実行できるユースケースとして正しくないものはどれか?",
+    "choice": [
+      "口座振込（振替）を依頼する",
+      "預金を引き出す",
+      "預金を預け入れる",
+      "通帳を記入する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "暗証番号を入力する機能を含む（include）ユースケースの数はいくつか?",
+    "choice": [
+      "3つ",
+      "2つ",
+      "4つ",
+      "5つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "暗証番号入力機能が障害で停止した場合、影響を受けるユースケースとして正しいものはどれか?",
+    "choice": [
+      "預金引き出し、預金預け入れ、通帳記入",
+      "口座振込（振替）依頼のみ",
+      "預金引き出しのみ",
+      "全てのユースケース"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "図に示されているユースケースの総数はいくつか?",
+    "choice": [
+      "5つ",
+      "3つ",
+      "4つ",
+      "6つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "<<include>>関係を表現するために使用されている線の種類はどれか?",
+    "choice": [
+      "点線矢印",
+      "実線矢印",
+      "点線のみ",
+      "実線のみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

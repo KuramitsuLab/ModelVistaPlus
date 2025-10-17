@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "前提条件・制約",
+    "question": "ATMの初期状態として正しいものはどれか?",
+    "choice": [
+      "待機中",
+      "認証中",
+      "使用中",
+      "取引終了"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "認証中状態に遷移するために必要なイベントはどれか?",
+    "choice": [
+      "取引開始",
+      "認証完了",
+      "取引終了",
+      "待機中"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "取引が正常に完了した後、ATMが遷移する状態はどれか?",
+    "choice": [
+      "待機中",
+      "認証中",
+      "使用中",
+      "終了状態"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "待機中から使用中に遷移するまでに必ず経由する状態はどれか?",
+    "choice": [
+      "認証中",
+      "取引開始",
+      "取引終了",
+      "直接遷移可能"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "使用中状態に遷移するために必要なイベントはどれか?",
+    "choice": [
+      "認証完了",
+      "取引開始",
+      "取引終了",
+      "待機中"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "認証中から待機中への直接遷移について正しい記述はどれか?",
+    "choice": [
+      "図には示されていない",
+      "常に可能",
+      "認証失敗時のみ可能",
+      "タイムアウト時のみ可能"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "図に示されているATMの状態の総数はいくつか?",
+    "choice": [
+      "3つ",
+      "2つ",
+      "4つ",
+      "5つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "取引開始から正常終了までの状態遷移の順序として正しいものはどれか?",
+    "choice": [
+      "待機中 → 認証中 → 使用中 → 待機中",
+      "待機中 → 使用中 → 認証中 → 待機中",
+      "認証中 → 待機中 → 使用中 → 待機中",
+      "待機中 → 認証中 → 待機中 → 使用中"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "待機中への復帰が依存するイベントはどれか?",
+    "choice": [
+      "取引終了",
+      "取引開始",
+      "認証完了",
+      "認証中"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "使用中から待機中への直接遷移について正しい記述はどれか?",
+    "choice": [
+      "取引終了を経由する必要がある",
+      "常に直接遷移可能",
+      "異常時のみ直接遷移可能",
+      "認証完了を経由する必要がある"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

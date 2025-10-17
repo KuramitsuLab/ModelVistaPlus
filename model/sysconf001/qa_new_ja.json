@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "APサーバの予約処理が依存しているコンポーネントはどれか?",
+    "choice": [
+      "DBサーバ",
+      "お客様端末",
+      "インターネット",
+      "他のAPサーバ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "お客様端末とAMMデータ管理センタを接続する通信経路はどれか?",
+    "choice": [
+      "インターネット",
+      "専用線",
+      "VPN",
+      "LAN"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "この構成において単一障害点となり得るコンポーネントはどれか?",
+    "choice": [
+      "APサーバ",
+      "お客様端末1",
+      "インターネット",
+      "お客様端末3"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "図から読み取れるシステムの配置に関する特徴として正しいものはどれか?",
+    "choice": [
+      "APサーバとDBサーバが同一センタ内に配置",
+      "お客様端末がデータセンタ内に配置",
+      "APサーバが複数のデータセンタに分散",
+      "DBサーバがお客様端末側に配置"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "図に示されているお客様端末の台数はいくつか?",
+    "choice": [
+      "3台",
+      "2台",
+      "4台",
+      "1台"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "インターネット障害が発生した場合のシステムへの影響として正しいものはどれか?",
+    "choice": [
+      "お客様端末から予約受付ができなくなる",
+      "APサーバとDBサーバ間の通信が切断される",
+      "DBサーバがデータを保存できなくなる",
+      "システムに影響はない"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "新幹線チケット予約システムの境界を示すために使用されている表記はどれか?",
+    "choice": [
+      "赤い点線の枠",
+      "黒い実線の枠",
+      "青い点線の枠",
+      "境界は明示されていない"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "お客様端末からの予約が成立するために必要な全てのコンポーネントの組み合わせとして正しいものはどれか?",
+    "choice": [
+      "インターネット、APサーバ、DBサーバ",
+      "インターネット、APサーバのみ",
+      "APサーバ、DBサーバのみ",
+      "お客様端末とインターネットのみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この構成で複数のお客様端末からの同時接続に対応するために重要な要素はどれか?",
+    "choice": [
+      "APサーバの処理能力",
+      "お客様端末の台数",
+      "インターネットの種類",
+      "DBサーバの台数"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "APサーバとDBサーバの配置場所として正しいものはどれか?",
+    "choice": [
+      "AMMデータ管理センタ内",
+      "お客様端末側",
+      "インターネット上",
+      "各お客様端末に分散"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

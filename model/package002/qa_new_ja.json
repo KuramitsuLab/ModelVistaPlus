@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "最も多くのパッケージに依存しているパッケージはどれか？",
+    "choice": [
+      "control",
+      "ui",
+      "db access",
+      "entity"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "他のパッケージに依存していないパッケージとして正しい組み合わせはどれか？",
+    "choice": [
+      "uiとentity",
+      "controlとui",
+      "db accessとentity",
+      "全て依存している"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "データベース操作を担当するパッケージはどれか？",
+    "choice": [
+      "db access",
+      "control",
+      "entity",
+      "ui"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "db accessパッケージが依存しているパッケージはどれか？",
+    "choice": [
+      "entity",
+      "control",
+      "ui",
+      "依存なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この図が示すアーキテクチャパターンとして最も適切なものはどれか？",
+    "choice": [
+      "MVC（Model-View-Controller）",
+      "3層アーキテクチャ",
+      "マイクロサービス",
+      "パイプアンドフィルタ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "entityパッケージの変更によって影響を受けるパッケージはどれか？",
+    "choice": [
+      "controlとdb access",
+      "uiのみ",
+      "controlのみ",
+      "影響なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "リクエスト処理とビジネスロジックの制御を担当するパッケージはどれか？",
+    "choice": [
+      "control",
+      "ui",
+      "db access",
+      "entity"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "アーキテクチャ違反となる依存関係はどれか？",
+    "choice": [
+      "ui → control",
+      "control → ui",
+      "control → db access",
+      "db access → entity"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "controlパッケージが直接依存しているパッケージの数はいくつか？",
+    "choice": [
+      "3つ",
+      "1つ",
+      "2つ",
+      "依存なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "非機能要求",
+    "question": "データモデルを定義するパッケージはどれか？",
+    "choice": [
+      "entity",
+      "control",
+      "db access",
+      "ui"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

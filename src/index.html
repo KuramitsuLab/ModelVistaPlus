@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ベンチマーク問題レビューツール</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- ヘッダー -->
+        <header class="header">
+            <h1>ベンチマーク問題レビューツール</h1>
+            <div class="reviewer-info">
+                <label for="reviewerName">レビュワー名:</label>
+                <input type="text" id="reviewerName" placeholder="名前を入力" />
+            </div>
+        </header>
+
+        <!-- ファイル選択セクション -->
+        <section class="file-selection">
+            <div class="file-selection-group">
+                <label for="folderSelect">フォルダ:</label>
+                <select id="folderSelect" class="folder-select">
+                    <option value="">-- 選択してください --</option>
+                </select>
+
+                <label for="jsonSelect" id="jsonSelectLabel" style="display: none; margin-left: 1rem;">JSON:</label>
+                <select id="jsonSelect" class="json-select" style="display: none;">
+                    <option value="">-- 選択 --</option>
+                </select>
+
+                <span id="folderStatus" class="folder-status"></span>
+            </div>
+        </section>
+
+        <!-- メインコンテンツ -->
+        <main class="main-content" id="mainContent" style="display: none;">
+            <div class="content-wrapper">
+                <!-- 左側: 画像表示エリア -->
+                <div class="image-panel">
+                    <div class="image-container">
+                        <img id="referenceImage" src="" alt="参照画像" />
+                        <div id="noImageMessage" class="no-image-message">
+                            画像が読み込まれていません
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 右側: 問題とレビューエリア -->
+                <div class="question-panel">
+                    <!-- 進捗表示 -->
+                    <div class="progress-info">
+                        <span class="question-number" id="questionNumber">第1問 / 全0問</span>
+                        <span class="remaining-count" id="remainingCount">残り 0問</span>
+                    </div>
+
+                    <!-- 問題表示 -->
+                    <div class="question-content">
+                        <div class="question-tag" id="questionTag">タグ: -</div>
+                        <div class="question-text" id="questionText">問題文がここに表示されます</div>
+
+                        <!-- 選択肢 -->
+                        <div class="choices" id="choicesContainer">
+                            <!-- 動的に生成 -->
+                        </div>
+
+                        <!-- メタ情報 -->
+                        <div class="meta-info" id="metaInfo">
+                            <span>作成者: <span id="authoredBy">-</span></span>
+                            <span>翻訳: <span id="isTranslated">-</span></span>
+                        </div>
+                    </div>
+
+                    <!-- レビュー判定 -->
+                    <div class="review-decision">
+                        <label class="decision-label">
+                            <input type="radio" name="decision" value="approved" id="approvedRadio" />
+                            <span class="decision-text approved">採用</span>
+                        </label>
+                        <label class="decision-label">
+                            <input type="radio" name="decision" value="rejected" id="rejectedRadio" />
+                            <span class="decision-text rejected">不採用</span>
+                        </label>
+                    </div>
+
+                    <!-- 備考欄 -->
+                    <div class="remarks-section">
+                        <label for="remarksInput">備考:</label>
+                        <textarea id="remarksInput" placeholder="コメントや改善提案を入力"></textarea>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- フッター（ナビゲーション） -->
+        <footer class="footer" id="footer" style="display: none;">
+            <button id="prevButton" class="btn btn-secondary">前へ</button>
+            <div class="export-section">
+                <button id="exportButton" class="btn btn-success">エクスポート</button>
+            </div>
+            <button id="nextButton" class="btn btn-primary">次へ</button>
+        </footer>
+    </div>
+
+    <!-- スクリプト読み込み -->
+    <script src="fileHandler.js"></script>
+    <script src="reviewManager.js"></script>
+    <script src="exporter.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

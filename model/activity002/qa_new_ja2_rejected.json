@@ -1,0 +1,74 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "「注文を集荷する」処理が実行されるために、事前に完了していなければならない処理の組み合わせとして正しいものはどれか？",
+    "choice": [
+      "注文を梱包する、追跡番号を割り当てる",
+      "請求を承認する、集荷を要求する",
+      "決済をすませる、請求を拒否する",
+      "新規の注文を開始する、注文に品目を追加する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "rejected",
+      "remarks": "1も2も正解になる",
+      "timestamp": "2025-10-22T07:55:53.019Z"
+    }
+  },
+  {
+    "tag": "機能要求",
+    "question": "顧客が複数回実行できる処理はどれか？",
+    "choice": [
+      "注文に品目を追加する",
+      "決済をすませる",
+      "請求を承認する",
+      "注文を配達する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "rejected",
+      "remarks": "1も2も正解になる",
+      "timestamp": "2025-10-22T07:58:11.849Z"
+    }
+  },
+  {
+    "tag": "その他",
+    "question": "この図に登場するアクターの数として正しいものはどれか？",
+    "choice": [
+      "4つ",
+      "2つ",
+      "3つ",
+      "5つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "rejected",
+      "remarks": "旧問題で「パーティションの数」で聞いている",
+      "timestamp": "2025-10-22T07:59:12.246Z"
+    }
+  },
+  {
+    "tag": "非機能要求",
+    "question": "追跡番号を割り当てる処理によって実現される非機能要求はどれか？",
+    "choice": [
+      "配送状況の追跡可能性",
+      "決済処理の高速化",
+      "品目追加の柔軟性",
+      "信用審査の精度向上"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "rejected",
+      "remarks": "どれも正解？",
+      "timestamp": "2025-10-22T07:59:21.715Z"
+    }
+  }
+]

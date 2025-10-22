@@ -1,0 +1,182 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "「決済をすませる」処理が開始される前に必ず満たされるべき条件はどれか？",
+    "choice": [
+      "追加する品目がない状態になっている",
+      "追跡番号が割り当てられている",
+      "配達員が注文を受け取っている",
+      "集荷要求が完了している"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:45:14.499Z"
+    }
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "信販会社が「請求を拒否する」判断を行う条件として図に明示されているのはどれか？",
+    "choice": [
+      "利用限度額以上",
+      "在庫が不足している",
+      "配送先が無効",
+      "顧客の認証が失敗"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:00:21.712Z"
+    }
+  },
+  {
+    "tag": "依存関係",
+    "question": "「注文を集荷する」処理が実行される直前に完了している必要がある処理はどれか？",
+    "choice": [
+      "注文を梱包する",
+      "決済をすませる",
+      "新規の注文を開始する",
+      "請求を承認する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:45:17.898Z"
+    }
+  },
+  {
+    "tag": "機能要求",
+    "question": "このプロセス図において、配達員が担当する処理として描かれているのはどれか？",
+    "choice": [
+      "追跡番号を割り当てる、注文を集荷する、注文を配達する",
+      "注文を梱包する、注文を配達する",
+      "請求を承認する、集荷を要求する",
+      "決済をすませる、注文を梱包する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:45:20.082Z"
+    }
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "「請求を拒否する」処理が実行された後、プロセスはどのように進むか？",
+    "choice": [
+      "「決済をすませる」処理に戻る",
+      "プロセスが終了する",
+      "「注文を梱包する」処理に進む",
+      "「集荷を要求する」処理に進む"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:45:21.616Z"
+    }
+  },
+  {
+    "tag": "依存関係",
+    "question": "出荷係員による「集荷を要求する」処理が開始されるトリガーとなる条件はどれか？",
+    "choice": [
+      "請求が承認されている",
+      "注文に品目が追加されている",
+      "追跡番号が割り当てられている",
+      "配達員が待機している"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:45:46.434Z"
+    }
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "「注文に品目を追加する」処理から「決済をすませる」処理への遷移を制御する判断条件はどれか？",
+    "choice": [
+      "追加する品目があるかないか",
+      "利用限度額以上か未満か",
+      "配送先が有効かどうか",
+      "在庫が十分かどうか"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:45:48.016Z"
+    }
+  },
+  {
+    "tag": "機能要求",
+    "question": "顧客が直接操作する処理として図に描かれているのはどれまでか？",
+    "choice": [
+      "新規の注文を開始する、注文に品目を追加する、決済をすませる",
+      "新規の注文を開始する、請求を承認する",
+      "決済をすませる、注文を梱包する",
+      "注文に品目を追加する、集荷を要求する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:45:49.533Z"
+    }
+  },
+  {
+    "tag": "依存関係",
+    "question": "配達員が「注文を集荷する」および「注文を配達する」を実行できるようになるために、出荷係員側で完了していなければならない処理はどれか？",
+    "choice": [
+      "注文を梱包する、追跡番号を割り当てる",
+      "集荷を要求する、請求を承認する",
+      "決済をすませる、新規の注文を開始する",
+      "請求を拒否する、注文に品目を追加する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:45:51.065Z"
+    }
+  },
+  {
+    "tag": "その他の開発上の重要な判断材料",
+    "question": "このプロセス図において、並行して実行可能な処理の組み合わせとして正しいのはどれか？",
+    "choice": [
+      "「注文を梱包する」と「追跡番号を割り当てる」",
+      "「決済をすませる」と「注文を配達する」",
+      "「請求を拒否する」と「請求を承認する」",
+      "「新規の注文を開始する」と「注文を集荷する」"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:45:52.534Z"
+    }
+  }
+]

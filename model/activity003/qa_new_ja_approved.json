@@ -1,0 +1,182 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "この両替機が受け付ける投入方法として、図から読み取れるものはどれか？",
+    "choice": [
+      "紙幣または硬貨",
+      "紙幣のみ",
+      "硬貨のみ",
+      "電子マネー"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:04:59.675Z"
+    }
+  },
+  {
+    "tag": "依存関係",
+    "question": "「100円硬貨を出す」処理が実行されるために、直前に必ず完了している必要がある処理はどれか？",
+    "choice": [
+      "投入金の種類を判別する",
+      "投入金を戻す",
+      "紙幣を投入する",
+      "システムを起動する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:05:56.721Z"
+    }
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "図から読み取れる、両替機が両替処理（100円硬貨を出す）を行う条件はどれか？",
+    "choice": [
+      "1,000円紙幣または500円硬貨が投入された場合",
+      "任意の紙幣が投入された場合",
+      "100円以上の金額が投入された場合",
+      "認証が完了した場合"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:06:10.176Z"
+    }
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "100円硬貨や50円硬貨が投入された場合、図に示された仕様ではどのような処理が行われるか？",
+    "choice": [
+      "投入金を戻す",
+      "100円硬貨を出す",
+      "エラーメッセージを表示する",
+      "処理が停止する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:06:23.889Z"
+    }
+  },
+  {
+    "tag": "機能要求",
+    "question": "図に示された処理フローにおいて、分岐判定後に実行される可能性のある処理の組み合わせとして正しいものはどれか？",
+    "choice": [
+      "100円硬貨を出す、または投入金を戻す",
+      "100円硬貨を出す、かつ投入金を戻す",
+      "投入金を判別する、または投入金を戻す",
+      "紙幣を受け取る、または硬貨を受け取る"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:06:51.886Z"
+    }
+  },
+  {
+    "tag": "依存関係",
+    "question": "紙幣と硬貨の投入経路が合流した後、次に実行される処理はどれか？",
+    "choice": [
+      "投入金の種類を判別する",
+      "100円硬貨を出す",
+      "投入金を戻す",
+      "処理を終了する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:07:11.773Z"
+    }
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "この両替機の処理フローにおいて、「投入金の種類を判別する」処理の実行回数として正しいものはどれか（1回の両替操作あたり）？",
+    "choice": [
+      "必ず1回",
+      "0回または1回",
+      "1回または2回",
+      "判別結果により変動"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:08:11.636Z"
+    }
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図の仕様において、5,000円紙幣が投入された場合の挙動として最も適切なものはどれか？",
+    "choice": [
+      "投入金を戻す処理が実行される",
+      "100円硬貨を出す処理が実行される",
+      "エラーで処理が中断される",
+      "図からは判断できない"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:08:44.756Z"
+    }
+  },
+  {
+    "tag": "機能要求",
+    "question": "図に示された処理フローの終了条件として正しいものはどれか？",
+    "choice": [
+      "100円硬貨を出す、または投入金を戻した後",
+      "投入金の種類を判別した後",
+      "紙幣または硬貨を受け付けた後",
+      "ユーザーが操作を完了した後"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:08:56.987Z"
+    }
+  },
+  {
+    "tag": "依存関係",
+    "question": "図において、「投入金を戻す」処理が実行されるための直接的な条件はどれか？",
+    "choice": [
+      "投入金の種類の判別結果がelse（1,000円紙幣または500円硬貨以外）",
+      "100円硬貨を出す処理が失敗した",
+      "紙幣と硬貨が同時に投入された",
+      "システムエラーが発生した"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:09:14.268Z"
+    }
+  }
+]

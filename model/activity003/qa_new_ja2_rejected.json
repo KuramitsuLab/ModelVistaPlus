@@ -1,0 +1,38 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "プロセス開始後に最初に実行される処理はどれか？",
+    "choice": [
+      "投入金の種類を判別する",
+      "100円硬貨を出す",
+      "投入金を戻す",
+      "条件分岐を判定する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "rejected",
+      "remarks": "旧問にすでにある",
+      "timestamp": "2025-10-22T08:09:56.198Z"
+    }
+  },
+  {
+    "tag": "非機能要求",
+    "question": "この両替機の設計において、不正な投入金を返却する機能が実現する非機能要求はどれか？",
+    "choice": [
+      "ユーザーに再投入を促すユーザビリティ",
+      "処理速度の向上",
+      "セキュリティの強化",
+      "システムの可用性向上"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "rejected",
+      "remarks": "どれも正解？，非機能要求",
+      "timestamp": "2025-10-22T08:10:14.566Z"
+    }
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "folderName": "activity001",
+  "reviews": {
+    "qa_new_ja2.json": {
+      "fileName": "qa_new_ja2.json",
+      "reviewerName": "obara",
+      "totalQuestions": 10,
+      "reviewedQuestions": 10,
+      "approvedCount": 8,
+      "rejectedCount": 2,
+      "isComplete": true,
+      "startedAt": "2025-10-21T08:21:06.272Z",
+      "completedAt": "2025-10-22T07:38:40.490Z",
+      "reviews": [
+        {
+          "questionIndex": 0,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T08:21:06.272Z"
+        },
+        {
+          "questionIndex": 1,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T08:35:57.340Z"
+        },
+        {
+          "questionIndex": 2,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T08:35:58.809Z"
+        },
+        {
+          "questionIndex": 3,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T08:36:00.226Z"
+        },
+        {
+          "questionIndex": 4,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T08:36:01.791Z"
+        },
+        {
+          "questionIndex": 5,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T08:36:03.692Z"
+        },
+        {
+          "questionIndex": 6,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T08:36:05.909Z"
+        },
+        {
+          "questionIndex": 7,
+          "decision": "rejected",
+          "remarks": "他の選択肢も答えになりうる",
+          "timestamp": "2025-10-22T07:38:40.490Z"
+        },
+        {
+          "questionIndex": 8,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T08:36:10.108Z"
+        },
+        {
+          "questionIndex": 9,
+          "decision": "rejected",
+          "remarks": "他の選択肢も答えになりうる",
+          "timestamp": "2025-10-21T08:41:38.837Z"
+        }
+      ]
+    },
+    "qa_new_ja.json": {
+      "fileName": "qa_new_ja.json",
+      "reviewerName": "obara",
+      "totalQuestions": 10,
+      "reviewedQuestions": 10,
+      "approvedCount": 10,
+      "rejectedCount": 0,
+      "isComplete": true,
+      "startedAt": "2025-10-21T07:24:49.819Z",
+      "completedAt": "2025-10-22T07:54:37.353Z",
+      "reviews": [
+        {
+          "questionIndex": 0,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T08:27:30.718Z"
+        },
+        {
+          "questionIndex": 1,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T07:24:49.819Z"
+        },
+        {
+          "questionIndex": 2,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-22T07:52:29.206Z"
+        },
+        {
+          "questionIndex": 3,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-22T07:54:37.353Z"
+        },
+        {
+          "questionIndex": 4,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T07:25:27.352Z"
+        },
+        {
+          "questionIndex": 5,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T07:25:47.575Z"
+        },
+        {
+          "questionIndex": 6,
+          "decision": "approved",
+          "remarks": "これはテストです",
+          "timestamp": "2025-10-21T07:25:54.967Z"
+        },
+        {
+          "questionIndex": 7,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-21T07:26:09.086Z"
+        },
+        {
+          "questionIndex": 8,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-22T07:53:35.255Z"
+        },
+        {
+          "questionIndex": 9,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-22T07:54:20.487Z"
+        }
+      ]
+    }
+  },
+  "lastUpdated": "2025-10-22T07:54:40.761Z"
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "tag": "前提条件・制約",
+    "question": "この図における「注文を梱包する」と「追跡番号を割り当てる」の処理の関係として正しいものはどれか？",
+    "choice": [
+      "並行して実行される",
+      "梱包が完了してから追跡番号が割り当てられる",
+      "追跡番号が割り当てられてから梱包される",
+      "どちらか一方のみが実行される"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T07:56:12.851Z"
+    }
+  },
+  {
+    "tag": "機能要求",
+    "question": "信販会社が実行する信用審査において判定の基準となる要素はどれか？",
+    "choice": [
+      "利用限度額",
+      "注文品目数",
+      "配送先住所",
+      "顧客の年齢"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T08:47:35.348Z"
+    }
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "請求が拒否された場合、次に実行される処理はどれか？",
+    "choice": [
+      "決済をすませる",
+      "注文をキャンセルする",
+      "集荷を要求する",
+      "追跡番号を割り当てる"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T08:47:36.947Z"
+    }
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "この図から判断して、実装時に考慮すべきだが明示されていないリスクはどれか？",
+    "choice": [
+      "顧客が品目追加を繰り返し続けた場合の処理",
+      "顧客が注文を開始する処理",
+      "配達員が追跡番号を割り当てる処理",
+      "出荷係員が集荷を要求する処理"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T08:47:38.796Z"
+    }
+  },
+  {
+    "tag": "依存関係",
+    "question": "「集荷を要求する」処理が実行される直前の条件として正しいものはどれか？",
+    "choice": [
+      "請求が承認されている",
+      "注文に品目が追加されている",
+      "追跡番号が割り当てられている",
+      "注文が梱包されている"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T07:58:24.197Z"
+    }
+  },
+  {
+    "tag": "その他",
+    "question": "この図から判断して、開発時に必要となる外部システム連携はどれか？",
+    "choice": [
+      "信販会社の与信審査システム",
+      "在庫管理システム",
+      "顧客認証システム",
+      "価格計算システム"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "これテスト",
+      "timestamp": "2025-10-21T08:48:20.580Z"
+    }
+  }
+]

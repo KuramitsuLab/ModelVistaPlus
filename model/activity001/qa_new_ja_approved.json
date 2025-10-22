@@ -1,0 +1,182 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "「PC利用登録チケット作成フォームの表示」が実行される前に必ず完了していなければならない処理はどれか?",
+    "choice": [
+      "問い合わせ種別に「PC利用登録」を指定",
+      "依頼先情報を入力してチケットを確定",
+      "入力内容の確認表示",
+      "チケットを保存し受付メールを送信"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T08:27:30.718Z"
+    }
+  },
+  {
+    "tag": "機能要求",
+    "question": "この図から読み取れる、システムが提供すべき画面表示機能の数として最も適切なものはどれか?",
+    "choice": [
+      "3つ（問い合わせ種別メニュー、フォーム、確認表示）",
+      "2つ（問い合わせ種別メニュー、フォーム）",
+      "4つ（メニュー、フォーム、確認、依頼先入力）",
+      "1つ（PC利用登録フォームのみ）"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:24:49.819Z"
+    }
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "サービスデスクが「依頼先情報を入力してチケットを確定」を実行する前提として必要な条件はどれか?",
+    "choice": [
+      "PC利用登録内容が入力され確認表示が完了していること",
+      "チケットが既に保存されていること",
+      "受付メールが送信済みであること",
+      "問い合わせ種別メニューが表示されていること"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T07:52:29.206Z"
+    }
+  },
+  {
+    "tag": "依存関係",
+    "question": "「チケットを保存し受付メールを送信」という処理が依存している直前のアクションはどれか?",
+    "choice": [
+      "依頼先情報を入力してチケットを確定",
+      "PC利用登録内容を入力",
+      "問い合わせ種別メニューの表示",
+      "チケット作成の開始"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T07:54:37.353Z"
+    }
+  },
+  {
+    "tag": "機能要求",
+    "question": "この基本シナリオにおいて、システムが実行しなければならない永続化処理として図に明示されているものはどれか?",
+    "choice": [
+      "チケットの保存",
+      "問い合わせ種別の保存",
+      "セッション情報の保存",
+      "ログの保存"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:25:27.352Z"
+    }
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "この図が示すプロセスフローにおいて、処理の実行順序に関する制約として正しいものはどれか?",
+    "choice": [
+      "開始から終了まで順番に実行される",
+      "任意の処理をスキップできる",
+      "複数の処理を並行実行できる",
+      "終了から開始に向かって逆順実行される"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:25:47.575Z"
+    }
+  },
+  {
+    "tag": "機能要求",
+    "question": "「チケットを保存し受付メールを送信」でシステムが実行する機能として図に明記されている組み合わせはどれか?",
+    "choice": [
+      "チケットの保存と受付メールの送信",
+      "チケットの保存とフォームの表示",
+      "メールの送信と内容の確認",
+      "チケットの削除とメールの送信"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "これはテストです",
+      "timestamp": "2025-10-21T07:25:54.967Z"
+    }
+  },
+  {
+    "tag": "依存関係",
+    "question": "「入力内容の確認表示」が表示する内容として、データ依存関係上必要なものはどれか?",
+    "choice": [
+      "PC利用登録内容を入力で入力されたデータ",
+      "依頼先情報を入力してチケットを確定で入力されたデータ",
+      "チケットを保存し受付メールを送信で送信されたメール",
+      "問い合わせ種別メニューの表示で表示されたメニュー"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-21T07:26:09.086Z"
+    }
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "この図におけるサービスデスク（アクター）とシステムの役割分担として正しい説明はどれか?",
+    "choice": [
+      "サービスデスクが入力・指定を行い、システムが表示・保存・送信を行う",
+      "システムが入力・指定を行い、サービスデスクが表示・保存・送信を行う",
+      "サービスデスクとシステムが全ての処理を共同で行う",
+      "サービスデスクは確認のみを行い、システムが全ての処理を実行する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T07:53:35.255Z"
+    }
+  },
+  {
+    "tag": "機能要求",
+    "question": "「問い合わせ種別に『PC利用登録』を指定」とあることから推測される、システムが提供すべき機能の特性はどれか?",
+    "choice": [
+      "複数の問い合わせ種別から選択可能である",
+      "PC利用登録のみが唯一の問い合わせ種別である",
+      "問い合わせ種別は自動的に決定される",
+      "問い合わせ種別の指定は不要である"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T07:54:20.487Z"
+    }
+  }
+]

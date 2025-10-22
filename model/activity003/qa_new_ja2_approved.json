@@ -1,0 +1,146 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "この両替機が受け付ける金種の組み合わせとして正しいものはどれか？",
+    "choice": [
+      "1,000円紙幣と500円硬貨",
+      "5,000円紙幣と1,000円紙幣",
+      "500円硬貨と100円硬貨",
+      "すべての紙幣と硬貨"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:09:40.386Z"
+    }
+  },
+  {
+    "tag": "依存関係",
+    "question": "「100円硬貨を出す」処理が実行されるための直前の条件はどれか？",
+    "choice": [
+      "投入金が1,000円紙幣または500円硬貨である",
+      "投入金の種類を判別する",
+      "投入金を戻す",
+      "処理を開始する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:09:42.222Z"
+    }
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "条件分岐において「else」に該当する場合に実行される処理はどれか？",
+    "choice": [
+      "投入金を戻す",
+      "100円硬貨を出す",
+      "投入金の種類を判別する",
+      "処理を終了する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:09:43.800Z"
+    }
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "この図から判断して、実装時に考慮すべきだが明示されていないリスクはどれか？",
+    "choice": [
+      "100円硬貨の在庫不足",
+      "1,000円紙幣の判定",
+      "投入金の種類判別",
+      "投入金の返却処理"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:09:45.286Z"
+    }
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "「100円硬貨を出す」と「投入金を戻す」の処理が完了した後のフローとして正しいものはどれか？",
+    "choice": [
+      "両方とも同じ終了点に合流する",
+      "それぞれ異なる終了点で終わる",
+      "投入金を戻す場合は最初に戻る",
+      "100円硬貨を出す場合のみ終了する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:10:08.268Z"
+    }
+  },
+  {
+    "tag": "その他",
+    "question": "この図が示す両替機の処理において、紙幣と硬貨の判別時に参照される情報はどれか？",
+    "choice": [
+      "投入金の種類",
+      "在庫の残量",
+      "前回の取引履歴",
+      "ユーザーの選択"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:10:10.716Z"
+    }
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "100円硬貨や5,000円紙幣が投入された場合について、この図から判断できることはどれか？",
+    "choice": [
+      "投入金を戻す処理が実行される",
+      "100円硬貨が出力される",
+      "エラーメッセージが表示される",
+      "処理が中断される"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:10:12.198Z"
+    }
+  },
+  {
+    "tag": "その他",
+    "question": "この図から判断して、開発時に必要となるハードウェア連携機能はどれか？",
+    "choice": [
+      "紙幣・硬貨の識別センサー",
+      "ネットワーク通信機能",
+      "データベース接続",
+      "ユーザー認証システム"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "approved",
+      "remarks": "",
+      "timestamp": "2025-10-22T08:10:34.949Z"
+    }
+  }
+]

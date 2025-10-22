@@ -1,0 +1,25 @@
+{
+  "folderName": "usecase003",
+  "reviews": {
+    "qa_new_ja.json": {
+      "fileName": "qa_new_ja.json",
+      "reviewerName": "obara",
+      "totalQuestions": 1,
+      "reviewedQuestions": 1,
+      "approvedCount": 1,
+      "rejectedCount": 0,
+      "isComplete": true,
+      "startedAt": "2025-10-22T08:34:06.969Z",
+      "completedAt": "2025-10-22T08:34:06.969Z",
+      "reviews": [
+        {
+          "questionIndex": 0,
+          "decision": "approved",
+          "remarks": "",
+          "timestamp": "2025-10-22T08:34:06.969Z"
+        }
+      ]
+    }
+  },
+  "lastUpdated": "2025-10-22T08:34:15.410Z"
+}

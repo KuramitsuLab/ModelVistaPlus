@@ -1,0 +1,38 @@
+[
+  {
+    "tag": "非機能要求",
+    "question": "この図が示す段階的な入力プロセスの設計により実現される非機能要求はどれか？",
+    "choice": [
+      "ユーザーの操作ミスの軽減",
+      "処理速度の向上",
+      "システムの可用性向上",
+      "セキュリティの強化"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "rejected",
+      "remarks": "他の選択肢も答えになりうる",
+      "timestamp": "2025-10-22T07:38:40.490Z"
+    }
+  },
+  {
+    "tag": "その他",
+    "question": "図に示される処理フローから判断して、開発時に必要となる外部連携機能はどれか？",
+    "choice": [
+      "メール送信機能",
+      "データベース検索機能",
+      "認証サービス連携",
+      "ファイルアップロード機能"
+    ],
+    "authored_by": "claude",
+    "is_translated": false,
+    "review": {
+      "reviewer": "obara",
+      "decision": "rejected",
+      "remarks": "他の選択肢も答えになりうる",
+      "timestamp": "2025-10-21T08:41:38.837Z"
+    }
+  }
+]

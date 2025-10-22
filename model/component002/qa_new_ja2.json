@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "DBアクセスコンポーネントが外部から受け取る入力インターフェースはどれか？",
+    "choice": [
+      "処理要求",
+      "処理結果",
+      "接続要求",
+      "データ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "データ処理コンポーネントが依存しているサブコンポーネントはどれか？",
+    "choice": [
+      "DB接続処理",
+      "処理要求",
+      "処理結果",
+      "外部システム"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "DBアクセスコンポーネントが外部に返す出力インターフェースはどれか？",
+    "choice": [
+      "処理結果",
+      "処理要求",
+      "接続要求",
+      "エラー情報"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "DBアクセスコンポーネント内に含まれるサブコンポーネントの数はいくつか？",
+    "choice": [
+      "2つ",
+      "1つ",
+      "3つ",
+      "4つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "DB接続処理が外部に提供するインターフェースはどれか？",
+    "choice": [
+      "接続要求",
+      "処理要求",
+      "処理結果",
+      "データ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "処理要求を最初に受け取るサブコンポーネントはどれか？",
+    "choice": [
+      "データ処理",
+      "DB接続処理",
+      "外部インターフェース",
+      "データベース"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図から読み取れないリスク要因はどれか？",
+    "choice": [
+      "DB接続失敗時の処理",
+      "データ処理の存在",
+      "DB接続処理の存在",
+      "処理要求の受付"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "処理要求から処理結果までの処理フローとして正しいものはどれか？",
+    "choice": [
+      "処理要求→データ処理→DB接続処理→処理結果",
+      "処理要求→DB接続処理→データ処理→処理結果",
+      "処理要求→処理結果",
+      "処理要求→接続要求→処理結果"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "DB接続処理が依存しているインターフェースはどれか？",
+    "choice": [
+      "接続要求",
+      "処理要求",
+      "処理結果",
+      "データ処理"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図において明示されていない非機能要求はどれか？",
+    "choice": [
+      "複数処理要求の同時処理",
+      "処理要求の受付",
+      "処理結果の返却",
+      "DB接続処理の実行"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "メモリとCPUが接続されているパーツはどれか？",
+    "choice": [
+      "マザーボード",
+      "ハードディスク",
+      "モニター",
+      "キーボード"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "パソコン内部に含まれるパーツの数はいくつか？",
+    "choice": [
+      "4つ",
+      "2つ",
+      "3つ",
+      "6つ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "外部デバイスとしてパソコンに接続されているものはどれか？",
+    "choice": [
+      "モニターとキーボード",
+      "メモリとCPU",
+      "マザーボードとハードディスク",
+      "CPUとハードディスク"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "ハードディスクが接続されているパーツはどれか？",
+    "choice": [
+      "マザーボード",
+      "CPU",
+      "メモリ",
+      "モニター"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "パソコンの中核として他のパーツを接続する役割を持つパーツはどれか？",
+    "choice": [
+      "マザーボード",
+      "CPU",
+      "メモリ",
+      "ハードディスク"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "モニターとキーボードの接続方法として正しいものはどれか？",
+    "choice": [
+      "同一のポートを経由してマザーボードに接続",
+      "それぞれ異なるパーツに直接接続",
+      "CPUに直接接続",
+      "ハードディスクに接続"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図から読み取れないリスク要因はどれか？",
+    "choice": [
+      "マザーボード故障時の影響範囲",
+      "マザーボードの存在",
+      "パーツ間の接続",
+      "外部デバイスの接続"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "図において、最も多くのパーツと接続されているのはどれか？",
+    "choice": [
+      "マザーボード",
+      "CPU",
+      "メモリ",
+      "ハードディスク"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "パソコンの定義として最も適切なものはどれか？",
+    "choice": [
+      "複合構造（composite structure）",
+      "単一コンポーネント",
+      "インターフェース",
+      "抽象クラス"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図において明示されていない要素はどれか？",
+    "choice": [
+      "電源供給の管理",
+      "マザーボードとCPUの接続",
+      "マザーボードとメモリの接続",
+      "外部ポートの存在"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

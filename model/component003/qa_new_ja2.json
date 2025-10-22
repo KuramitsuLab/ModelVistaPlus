@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "社員コンポーネントが利用するサービスとして図に記載されていないものはどれか？",
+    "choice": [
+      "認証サービス",
+      "経費登録サービス",
+      "給与サービス",
+      "どちらも記載されている"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "経費登録サービスと経費コンポーネントの関係はどのように定義されているか？",
+    "choice": [
+      "delegate（委譲）",
+      "継承",
+      "集約",
+      "関連なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "経費コンポーネントが依存しているインターフェースはどれか？",
+    "choice": [
+      "入金指示",
+      "出金指示",
+      "経費登録サービス",
+      "給与サービス"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "経費全体の定義として正しいものはどれか？",
+    "choice": [
+      "subsystem",
+      "component",
+      "interface",
+      "class"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "入金指示インターフェースを提供するコンポーネントはどれか？",
+    "choice": [
+      "経費口座管理",
+      "経費",
+      "社員",
+      "経費全体"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "経費口座管理コンポーネントが提供するインターフェースはどれか？",
+    "choice": [
+      "入金指示と出金指示",
+      "経費登録サービスのみ",
+      "給与サービスのみ",
+      "入金指示のみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図において明示されていないリスク要因はどれか？",
+    "choice": [
+      "経費登録失敗時の処理",
+      "経費登録サービスの存在",
+      "入金指示の提供",
+      "コンポーネント間の接続"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "社員コンポーネントから経費コンポーネントへアクセスする際に経由するものはどれか？",
+    "choice": [
+      "経費登録サービス",
+      "入金指示",
+      "出金指示",
+      "直接アクセス"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "経費全体サブシステム内に含まれるコンポーネントはどれか？",
+    "choice": [
+      "経費と経費口座管理",
+      "社員のみ",
+      "経費のみ",
+      "すべてのコンポーネント"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図から読み取れない非機能要求はどれか？",
+    "choice": [
+      "複数社員の同時経費登録時の排他制御",
+      "経費登録サービスの提供",
+      "入金指示の実行",
+      "出金指示の提供"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

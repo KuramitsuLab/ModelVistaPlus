@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "前提条件・制約",
+    "question": "図に示されているプロセッサは何個あるか？",
+    "choice": [
+      "2個",
+      "1個",
+      "3個",
+      "4個"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "メインプロセッサに配備（deploy）されているプログラムはどれか？",
+    "choice": [
+      "走行プログラム",
+      "センサ・モータ制御プログラム",
+      "Enhanced NXT firmware",
+      "UI"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "メインプロセッサとして使用されているチップはどれか？",
+    "choice": [
+      "Atmel ARM7",
+      "Atmel AVR",
+      "Intel x86",
+      "ARM Cortex"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "サブプロセッサに配備されているプログラムはどれか？",
+    "choice": [
+      "センサ・モータ制御プログラム",
+      "走行プログラム",
+      "UI",
+      "走破戦略"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "走行プログラムを構成（manifest）しているコンポーネントは何個あるか？",
+    "choice": [
+      "4個",
+      "3個",
+      "2個",
+      "5個"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "メインプロセッサの実行環境として指定されているものはどれか？",
+    "choice": [
+      "Enhanced NXT firmware",
+      "Linux",
+      "Windows",
+      "JRE"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "図に示されているコンポーネントで、ユーザーインターフェースを担当するものはどれか？",
+    "choice": [
+      "UI",
+      "走破戦略",
+      "デバイスドライバ",
+      "メカニズム"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "サブプロセッサが障害で停止した場合、影響を受ける機能はどれか？",
+    "choice": [
+      "センサ・モータ制御",
+      "UI表示",
+      "走破戦略の計算",
+      "すべての機能"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "走行プログラムが配備される先（実行環境）はどれか？",
+    "choice": [
+      "Enhanced NXT firmware",
+      "Atmel ARM7",
+      "Atmel AVR",
+      "NXT Hardware"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "図の最上位に位置するartifactとして定義されているものはどれか？",
+    "choice": [
+      "NXT Hardware",
+      "メインプロセッサ",
+      "走行プログラム",
+      "Enhanced NXT firmware"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "データベースに含まれるテーブルは何個か？",
+    "choice": [
+      "3個",
+      "2個",
+      "4個",
+      "5個"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "lendings テーブルの user_id が参照している主キーはどのテーブルのどのカラムか？",
+    "choice": [
+      "users テーブルの id",
+      "books テーブルの id",
+      "lendings テーブルの id",
+      "users テーブルの name"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "books テーブルに登録されている書籍は何冊か？",
+    "choice": [
+      "6冊",
+      "5冊",
+      "4冊",
+      "7冊"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "users テーブルに含まれるカラムの組み合わせとして正しいものはどれか？",
+    "choice": [
+      "id, name, email",
+      "id, name, address",
+      "id, title, email",
+      "user_id, name, email"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "lendings テーブルの id=1 のレコードにおいて、貸出日から返却日までの日数は何日か？",
+    "choice": [
+      "13日",
+      "10日",
+      "8日",
+      "7日"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "books テーブルで最も価格が高い書籍のタイトルはどれか？",
+    "choice": [
+      "ソフトウェア開発の戦略",
+      "未来のAI",
+      "IT基礎がわかる本",
+      "システム設計の思考法"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "lendings テーブルの id=3 のレコードで借りられた書籍のタイトルは何か？",
+    "choice": [
+      "プログラミングで学ぶ統計学",
+      "システム設計の思考法",
+      "IT基礎がわかる本",
+      "未来のAI"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "users テーブルに登録されているユーザー数は何名か？",
+    "choice": [
+      "5名",
+      "4名",
+      "6名",
+      "3名"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "books テーブルで ISBN が記録されているカラム名は何か？",
+    "choice": [
+      "isbn",
+      "book_id",
+      "id",
+      "code"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "lendings テーブルの id=2 のレコードで本を借りたユーザーの名前は誰か？",
+    "choice": [
+      "佐藤次郎",
+      "鈴木花子",
+      "山田太郎",
+      "田中夢子"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

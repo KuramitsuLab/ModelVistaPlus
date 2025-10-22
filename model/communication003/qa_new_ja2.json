@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "走行体が最初に行うアクションはどれか？",
+    "choice": [
+      "コースを走行する",
+      "走行開始画面を表示する",
+      "区間を開始する",
+      "モーターを回転させる"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "「区間Aを開始する」（3.1）メッセージが依存している直前の処理はどれか？",
+    "choice": [
+      "アウトコース2で開始する",
+      "コースを走行する",
+      "走行する",
+      "検知する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "左右のモーターのPWM値を算出する際に必要な情報はどれか？",
+    "choice": [
+      "目標走行速度と目標旋回速度",
+      "現在位置と目標位置",
+      "バッテリー電圧のみ",
+      "タッチセンサの状態"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "競技者が走行を開始するために行う操作はどれか？",
+    "choice": [
+      "タッチセンサを押下する",
+      "LCDを押す",
+      "モーターを手動で回す",
+      "バッテリーを接続する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "「区間を切り替える」（6）メッセージの直前に完了している必要があるメッセージはどれか？",
+    "choice": [
+      "終了する",
+      "開始する",
+      "走行する",
+      "測定する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "バランサが行う測定処理として図に記載されていないものはどれか？",
+    "choice": [
+      "温度を測定する",
+      "回転角度を測定する",
+      "角速度を測定する",
+      "電圧を測定する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "走行オブジェクトがモーターに対して行う処理はどれか？",
+    "choice": [
+      "回転する",
+      "測定する",
+      "検知する",
+      "切り替える"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図において明示されていないリスク要因はどれか？",
+    "choice": [
+      "バッテリー電圧低下時の処理",
+      "走行の開始",
+      "モーターの回転",
+      "センサの測定"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "UIオブジェクトが制御するデバイスはどれか？",
+    "choice": [
+      "タッチセンサとLCD",
+      "左モーターと右モーター",
+      "ジャイロセンサとバッテリー",
+      "走行オブジェクトのみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "端点検知オブジェクトが完了した後に実行されるメッセージはどれか？",
+    "choice": [
+      "区間を切り替える",
+      "走行する",
+      "開始する",
+      "表示する"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

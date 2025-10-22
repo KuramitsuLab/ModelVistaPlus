@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "図に示されているデバイスノードは何個あるか？",
+    "choice": [
+      "2個",
+      "1個",
+      "3個",
+      "4個"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "サーバマシンの実行環境（OS）として指定されているものはどれか？",
+    "choice": [
+      "Linux",
+      "Windows",
+      "JRE",
+      "macOS"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "クライアントマシンの実行環境として指定されているものはどれか？",
+    "choice": [
+      "JRE",
+      "Linux",
+      "Windows",
+      ".NET Framework"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "サーバマシンに配置されているメール関連プログラムは何個あるか？",
+    "choice": [
+      "2個",
+      "1個",
+      "3個",
+      "4個"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "クライアントマシンに配置されている「MailChecker.jar」のファイル形式はどれか？",
+    "choice": [
+      "Javaアーカイブ（.jar）",
+      "実行ファイル（.exe）",
+      "スクリプトファイル",
+      "ライブラリファイル"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "図に示されているサーバマシンとクライアントマシンの接続多重度はどれか？",
+    "choice": [
+      "1 対 多（1:*）",
+      "1 対 1（1:1）",
+      "多 対 多（*:*）",
+      "多重度なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図の構成から、サーバマシンが停止した場合の影響として最も適切なものはどれか？",
+    "choice": [
+      "すべてのクライアントのメール機能が使用不可になる",
+      "一部のクライアントのみ影響を受ける",
+      "クライアントは独立して動作可能",
+      "影響なし"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "サーバマシンでメール受信機能を提供しているプログラムはどれか？",
+    "choice": [
+      "pop",
+      "sendmail",
+      "MailChecker.jar",
+      "Mailer.exe"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "クライアントマシンに配置されているアプリケーションは何個あるか？",
+    "choice": [
+      "2個",
+      "1個",
+      "3個",
+      "4個"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "図から、「Mailer.exe」が動作するために必要なマシンはどれか？",
+    "choice": [
+      "クライアントマシン",
+      "サーバマシン",
+      "独立したマシン",
+      "どちらでも可能"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

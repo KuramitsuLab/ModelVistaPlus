@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "表に記載されている商品の種類は何種類か？",
+    "choice": [
+      "5種類",
+      "4種類",
+      "6種類",
+      "3種類"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "「バナナ」の小計（¥720）を算出するために必要な計算式はどれか？",
+    "choice": [
+      "¥120 × 6",
+      "¥720 ÷ 6",
+      "¥120 + 6",
+      "¥720 - ¥120"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "表に示されている消費税率は何%か？",
+    "choice": [
+      "10%",
+      "8%",
+      "5%",
+      "15%"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "表における税込総計の金額はいくらか？",
+    "choice": [
+      "¥3,168",
+      "¥2,880",
+      "¥288",
+      "¥3,456"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "消費税（¥288）を算出するために使用された合計金額はいくらか？",
+    "choice": [
+      "¥2,880",
+      "¥3,168",
+      "¥2,592",
+      "¥288"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "単価が最も高い商品はどれか？",
+    "choice": [
+      "ジャガイモ",
+      "ニンジン",
+      "キウイ",
+      "バナナ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "「キウイ」の購入個数は何個か？",
+    "choice": [
+      "2個",
+      "3個",
+      "4個",
+      "5個"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "小計が最も高い商品はどれか？",
+    "choice": [
+      "ニンジン",
+      "バナナ",
+      "ジャガイモ",
+      "リンゴ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "表から、単価と個数から小計を計算する際に使用される演算はどれか？",
+    "choice": [
+      "乗算",
+      "加算",
+      "減算",
+      "除算"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "「ニンジン」の単価（税抜）はいくらか？",
+    "choice": [
+      "¥190",
+      "¥200",
+      "¥150",
+      "¥760"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

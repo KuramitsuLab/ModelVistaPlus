@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "ATMシステムの中核として全パーツを制御するコンポーネントはどれか？",
+    "choice": [
+      "全体制御：CPU",
+      "外部通信処理：モデム",
+      "入出力：タッチパネル",
+      "現金保管庫：カートリッジ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "現金保管庫（カートリッジ）の設置可能な数の範囲として正しいものはどれか？",
+    "choice": [
+      "0個から2個まで",
+      "1個のみ",
+      "1個から3個まで",
+      "必ず2個"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "セキュリティセンサの必須設置数として正しいものはどれか？",
+    "choice": [
+      "1個以上",
+      "0個でも可",
+      "必ず1個のみ",
+      "2個以上"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "外部との通信を受け付けるインターフェースとして図に記載されているものはどれか？",
+    "choice": [
+      "外部通信受付：通信IF",
+      "入出力：タッチパネル",
+      "カード情報読み取り：カードリーダ",
+      "全体制御：CPU"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "タッチパネルが直接接続されているコンポーネントはどれか？",
+    "choice": [
+      "外部通信処理：モデム",
+      "全体制御：CPU",
+      "現金保管庫：カートリッジ",
+      "明細印刷：プリンタ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "カード情報を読み取る機能を持つコンポーネントはどれか？",
+    "choice": [
+      "カードリーダ",
+      "タッチパネル",
+      "プリンタ",
+      "モデム"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図から読み取れないリスク要因はどれか？",
+    "choice": [
+      "CPU故障時の影響範囲",
+      "CPUとカードリーダーの接続",
+      "CPUとプリンタの接続",
+      "モデムと通信IFの接続"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "CPUが制御するコンポーネントとして図に記載されていないものはどれか？",
+    "choice": [
+      "タッチパネル",
+      "カードリーダ",
+      "プリンタ",
+      "セキュリティセンサ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "CPUと現金保管庫の多重度として正しいものはどれか？",
+    "choice": [
+      "0..1",
+      "1..1",
+      "1..*",
+      "0..*"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "カートリッジが0個の場合に影響を受ける機能はどれか？",
+    "choice": [
+      "現金引き出し",
+      "カード情報読み取り",
+      "明細印刷",
+      "外部通信"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

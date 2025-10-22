@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "依存関係",
+    "question": "明細テーブルとヘッダーテーブルを関連付けるキーはどれか？",
+    "choice": [
+      "発注No.",
+      "発注明細No.",
+      "商品名",
+      "納品先"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "明細テーブルの「金額」はどのように計算されるか？",
+    "choice": [
+      "単価×数量",
+      "単価+数量",
+      "合計金額÷数量",
+      "固定値"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "発注No.1の合計金額として正しいものはどれか？",
+    "choice": [
+      "630",
+      "300",
+      "330",
+      "1060"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "1つの発注に対して明細は何件存在できるか？",
+    "choice": [
+      "複数件",
+      "必ず1件",
+      "最大2件",
+      "0件または1件"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "ヘッダーテーブルの合計金額が依存するデータはどれか？",
+    "choice": [
+      "明細テーブルの金額の合計",
+      "明細テーブルの単価の合計",
+      "明細テーブルの数量の合計",
+      "発注日"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "発注No.2に含まれる明細の件数はいくつか？",
+    "choice": [
+      "3件",
+      "1件",
+      "2件",
+      "5件"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図から読み取れないリスク要因はどれか？",
+    "choice": [
+      "明細追加時の合計金額更新タイミング",
+      "発注No.による関連付け",
+      "明細テーブルの存在",
+      "ヘッダーテーブルの存在"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "明細テーブルの主キーとして最も適切なものはどれか？",
+    "choice": [
+      "発注明細No.",
+      "発注No.",
+      "商品名",
+      "金額"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "ヘッダーテーブルに含まれない情報はどれか？",
+    "choice": [
+      "商品名",
+      "発注No.",
+      "発注日",
+      "納品先"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "データの整合性チェックが必要な項目として最も重要なものはどれか？",
+    "choice": [
+      "ヘッダーの合計金額と明細の金額合計",
+      "発注日の形式",
+      "商品名の文字数",
+      "納品先の住所"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

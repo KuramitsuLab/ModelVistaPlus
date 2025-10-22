@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "表における全体の回答者数（合計）は何名か？",
+    "choice": [
+      "230名",
+      "225名",
+      "240名",
+      "200名"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "抹茶について「まあ好き」と回答した人の合計は何名か？",
+    "choice": [
+      "60名",
+      "55名",
+      "45名",
+      "40名"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "和菓子について「とても好き」かつ抹茶について「とても好き」と回答した人は何名か？",
+    "choice": [
+      "20名",
+      "15名",
+      "25名",
+      "10名"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "表に示されている評価段階は何段階か？",
+    "choice": [
+      "5段階",
+      "4段階",
+      "3段階",
+      "6段階"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "和菓子について「嫌い」と回答した人の合計は何名か？",
+    "choice": [
+      "45名",
+      "40名",
+      "55名",
+      "50名"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "表のセルの中で最も回答数が多いのはどの組み合わせか？",
+    "choice": [
+      "まあ好き（和菓子）× まあ好き（抹茶）",
+      "とても好き（和菓子）× とても好き（抹茶）",
+      "嫌い（和菓子）× 嫌い（抹茶）",
+      "どちらでもない × どちらでもない"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "抹茶について「どちらでもない」と回答した人の合計は何名か？",
+    "choice": [
+      "45名",
+      "40名",
+      "60名",
+      "55名"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "和菓子について「まあ好き」かつ抹茶について「嫌い」と回答した人は何名か？",
+    "choice": [
+      "5名",
+      "3名",
+      "10名",
+      "7名"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "和菓子について「どちらでもない」と回答した人の合計は何名か？",
+    "choice": [
+      "45名",
+      "40名",
+      "50名",
+      "55名"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "和菓子について「あまり好きではない」かつ抹茶について「あまり好きではない」と回答した人は何名か？",
+    "choice": [
+      "15名",
+      "10名",
+      "7名",
+      "20名"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

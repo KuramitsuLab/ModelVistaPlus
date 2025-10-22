@@ -1,0 +1,122 @@
+[
+  {
+    "tag": "機能要求",
+    "question": "1号機：ATMが依頼元として利用する業務はどれか？",
+    "choice": [
+      "振込み業務",
+      "引出し業務",
+      "預金業務",
+      "残高照会業務"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "振込み業務の依頼先として接続されているシステムはどれか？",
+    "choice": [
+      "はなまる銀行預金システム",
+      "1号機：ATM",
+      "3号機：ATM",
+      "外部決済システム"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "3号機：ATMが依頼元として利用する業務はどれか？",
+    "choice": [
+      "引出し業務",
+      "振込み業務",
+      "入金業務",
+      "送金業務"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "現金預け払い業務に含まれる業務として正しいものはどれか？",
+    "choice": [
+      "振込み業務と引出し業務",
+      "振込み業務のみ",
+      "引出し業務のみ",
+      "残高照会業務も含む"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "引出し業務が依存している依頼先はどれか？",
+    "choice": [
+      "はなまる銀行預金システム",
+      "1号機：ATM",
+      "振込み業務",
+      "外部システム"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "前提条件・制約",
+    "question": "図において、1号機と3号機の関係として正しいものはどれか？",
+    "choice": [
+      "異なるATM端末",
+      "同一端末の異なる状態",
+      "冗長化構成",
+      "マスタースレーブ構成"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図から読み取れないリスク要因はどれか？",
+    "choice": [
+      "預金システム停止時の処理",
+      "1号機の振込み業務利用",
+      "3号機の引出し業務利用",
+      "業務と預金システムの接続"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "機能要求",
+    "question": "はなまる銀行預金システムが処理する業務として図に記載されているものはどれか？",
+    "choice": [
+      "振込みと引出しの両方",
+      "振込みのみ",
+      "引出しのみ",
+      "残高照会のみ"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "依存関係",
+    "question": "1号機：ATMの役割として最も適切なものはどれか？",
+    "choice": [
+      "振込み業務の依頼元",
+      "振込み業務の依頼先",
+      "預金システムの管理",
+      "引出し業務の実行"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  },
+  {
+    "tag": "リスク・例外条件",
+    "question": "図において明示されていない非機能要求はどれか？",
+    "choice": [
+      "同一アカウントへの同時アクセス時の排他制御",
+      "振込み業務の存在",
+      "引出し業務の存在",
+      "預金システムへの接続"
+    ],
+    "authored_by": "claude",
+    "is_translated": false
+  }
+]

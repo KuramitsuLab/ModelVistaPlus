@@ -1,6 +1,3 @@
-# API設定ファイル（機密情報を含む）
-tool/config.js
-
 # macOS
 .DS_Store
 

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レビューツール - ホーム</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- AWS設定ファイル (オプション: config.jsがある場合のみ読み込まれます) -->
+    <script src="config.js" onerror="console.log('config.js not found. S3 upload disabled.')"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>レビューツールアプリケーション</h1>
+            <p class="subtitle">画像を見ながら4選択肢の問題に回答</p>
+        </header>
+
+        <main>
+            <section class="problem-set-selection">
+                <h2>問題セットを選択してください</h2>
+
+                <div class="form-group">
+                    <label for="reviewerName">レビューア名:</label>
+                    <input type="text" id="reviewerName" placeholder="あなたの名前を入力">
+                </div>
+
+                <div class="filter-section">
+                    <label for="folderFilter">フォルダ検索:</label>
+                    <input type="text" id="folderFilter" placeholder="フォルダ名で検索...">
+                </div>
+
+                <div class="problem-sets" id="problemSets">
+                    <!-- 問題セットカードはJavaScriptで動的に生成されます -->
+                </div>
+
+                <div class="custom-url-section">
+                    <h3>カスタムURL（オプション）</h3>
+                    <div class="form-group">
+                        <label for="customUrl">GitHubリポジトリのURL:</label>
+                        <input type="text" id="customUrl" placeholder="https://github.com/username/repo/tree/main/folder">
+                    </div>
+                    <button class="btn-secondary" onclick="startReviewCustom()">カスタムURLで開始</button>
+                </div>
+            </section>
+
+            <section class="data-management">
+                <h2>データ管理</h2>
+                <div class="data-actions">
+                    <button class="btn-secondary" onclick="exportJSON()">JSONエクスポート</button>
+                    <button class="btn-secondary" onclick="exportCSV()">CSVエクスポート</button>
+                    <button class="btn-secondary" onclick="uploadToS3()">S3にアップロード</button>
+                    <button class="btn-secondary" onclick="showStats()">統計を表示</button>
+                    <button class="btn-danger" onclick="clearData()">データをクリア</button>
+                </div>
+                <div id="statsDisplay" style="display: none; margin-top: 20px; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+                    <h3>統計情報</h3>
+                    <pre id="statsContent" style="white-space: pre-wrap; font-size: 0.9rem;"></pre>
+                </div>
+            </section>
+
+            <section class="error-message" id="errorMessage" style="display: none;">
+                <p></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 レビューツールアプリケーション</p>
+        </footer>
+    </div>
+
+    <script src="js/github.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        // 全てのモデルフォルダ
+        const MODEL_FOLDERS = [
+            'activity001', 'activity002', 'activity003',
+            'class001', 'class002', 'class003',
+            'communication001', 'communication002', 'communication003',
+            'component001', 'component002', 'component003',
+            'composite_structure001', 'composite_structure002', 'composite_structure003',
+            'database001', 'database002',
+            'deployment001', 'deployment002', 'deployment003',
+            'interaction_overview001', 'interaction_overview002', 'interaction_overview003',
+            'mockup001', 'mockup002', 'mockup003',
+            'object001', 'object002', 'object003',
+            'others001', 'others002', 'others003', 'others004', 'others005', 'others006', 'others007', 'others008', 'others009',
+            'package001', 'package002', 'package003',
+            'screen_flow_diagram001', 'screen_flow_diagram002', 'screen_flow_diagram003',
+            'sequence001', 'sequence002', 'sequence003',
+            'statemachine001', 'statemachine002', 'statemachine003', 'statemachine004', 'statemachine005',
+            'sysconf001', 'sysconf002', 'sysconf003',
+            'table001', 'table002', 'table003', 'table004', 'table005', 'table006',
+            'timing001', 'timing002', 'timing003',
+            'usecase001', 'usecase002', 'usecase003', 'usecase004'
+        ];
+
+        // ページ読み込み時に問題セットカードを生成
+        document.addEventListener('DOMContentLoaded', function() {
+            renderProblemSets(MODEL_FOLDERS);
+
+            // フィルター機能
+            const filterInput = document.getElementById('folderFilter');
+            filterInput.addEventListener('input', function() {
+                const filterText = this.value.toLowerCase();
+                const filtered = MODEL_FOLDERS.filter(folder =>
+                    folder.toLowerCase().includes(filterText)
+                );
+                renderProblemSets(filtered);
+            });
+        });
+
+        // 問題セットカードを描画
+        function renderProblemSets(folders) {
+            const container = document.getElementById('problemSets');
+            container.innerHTML = '';
+
+            if (folders.length === 0) {
+                container.innerHTML = '<p style="text-align: center; color: #666;">該当するフォルダが見つかりません</p>';
+                return;
+            }
+
+            folders.forEach((folder, index) => {
+                const card = document.createElement('div');
+                card.className = 'problem-set-card';
+                card.setAttribute('data-set', folder);
+
+                const displayName = folder.replace(/_/g, ' ');
+
+                card.innerHTML = `
+                    <h3>問題セット ${index + 1}</h3>
+                    <p>${displayName}</p>
+                    <button class="btn-primary" onclick="startReview('${folder}')">この問題セットを開始</button>
+                `;
+
+                container.appendChild(card);
+            });
+        }
+
+        function startReview(problemSet) {
+            // レビューア名の検証
+            const reviewerName = document.getElementById('reviewerName').value.trim();
+
+            if (!reviewerName) {
+                showError('レビューア名を入力してください');
+                return;
+            }
+
+            // レビューア名をlocalStorageに保存
+            localStorage.setItem('reviewerName', reviewerName);
+            localStorage.setItem('currentProblemSet', problemSet);
+
+            // レビュー画面に遷移
+            window.location.href = `review.html?set=${problemSet}`;
+        }
+
+        function startReviewCustom() {
+            const customUrl = document.getElementById('customUrl').value.trim();
+            const reviewerName = document.getElementById('reviewerName').value.trim();
+
+            if (!customUrl) {
+                showError('カスタムURLを入力してください');
+                return;
+            }
+
+            if (!reviewerName) {
+                showError('レビューア名を入力してください');
+                return;
+            }
+
+            // レビューア名をlocalStorageに保存
+            localStorage.setItem('reviewerName', reviewerName);
+            localStorage.setItem('customUrl', customUrl);
+
+            // レビュー画面に遷移
+            window.location.href = `review.html?custom=${encodeURIComponent(customUrl)}`;
+        }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMessage');
+            errorDiv.querySelector('p').textContent = message;
+            errorDiv.style.display = 'block';
+            setTimeout(() => {
+                errorDiv.style.display = 'none';
+            }, 5000);
+        }
+
+        // データ管理機能
+        function exportJSON() {
+            if (window.StorageManager) {
+                StorageManager.exportToJSON();
+            } else {
+                alert('StorageManagerが読み込まれていません');
+            }
+        }
+
+        function exportCSV() {
+            if (window.StorageManager) {
+                StorageManager.exportToCSV();
+            } else {
+                alert('StorageManagerが読み込まれていません');
+            }
+        }
+
+        function uploadToS3() {
+            if (window.StorageManager) {
+                StorageManager.uploadAllToS3();
+            } else {
+                alert('StorageManagerが読み込まれていません');
+            }
+        }
+
+        function showStats() {
+            if (!window.StorageManager) {
+                alert('StorageManagerが読み込まれていません');
+                return;
+            }
+
+            const stats = StorageManager.getStatistics();
+            const statsDisplay = document.getElementById('statsDisplay');
+            const statsContent = document.getElementById('statsContent');
+
+            if (!stats) {
+                alert('統計データがありません。まずレビューを実行してください。');
+                return;
+            }
+
+            // 統計情報を整形
+            let output = `総レビュー数: ${stats.totalReviews}\n\n`;
+            output += `問題セット: ${stats.problemSets.join(', ')}\n\n`;
+            output += `レビューア別統計:\n`;
+
+            for (const [name, data] of Object.entries(stats.reviewers)) {
+                output += `  ${name}:\n`;
+                output += `    - 回答数: ${data.total}\n`;
+                output += `    - 正解: ${data.correct}\n`;
+                output += `    - 不正解: ${data.incorrect}\n`;
+                output += `    - 正解率: ${data.correctRate}%\n\n`;
+            }
+
+            output += `問題セット別統計:\n`;
+            for (const [set, data] of Object.entries(stats.byProblemSet)) {
+                output += `  ${set}:\n`;
+                output += `    - 問題数: ${data.totalQuestions}\n`;
+                output += `    - 平均正解率: ${data.averageCorrectRate}%\n\n`;
+            }
+
+            statsContent.textContent = output;
+            statsDisplay.style.display = 'block';
+        }
+
+        function clearData() {
+            if (window.StorageManager) {
+                StorageManager.clearAll();
+            } else {
+                alert('StorageManagerが読み込まれていません');
+            }
+        }
+    </script>
+</body>
+</html>
